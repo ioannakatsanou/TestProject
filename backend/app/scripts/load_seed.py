@@ -34,22 +34,27 @@ UPSERT = """
 
 def main() -> None:
     decisions = json.loads(SEED_PATH.read_text(encoding="utf-8"))
-    with pool.connection() as conn:
-        with conn.cursor() as cur:
-            for d in decisions:
-                cur.execute(UPSERT, {
-                    "ada": d["ada"],
-                    "subject": d["subject"],
-                    "organization": d["organization"],
-                    "decision_type": d.get("decision_type"),
-                    "issue_date": d.get("issue_date"),
-                    "amount": d.get("amount"),
-                    "currency": d.get("currency", "EUR"),
-                    "document_url": d.get("document_url"),
-                    "raw": Json(d.get("raw", {})),
-                })
-        conn.commit()
-    print(f"Loaded {len(decisions)} decisions from {SEED_PATH.name}.")
+    try:
+        with pool.connection() as conn:
+            with conn.cursor() as cur:
+                for d in decisions:
+                    cur.execute(UPSERT, {
+                        "ada": d["ada"],
+                        "subject": d["subject"],
+                        "organization": d["organization"],
+                        "decision_type": d.get("decision_type"),
+                        "issue_date": d.get("issue_date"),
+                        "amount": d.get("amount"),
+                        "currency": d.get("currency", "EUR"),
+                        "document_url": d.get("document_url"),
+                        "raw": Json(d.get("raw", {})),
+                    })
+            conn.commit()
+        print(f"Loaded {len(decisions)} decisions from {SEED_PATH.name}.")
+    finally:
+        # Close the pool explicitly so its worker thread is joined before
+        # interpreter shutdown (avoids PythonFinalizationError on 3.14).
+        pool.close()
 
 
 if __name__ == "__main__":
