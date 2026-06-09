@@ -17,12 +17,23 @@ class Source(BaseModel):
     amount: float | None = None
     currency: str = "EUR"
     document_url: str | None = None
+    category: str | None = None
+
+
+class RankItem(BaseModel):
+    organization: str
+    total_amount: float
+    currency: str = "EUR"
+    decision_count: int
 
 
 class AskResponse(BaseModel):
     id: int                     # persisted query id; route is /ask/{id}
-    answer: str
+    answer: str                 # executive summary (Key Findings), bullets with [n]
     sources: list[Source]
+    ranking: list[RankItem] | None = None   # present only for ranking-type questions
+    insights: list[str] = []
+    no_amount_count: int = 0
     total_indexed: int
     matched_count: int
 
@@ -41,6 +52,9 @@ class QueryDetail(BaseModel):
     question: str
     answer: str
     sources: list[Source]
+    ranking: list[RankItem] | None = None
+    insights: list[str] = []
+    no_amount_count: int = 0
     total_indexed: int
     matched_count: int
     created_at: datetime

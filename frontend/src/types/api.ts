@@ -14,12 +14,23 @@ export interface Source {
   amount: number | null;
   currency: string;
   document_url: string | null;
+  category: string | null;
+}
+
+export interface RankItem {
+  organization: string;
+  total_amount: number;
+  currency: string;
+  decision_count: number;
 }
 
 export interface AskResponse {
   id: number;
   answer: string;
   sources: Source[];
+  ranking: RankItem[] | null;
+  insights: string[];
+  no_amount_count: number;
   total_indexed: number;
   matched_count: number;
 }
@@ -36,6 +47,9 @@ export interface QueryDetail {
   question: string;
   answer: string;
   sources: Source[];
+  ranking: RankItem[] | null;
+  insights: string[];
+  no_amount_count: number;
   total_indexed: number;
   matched_count: number;
   created_at: string;

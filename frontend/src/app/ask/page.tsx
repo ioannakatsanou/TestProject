@@ -6,6 +6,7 @@ import Link from "next/link";
 
 import { getQuery } from "@/lib/api";
 import { useAsk } from "@/lib/useAsk";
+import { SUGGESTED_QUESTIONS } from "@/lib/constants";
 import type { QueryDetail } from "@/types/api";
 
 import AppShell from "@/components/AppShell";
@@ -15,10 +16,28 @@ import LoadingSkeleton from "@/components/LoadingSkeleton";
 
 type Status = "loading" | "ready" | "notfound" | "error";
 
-// Reads the saved query id from the URL query string (/ask?id=123).
-// A query param (rather than a /ask/[id] path segment) keeps this a single
-// static page, so it works on static hosting (GitHub Pages) on direct load and
-// refresh — while still giving each Q&A its own URL, history, and back/forward.
+function EmptyResult({ onPick }: { onPick: (q: string) => void }) {
+  return (
+    <div className="rounded-xl border border-dashed border-slate-300 bg-white p-8">
+      <p className="font-medium text-slate-800">
+        No relevant indexed Diavgeia decisions were found for this query.
+      </p>
+      <p className="mt-3 text-sm text-slate-500">Try one of these instead:</p>
+      <div className="mt-2 flex flex-wrap gap-2">
+        {SUGGESTED_QUESTIONS.map((q) => (
+          <button
+            key={q}
+            onClick={() => onPick(q)}
+            className="rounded-full border border-slate-300 bg-white px-3 py-1.5 text-left text-sm text-slate-700 transition-colors hover:border-brand hover:bg-brand/5 hover:text-brand"
+          >
+            {q}
+          </button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function AskInner() {
   const searchParams = useSearchParams();
   const idParam = searchParams.get("id");
@@ -53,9 +72,14 @@ function AskInner() {
     };
   }, [id]);
 
+  function pick(q: string) {
+    setQuestion(q);
+    ask(q);
+  }
+
   return (
     <AppShell>
-      {/* Sticky search bar to ask a new question (creates a new /ask?id=…) */}
+      {/* Sticky search bar to ask a new question */}
       <div className="sticky top-[57px] z-10 -mx-1 bg-[#f7f9fc] py-2">
         <SearchBar
           value={question}
@@ -70,13 +94,20 @@ function AskInner() {
         {asking || status === "loading" ? (
           <LoadingSkeleton />
         ) : status === "ready" && detail ? (
-          <ResultView
-            question={detail.question}
-            answer={detail.answer}
-            sources={detail.sources}
-            matchedCount={detail.matched_count}
-            totalIndexed={detail.total_indexed}
-          />
+          detail.sources.length === 0 ? (
+            <EmptyResult onPick={pick} />
+          ) : (
+            <ResultView
+              question={detail.question}
+              answer={detail.answer}
+              sources={detail.sources}
+              ranking={detail.ranking}
+              insights={detail.insights}
+              noAmountCount={detail.no_amount_count}
+              matchedCount={detail.matched_count}
+              totalIndexed={detail.total_indexed}
+            />
+          )
         ) : status === "notfound" ? (
           <div className="rounded-xl border border-dashed border-slate-300 bg-white p-8 text-center">
             <p className="text-slate-700">This query doesn&apos;t exist.</p>
@@ -98,7 +129,6 @@ function AskInner() {
 }
 
 export default function AskPage() {
-  // useSearchParams must be inside a Suspense boundary for static export.
   return (
     <Suspense
       fallback={

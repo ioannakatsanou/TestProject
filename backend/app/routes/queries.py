@@ -2,7 +2,8 @@
 from fastapi import APIRouter, HTTPException
 
 from app.db import query
-from app.models import QueryListItem, QueryDetail
+from app.models import QueryListItem, QueryDetail, RankItem, Source
+from app.services import intelligence
 
 router = APIRouter()
 
@@ -33,4 +34,25 @@ def get_query(query_id: int) -> QueryDetail:
     )
     if not rows:
         raise HTTPException(status_code=404, detail="Query not found")
-    return QueryDetail(**rows[0])
+    row = rows[0]
+
+    items = row.get("sources") or []
+    for it in items:  # older saved queries may predate category tagging
+        if not it.get("category"):
+            it["category"] = intelligence.categorize(it)
+
+    # Recompute the intelligence layer from the stored sources (deterministic).
+    analysis = intelligence.analyze(row["question"], items)
+
+    return QueryDetail(
+        id=row["id"],
+        question=row["question"],
+        answer=row["answer"],
+        sources=[Source(**it) for it in items],
+        ranking=[RankItem(**r) for r in analysis["ranking"]] if analysis["ranking"] else None,
+        insights=analysis["insights"],
+        no_amount_count=analysis["no_amount_count"],
+        total_indexed=row["total_indexed"],
+        matched_count=row["matched_count"],
+        created_at=row["created_at"],
+    )

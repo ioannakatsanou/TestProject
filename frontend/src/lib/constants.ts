@@ -15,3 +15,7 @@ export const SCOPE_TEXT =
   "Greek public-sector IT & digital-transformation decisions";
 
 export const SCOPE_SOURCE = "Source: Diavgeia (diavgeia.gov.gr)";
+
+export const DATA_COVERAGE =
+  "This answer is based on the indexed Diavgeia public-sector IT and " +
+  "digital-transformation decisions currently available in the system.";
