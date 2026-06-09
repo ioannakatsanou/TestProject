@@ -93,6 +93,56 @@ Open <http://localhost:3000> and click a suggested question.
 
 ---
 
+## Ingesting real Diavgeia data (optional)
+
+The prototype ships with curated seed data. To pull a **real, IT/digital-focused
+sample** from the live Diavgeia OpenData API (no auth required), use the
+ingestion script. It writes a JSON file in the same shape as the seed file and
+**does not touch the database or the seed prototype**.
+
+From `backend/` (with the venv/deps available):
+
+```powershell
+# Fetch ~80 IT/digital decisions -> data/decisions_real_sample.json
+python -m app.scripts.ingest_diavgeia
+
+# Options:
+python -m app.scripts.ingest_diavgeia --limit 50          # smaller sample
+python -m app.scripts.ingest_diavgeia --no-subject-filter # keep full-text matches too
+```
+
+It searches Greek IT keywords (πληροφορική, λογισμικό, ψηφιακές υπηρεσίες,
+κυβερνοασφάλεια, υπολογιστές, δίκτυο, ιστοσελίδα, cloud), normalizes each
+decision (ada, subject, organization, decision_type, issue_date, amount,
+currency, document_url, raw), and prints a summary of how many were fetched,
+deduped, kept, skipped, and saved.
+
+Load the real sample into PostgreSQL (the loader takes an optional path):
+
+```powershell
+# Adds the real decisions ALONGSIDE the seed rows (upsert by ADA)
+python -m app.scripts.load_seed data/decisions_real_sample.json
+
+# To test on real data ONLY, clear the table first, then load:
+docker exec agfb_postgres psql -U agfb -d agfb -c "TRUNCATE decisions;"
+python -m app.scripts.load_seed data/decisions_real_sample.json
+```
+
+Then test the API exactly as before (no app changes needed):
+
+```powershell
+$body = @{ question = "Which organizations are buying software or IT services?" } | ConvertTo-Json
+Invoke-RestMethod -Uri "http://localhost:8000/api/ask" -Method Post -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 5
+```
+
+> To return to the clean seed-only prototype at any time:
+> ```powershell
+> docker exec agfb_postgres psql -U agfb -d agfb -c "TRUNCATE decisions;"
+> python -m app.scripts.load_seed
+> ```
+
+---
+
 ## Push to GitHub
 
 From the project root. (`.gitignore` already excludes `.env*`, `.venv`,
@@ -243,7 +293,9 @@ answer with source cards, exactly as in local dev.
 | `backend/sql/schema.sql` | `decisions` table + full-text search index/trigger |
 | `backend/data/decisions_seed.json` | 20 realistic Diavgeia-style seed decisions |
 | `backend/app/scripts/init_db.py` | Apply schema (local & production) |
-| `backend/app/scripts/load_seed.py` | Load seed JSON into Postgres |
+| `backend/app/scripts/load_seed.py` | Load seed (or any) JSON into Postgres |
+| `backend/app/scripts/ingest_diavgeia.py` | Fetch a real IT/digital sample from the Diavgeia API |
+| `backend/data/decisions_real_sample.json` | Output of the real ingestion (generated) |
 | `backend/app/services/search.py` | Full-text retrieval |
 | `backend/app/services/claude.py` | Prompt build + Claude call (+ mock mode) |
 | `backend/app/routes/ask.py` | `POST /api/ask` |

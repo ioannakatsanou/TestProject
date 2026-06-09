@@ -1,10 +1,12 @@
-"""Load decisions_seed.json into PostgreSQL.
+"""Load a decisions JSON file into PostgreSQL.
 
 Usage (from backend/):
-    python -m app.scripts.load_seed
+    python -m app.scripts.load_seed                          # loads decisions_seed.json
+    python -m app.scripts.load_seed data/decisions_real_sample.json
 
 Idempotent: upserts on `ada`. The search_vector is populated by a DB trigger.
 """
+import sys
 import json
 from pathlib import Path
 
@@ -12,7 +14,8 @@ from psycopg.types.json import Json
 
 from app.db import pool
 
-SEED_PATH = Path(__file__).resolve().parents[2] / "data" / "decisions_seed.json"
+DATA_DIR = Path(__file__).resolve().parents[2]
+SEED_PATH = DATA_DIR / "data" / "decisions_seed.json"
 
 UPSERT = """
     INSERT INTO decisions
@@ -33,7 +36,16 @@ UPSERT = """
 
 
 def main() -> None:
-    decisions = json.loads(SEED_PATH.read_text(encoding="utf-8"))
+    # Optional path argument; defaults to the seed file. Relative paths are
+    # resolved against the backend/ directory.
+    if len(sys.argv) > 1:
+        path = Path(sys.argv[1])
+        if not path.is_absolute():
+            path = DATA_DIR / path
+    else:
+        path = SEED_PATH
+
+    decisions = json.loads(path.read_text(encoding="utf-8"))
     try:
         with pool.connection() as conn:
             with conn.cursor() as cur:
@@ -50,7 +62,7 @@ def main() -> None:
                         "raw": Json(d.get("raw", {})),
                     })
             conn.commit()
-        print(f"Loaded {len(decisions)} decisions from {SEED_PATH.name}.")
+        print(f"Loaded {len(decisions)} decisions from {path.name}.")
     finally:
         # Close the pool explicitly so its worker thread is joined before
         # interpreter shutdown (avoids PythonFinalizationError on 3.14).
