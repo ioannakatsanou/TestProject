@@ -11,6 +11,8 @@ __pycache__/
 .venv/
 venv/
 .python-version
+# ...but keep the backend's pinned version for Render
+!backend/.python-version
 
 # ── Node / Next.js ───────────────────────────────────────────────────────
 node_modules/
