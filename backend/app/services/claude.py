@@ -45,22 +45,27 @@ def build_user_message(question: str, decisions: list[dict], total: int) -> str:
 
 
 def _mock_answer(question: str, decisions: list[dict]) -> str:
-    """Deterministic, citation-bearing answer built without calling Claude."""
+    """Deterministic, citation-bearing answer built without calling Claude.
+
+    Used only when ANTHROPIC_API_KEY is unset (offline mode). Ranks the
+    retrieved decisions by amount so the answer still cites real sources.
+    """
     ranked = sorted(
         [d for d in decisions if d.get("amount")],
         key=lambda d: d["amount"],
         reverse=True,
     )[:3]
+    note = ("Scope: offline summary from the indexed IT & digital decisions "
+            "(set ANTHROPIC_API_KEY for AI-written answers).")
     if not ranked:
         return ("No decisions with monetary amounts were found in scope for this question. "
-                "Scope: based only on indexed IT & digital decisions.")
+                f"{note}")
 
     headline = "Based on the indexed decisions, the highest-value items in scope are:"
     bullets = "\n".join(
         f"{i}. {d['organization']} — EUR {d['amount']:,.0f} [{decisions.index(d) + 1}]"
         for i, d in enumerate(ranked, start=1)
     )
-    note = "Scope: mock answer built from indexed IT & digital seed decisions (no Claude API key set)."
     return f"{headline}\n{bullets}\n\n{note}"
 
 
