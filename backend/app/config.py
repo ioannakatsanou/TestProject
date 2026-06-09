@@ -9,7 +9,8 @@ class Settings(BaseSettings):
     anthropic_api_key: str = ""
     claude_model: str = "claude-haiku-4-5"
     # Comma-separated list of allowed frontend origins (no trailing slash).
-    # Local dev default; in production set ALLOWED_ORIGINS to your Vercel URL(s).
+    # Local dev default; in production set ALLOWED_ORIGINS to your GitHub Pages
+    # origin, e.g. https://<your-username>.github.io
     allowed_origins: str = "http://localhost:3000"
     max_context_decisions: int = 12
 
