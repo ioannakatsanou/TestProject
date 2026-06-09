@@ -1,6 +1,6 @@
 # Render Blueprint — one-click backend + managed PostgreSQL.
 # In Render: New → Blueprint → point at this repo. Frontend is deployed
-# separately on Vercel (see README).
+# separately on GitHub Pages via .github/workflows/deploy-pages.yml (see README).
 services:
   - type: web
     name: ask-greece-backend
@@ -17,7 +17,8 @@ services:
         fromDatabase:
           name: ask-greece-db
           property: connectionString
-      # Set after the Vercel frontend exists (your Vercel URL, no trailing slash)
+      # Set to your GitHub Pages ORIGIN (scheme+host only, no repo path, no
+      # trailing slash), e.g. https://<your-username>.github.io
       - key: ALLOWED_ORIGINS
         sync: false
       # Leave unset to keep mock mode; set to enable real Claude answers

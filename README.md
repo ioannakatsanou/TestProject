@@ -10,9 +10,10 @@ seed dataset** of IT & digital-transformation decisions for 15 municipalities.
 
 ```
 ask-greece-for-business/
-├── frontend/      Next.js 15 + TypeScript + Tailwind   (→ Vercel)
-├── backend/       FastAPI + PostgreSQL + Claude API     (→ Render / Railway / Fly)
+├── frontend/      Next.js 15 + TypeScript + Tailwind   (→ GitHub Pages, static export)
+├── backend/       FastAPI + PostgreSQL + Claude API     (→ Render)
 ├── render.yaml    One-click Render blueprint (backend + Postgres)
+├── .github/workflows/deploy-pages.yml   GitHub Pages deploy
 └── docker-compose.yml   Local PostgreSQL
 ```
 
@@ -29,7 +30,7 @@ ask-greece-for-business/
 3. [Push to GitHub](#push-to-github)
 4. [Deploy the backend](#deploy-the-backend)
 5. [Set up the production database](#set-up-the-production-database)
-6. [Deploy the frontend (Vercel)](#deploy-the-frontend-vercel)
+6. [Deploy the frontend (GitHub Pages)](#deploy-the-frontend-github-pages)
 7. [Connect the two (CORS)](#connect-the-two-cors)
 8. [Verify production](#verify-production)
 9. [Project layout & notes](#project-layout--notes)
@@ -41,7 +42,7 @@ ask-greece-for-business/
 - **Node.js** ≥ 18.18 (tested on 24)
 - **Python** ≥ 3.11 (3.12 recommended for deployment wheel compatibility)
 - **Docker** (for local PostgreSQL) or any PostgreSQL 14+
-- A **GitHub** account, plus **Render** (or Railway/Fly) and **Vercel** accounts
+- A **GitHub** account (hosts the repo, runs the Pages deploy) and a **Render** account (backend + Postgres)
 
 ---
 
@@ -181,7 +182,7 @@ the simplest because the repo ships a `render.yaml` blueprint.
    - a **PostgreSQL** database (`ask-greece-db`)
    - a **web service** (`ask-greece-backend`) with `DATABASE_URL` auto-wired
 3. On the web service, set environment variables:
-   - `ALLOWED_ORIGINS` — leave blank for now (set after Vercel, step 7)
+   - `ALLOWED_ORIGINS` — leave blank for now (set after GitHub Pages, "Connect the two")
    - `ANTHROPIC_API_KEY` — leave blank to keep **mock mode**
 4. Deploy. The service start command is already
    `uvicorn app.main:app --host 0.0.0.0 --port $PORT`.
@@ -197,7 +198,7 @@ the simplest because the repo ships a `render.yaml` blueprint.
 1. New Project → Deploy from GitHub repo → set **Root Directory** to `backend`.
    Railway uses the `Procfile` for the start command automatically.
 2. Add the **PostgreSQL** plugin; Railway injects `DATABASE_URL`.
-3. Set `ALLOWED_ORIGINS` (after Vercel) and optionally `ANTHROPIC_API_KEY`.
+3. Set `ALLOWED_ORIGINS` (after GitHub Pages, step "Connect the two") and optionally `ANTHROPIC_API_KEY`.
 
 ### Option C — Fly.io
 
@@ -205,7 +206,7 @@ the simplest because the repo ships a `render.yaml` blueprint.
 cd backend
 fly launch --no-deploy        # generates fly.toml; set internal_port = 8080 and PORT
 fly postgres create           # then: fly postgres attach <db>  (sets DATABASE_URL)
-fly secrets set ALLOWED_ORIGINS=https://<your-app>.vercel.app
+fly secrets set ALLOWED_ORIGINS=https://<your-username>.github.io
 fly deploy
 ```
 
@@ -247,26 +248,41 @@ Verify: `GET https://<backend-url>/api/health` → `{"status":"ok","mock_mode":t
 
 ---
 
-## Deploy the frontend (Vercel)
+## Deploy the frontend (GitHub Pages)
 
-1. Vercel → **Add New → Project** → import your GitHub repo.
-2. Set **Root Directory** to `frontend` (framework auto-detects as Next.js).
-3. Add an environment variable:
-   - `NEXT_PUBLIC_API_BASE_URL` = your backend URL
-     (e.g. `https://ask-greece-backend.onrender.com`, **no trailing slash**)
-4. Deploy. Note the frontend URL, e.g.
-   `https://ask-greece-for-business.vercel.app`.
+The frontend is a **static export** (`output: "export"`) deployed by the
+GitHub Actions workflow at `.github/workflows/deploy-pages.yml`.
+
+1. **Enable Pages:** repo **Settings → Pages → Source = "GitHub Actions"**.
+2. **Tell the frontend where the backend is:** repo
+   **Settings → Secrets and variables → Actions → Variables → New variable**:
+   - Name: `NEXT_PUBLIC_API_BASE_URL`
+   - Value: your Render backend URL, e.g.
+     `https://ask-greece-backend.onrender.com` (**no trailing slash**)
+3. **Deploy:** push to `main` (or run the workflow manually via
+   **Actions → Deploy frontend to GitHub Pages → Run workflow**). The workflow
+   builds `frontend/` and publishes `out/`.
+4. Your site is served at **`https://<your-username>.github.io/<repo>/`**. The
+   workflow sets `NEXT_PUBLIC_BASE_PATH=/<repo>` automatically so assets and
+   links resolve under that subpath.
+
+> The dynamic-route URLs are `/<repo>/ask/?id=<n>` (a query param), which works
+> on static hosting on direct load and refresh — no server needed.
 
 ---
 
 ## Connect the two (CORS)
 
-Now tell the backend to accept requests from the Vercel domain:
+Tell the backend to accept requests from the GitHub Pages **origin**
+(scheme + host only — **not** the `/<repo>/` path):
 
-1. On the backend host, set:
-   - `ALLOWED_ORIGINS=https://ask-greece-for-business.vercel.app`
-     (comma-separate multiple, no trailing slash)
+1. On the backend host (Render → service → **Environment**), set:
+   - `ALLOWED_ORIGINS=https://<your-username>.github.io`
+     (comma-separate multiple origins; no trailing slash; no repo path)
 2. Redeploy / restart the backend so it picks up the new value.
+
+> CORS is matched on the request **Origin** header, which is just
+> `https://<your-username>.github.io` — the `/<repo>/` part never appears in it.
 
 ---
 
@@ -281,7 +297,7 @@ $body = @{ question = "Which municipalities spent the most on IT this year?" } |
 Invoke-RestMethod -Uri "https://<backend-url>/api/ask" -Method Post -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 5
 ```
 
-Then open the Vercel URL and click a suggested question — you should get a cited
+Then open your GitHub Pages URL (`https://<your-username>.github.io/<repo>/`) and click a suggested question — you should get a cited
 answer with source cards, exactly as in local dev.
 
 ---

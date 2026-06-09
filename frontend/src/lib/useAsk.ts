@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { askQuestion } from "./api";
 
 // Shared "ask a question" behavior: POST /api/ask, then navigate to the new
-// query's own route (/ask/{id}). Used by the home page and the ask page.
+// query's own URL (/ask?id={id}). Used by the home page and the ask page.
 export function useAsk() {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
@@ -19,9 +19,9 @@ export function useAsk() {
       setError(null);
       try {
         const res = await askQuestion(q);
-        // Navigate to the persisted query's route. The page unmounts, so we
+        // Navigate to the persisted query's URL. The page unmounts, so we
         // intentionally leave `loading` true until navigation completes.
-        router.push(`/ask/${res.id}`);
+        router.push(`/ask?id=${res.id}`);
       } catch {
         setError("Something went wrong generating the answer. Please try again.");
         setLoading(false);

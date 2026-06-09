@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 import { getQuery } from "@/lib/api";
@@ -15,9 +15,14 @@ import LoadingSkeleton from "@/components/LoadingSkeleton";
 
 type Status = "loading" | "ready" | "notfound" | "error";
 
-export default function AskPage() {
-  const params = useParams<{ id: string }>();
-  const id = parseInt(params.id, 10);
+// Reads the saved query id from the URL query string (/ask?id=123).
+// A query param (rather than a /ask/[id] path segment) keeps this a single
+// static page, so it works on static hosting (GitHub Pages) on direct load and
+// refresh — while still giving each Q&A its own URL, history, and back/forward.
+function AskInner() {
+  const searchParams = useSearchParams();
+  const idParam = searchParams.get("id");
+  const id = idParam ? parseInt(idParam, 10) : NaN;
 
   const [detail, setDetail] = useState<QueryDetail | null>(null);
   const [status, setStatus] = useState<Status>("loading");
@@ -50,7 +55,7 @@ export default function AskPage() {
 
   return (
     <AppShell>
-      {/* Sticky search bar to ask a new question (creates a new /ask/{id}) */}
+      {/* Sticky search bar to ask a new question (creates a new /ask?id=…) */}
       <div className="sticky top-[57px] z-10 -mx-1 bg-[#f7f9fc] py-2">
         <SearchBar
           value={question}
@@ -89,5 +94,22 @@ export default function AskPage() {
         )}
       </div>
     </AppShell>
+  );
+}
+
+export default function AskPage() {
+  // useSearchParams must be inside a Suspense boundary for static export.
+  return (
+    <Suspense
+      fallback={
+        <AppShell>
+          <div className="mt-4">
+            <LoadingSkeleton />
+          </div>
+        </AppShell>
+      }
+    >
+      <AskInner />
+    </Suspense>
   );
 }

@@ -46,7 +46,7 @@ export default function QueryHistory() {
           {items.map((q) => (
             <li key={q.id}>
               <Link
-                href={`/ask/${q.id}`}
+                href={`/ask?id=${q.id}`}
                 className={`block rounded-lg px-3 py-2 text-sm transition-colors ${
                   q.id === activeId
                     ? "bg-brand/10 font-medium text-brand"
