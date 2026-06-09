@@ -150,7 +150,7 @@ From the project root. (`.gitignore` already excludes `.env*`, `.venv`,
 committed.)
 
 ```powershell
-cd "C:\Users\ikatsanou\Desktop\Personal\ALBA\TestProject"
+cd "C:\Users\ikatsanou\Desktop\Personal\ALBA\AskGreeceforBusiness"
 git init                       # skip if already a repo
 git add .
 git commit -m "MVP seed-data prototype: Next.js + FastAPI + Postgres"
