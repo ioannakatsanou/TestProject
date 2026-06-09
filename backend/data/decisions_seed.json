@@ -1,0 +1,222 @@
+[
+  {
+    "ada": "6ΨΛΩΞ-7ΚΛ",
+    "subject": "Προμήθεια αδειών λογισμικού Microsoft για τις διοικητικές υπηρεσίες του Δήμου",
+    "organization": "Δήμος Λαρισαίων",
+    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
+    "issue_date": "2026-03-12",
+    "amount": 84200.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΨΛΩΞ-7ΚΛ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΩΞ5ΓΩΡ-2ΝΒ",
+    "subject": "Ανάθεση προμήθειας ενεργού δικτυακού εξοπλισμού (switches, routers) και καλωδίωσης",
+    "organization": "Δήμος Βόλου",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2026-02-03",
+    "amount": 38000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΞ5ΓΩΡ-2ΝΒ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "7ΚΔ8ΟΡ-Λ4Θ",
+    "subject": "Έγκριση δαπάνης για αναβάθμιση δικτυακής υποδομής και Wi-Fi σε δημοτικά κτίρια",
+    "organization": "Δήμος Βόλου",
+    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
+    "issue_date": "2025-11-18",
+    "amount": 23500.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/7ΚΔ8ΟΡ-Λ4Θ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "Ψ3ΜΗΩ9-Β6Ξ",
+    "subject": "Προμήθεια ηλεκτρονικών υπολογιστών και περιφερειακού εξοπλισμού για τις σχολικές μονάδες",
+    "organization": "Δήμος Πατρέων",
+    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
+    "issue_date": "2026-01-22",
+    "amount": 40000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ3ΜΗΩ9-Β6Ξ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "6Λ2ΦΞΚ-8ΗΨ",
+    "subject": "Ανάθεση υπηρεσιών σχεδιασμού και ανάπτυξης νέας ιστοσελίδας και πύλης εξυπηρέτησης πολιτών",
+    "organization": "Δήμος Τρικκαίων",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2026-04-08",
+    "amount": 22500.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6Λ2ΦΞΚ-8ΗΨ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "Ω8ΝΡ5Λ-3ΓΔ",
+    "subject": "Σύμβαση παροχής υπηρεσιών τεχνικής υποστήριξης και συντήρησης εξοπλισμού πληροφορικής",
+    "organization": "Δήμος Καβάλας",
+    "decision_type": "ΣΥΜΒΑΣΗ",
+    "issue_date": "2025-09-30",
+    "amount": 18000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ω8ΝΡ5Λ-3ΓΔ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΨΚ4ΘΩ2-Ν7Β",
+    "subject": "Ανάπτυξη ιστότοπου τουριστικής προβολής του Δήμου και ψηφιακού οδηγού επισκέπτη",
+    "organization": "Δήμος Καβάλας",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2025-12-11",
+    "amount": 15000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΚ4ΘΩ2-Ν7Β",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "63ΞΛΩΡ-9ΚΜ",
+    "subject": "Προμήθεια σταθμών εργασίας (workstations) και οθονών για τις υπηρεσίες του Δήμου",
+    "organization": "Δήμος Σερρών",
+    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
+    "issue_date": "2026-01-21",
+    "amount": 12400.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/63ΞΛΩΡ-9ΚΜ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΩΡ7ΓΗ5-4ΛΔ",
+    "subject": "Έγκριση δαπάνης για συνδρομή υπηρεσιών υπολογιστικού νέφους (cloud) και φιλοξενίας εφαρμογών",
+    "organization": "Δήμος Ιωαννιτών",
+    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
+    "issue_date": "2026-02-27",
+    "amount": 29700.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΡ7ΓΗ5-4ΛΔ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "6Η9ΚΛΞ-Ψ2Τ",
+    "subject": "Ανάθεση έργου ψηφιοποίησης αρχείου πολεοδομίας και υλοποίησης συστήματος διαχείρισης εγγράφων",
+    "organization": "Δήμος Ηρακλείου",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2025-10-14",
+    "amount": 95000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6Η9ΚΛΞ-Ψ2Τ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΨΛ3ΩΞ8-6ΡΝ",
+    "subject": "Προμήθεια και εγκατάσταση συστήματος κυβερνοασφάλειας (firewall) και υπηρεσιών προστασίας δικτύου",
+    "organization": "Δήμος Ηρακλείου",
+    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
+    "issue_date": "2026-03-29",
+    "amount": 47500.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΛ3ΩΞ8-6ΡΝ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "Ω2ΓΔΚ7-8ΛΘ",
+    "subject": "Ανάθεση υπηρεσιών ανάπτυξης εφαρμογής για κινητά (mobile app) εξυπηρέτησης δημοτών",
+    "organization": "Δήμος Χανίων",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2026-05-06",
+    "amount": 33800.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ω2ΓΔΚ7-8ΛΘ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "6ΚΨΩΛ4-2ΗΒ",
+    "subject": "Έγκριση δαπάνης για προμήθεια εξυπηρετητών (servers) και εξοπλισμού data center",
+    "organization": "Δήμος Καλαμάτας",
+    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
+    "issue_date": "2025-08-19",
+    "amount": 56000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΚΨΩΛ4-2ΗΒ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΨΩ5ΞΗ9-Λ3Κ",
+    "subject": "Σύμβαση συντήρησης και τεχνικής υποστήριξης πληροφοριακών συστημάτων του Δήμου",
+    "organization": "Δήμος Κοζάνης",
+    "decision_type": "ΣΥΜΒΑΣΗ",
+    "issue_date": "2026-04-23",
+    "amount": 21000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΩ5ΞΗ9-Λ3Κ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "63ΛΗΩΚ-7ΝΞ",
+    "subject": "Ανάθεση υλοποίησης γεωγραφικού πληροφοριακού συστήματος (GIS) για τη διαχείριση δημοτικών υποδομών",
+    "organization": "Δήμος Ρόδου",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2025-12-02",
+    "amount": 64000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/63ΛΗΩΚ-7ΝΞ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΩΗ8ΚΛ2-5ΓΨ",
+    "subject": "Προμήθεια πολυμηχανημάτων εκτύπωσης και λογισμικού διαχείρισης εκτυπώσεων",
+    "organization": "Δήμος Αγρινίου",
+    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
+    "issue_date": "2025-07-15",
+    "amount": 9800.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΗ8ΚΛ2-5ΓΨ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "6ΝΨΩΞ3-9ΛΗ",
+    "subject": "Ανάθεση υπηρεσιών ψηφιακού μετασχηματισμού και ανάπτυξης ηλεκτρονικών υπηρεσιών (e-services) προς τους πολίτες",
+    "organization": "Δήμος Ξάνθης",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2026-05-19",
+    "amount": 72000.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΝΨΩΞ3-9ΛΗ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΨΞ4ΩΗ7-2ΚΔ",
+    "subject": "Έγκριση δαπάνης για προμήθεια αδειών λογισμικού antivirus και εργαλείων ασφάλειας τερματικών",
+    "organization": "Δήμος Δράμας",
+    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
+    "issue_date": "2026-03-04",
+    "amount": 7300.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΞ4ΩΗ7-2ΚΔ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "6ΛΩΨΚ8-3ΗΝ",
+    "subject": "Ανάθεση προμήθειας διαδραστικών πινάκων και ψηφιακού εξοπλισμού για παιδικούς σταθμούς",
+    "organization": "Δήμος Λαρισαίων",
+    "decision_type": "ΑΝΑΘΕΣΗ",
+    "issue_date": "2025-10-28",
+    "amount": 16500.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΛΩΨΚ8-3ΗΝ",
+    "raw": {"source": "seed"}
+  },
+  {
+    "ada": "ΩΚ7ΓΞ4-6ΛΨ",
+    "subject": "Σύμβαση παροχής υπηρεσιών διαδικτυακής σύνδεσης υψηλής ταχύτητας για τα δημοτικά κτίρια",
+    "organization": "Δήμος Πατρέων",
+    "decision_type": "ΣΥΜΒΑΣΗ",
+    "issue_date": "2026-02-16",
+    "amount": 14200.00,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΚ7ΓΞ4-6ΛΨ",
+    "raw": {"source": "seed"}
+  }
+]

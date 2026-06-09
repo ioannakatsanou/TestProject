@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f7f9fc;
+}
+
+body {
+  background: var(--background);
+  color: #1a2230;
+}
+
+/* Brief highlight when a source card is targeted by a citation click */
+@keyframes cite-flash {
+  0% { box-shadow: 0 0 0 0 rgba(13, 59, 102, 0.5); }
+  100% { box-shadow: 0 0 0 8px rgba(13, 59, 102, 0); }
+}
+.cite-flash {
+  animation: cite-flash 1s ease-out;
+}
