@@ -59,3 +59,11 @@ CREATE TABLE IF NOT EXISTS queries (
 );
 
 CREATE INDEX IF NOT EXISTS idx_queries_created ON queries (created_at DESC);
+
+-- ── Bootstrap metadata ────────────────────────────────────────────────────
+-- Tracks which seed-data version is loaded so startup can reload the dataset
+-- once when it changes (see app/bootstrap.py). Free-tier-friendly: no shell.
+CREATE TABLE IF NOT EXISTS app_meta (
+    key   TEXT PRIMARY KEY,
+    value TEXT
+);

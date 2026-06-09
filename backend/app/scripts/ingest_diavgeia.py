@@ -54,7 +54,8 @@ SUBJECT_STEMS = [
     "υπολογιστ", "δικτυ", "ιστοσελιδ", "cloud",
 ]
 
-OUT_DEFAULT = Path(__file__).resolve().parents[2] / "data" / "decisions_real_sample.json"
+# Writes to the dataset the app loads on startup (bootstrap reads this file).
+OUT_DEFAULT = Path(__file__).resolve().parents[2] / "data" / "decisions_seed.json"
 
 
 # ── HTTP helper ────────────────────────────────────────────────────────────
@@ -178,8 +179,8 @@ def normalize(decision: dict, types_map: dict[str, str], org_cache: dict[str, st
         "issue_date": parse_issue_date(decision.get("issueDate")),
         "amount": amount,
         "currency": currency,
-        "document_url": decision.get("documentUrl") or decision.get("url")
-        or f"{SITE}/decision/view/{ada}",
+        # Always the canonical public decision page for the ADA.
+        "document_url": f"{SITE}/decision/view/{ada}",
         "raw": decision,
     }
 

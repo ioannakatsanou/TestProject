@@ -12,6 +12,6 @@ export const SUGGESTED_QUESTIONS: string[] = [
 ];
 
 export const SCOPE_TEXT =
-  "15 municipalities · IT & digital spending · last 12 months";
+  "Greek public-sector IT & digital-transformation decisions";
 
 export const SCOPE_SOURCE = "Source: Diavgeia (diavgeia.gov.gr)";

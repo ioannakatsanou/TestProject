@@ -1,11 +1,28 @@
-"""Claude integration: build the prompt from retrieved decisions and answer.
+"""Answer generation from the retrieved Diavgeia decisions.
 
-If no ANTHROPIC_API_KEY is configured, a deterministic mock answer is built
-from the retrieved seed data so the full prototype works end-to-end offline.
+When an ANTHROPIC_API_KEY is configured, answers are written by Claude using
+ONLY the retrieved decisions. Otherwise a deterministic, citation-bearing
+summary of the retrieved decisions is produced (no external call). Both paths
+answer strictly from the question-relevant decisions, so different questions
+yield different answers.
 """
 from app.config import settings
 
-SYSTEM_PROMPT = """You are a business intelligence analyst for "Ask Greece for Business".
+# User-facing scope note appended to every answer. Professional, no internal
+# implementation details (no mention of API keys or generation mode).
+SCOPE_NOTE = (
+    "Scope note: This answer is based on the indexed Diavgeia decisions currently "
+    "available in the prototype dataset. Please verify all source records before "
+    "making business decisions."
+)
+
+EMPTY_ANSWER = (
+    "No matching Diavgeia decisions were found in the indexed dataset for this "
+    "question. Try rephrasing it around public-sector IT, software, digital services, "
+    "cybersecurity, cloud, hardware, or networking spending."
+)
+
+SYSTEM_PROMPT = f"""You are a business intelligence analyst for "Ask Greece for Business".
 You answer questions about Greek public-sector IT and digital-transformation
 spending, using ONLY the government decisions provided in the context.
 
@@ -15,11 +32,16 @@ Rules:
 - Prefer concise, structured answers: a one-sentence headline, then a ranked
   list or bullets with amounts, then at most one short insight sentence.
 - Format money with thousands separators and the euro sign (e.g. EUR 84,200).
-- If the provided decisions do not contain the answer, say so plainly and do
-  not guess.
+- If the provided decisions do not contain the answer, say so plainly and do not guess.
 - Answer in English. Keep organization names as given.
-- End every answer with a one-line scope note prefixed with "Scope:".
+- End every answer with this exact scope note on its own line:
+  "{SCOPE_NOTE}"
 """
+
+
+def _short(subject: str, limit: int = 90) -> str:
+    subject = (subject or "").strip()
+    return subject if len(subject) <= limit else subject[:limit].rstrip() + "…"
 
 
 def _format_context(decisions: list[dict]) -> str:
@@ -44,38 +66,30 @@ def build_user_message(question: str, decisions: list[dict], total: int) -> str:
     )
 
 
-def _mock_answer(question: str, decisions: list[dict]) -> str:
-    """Deterministic, citation-bearing answer built without calling Claude.
+def _summary_answer(decisions: list[dict]) -> str:
+    """Deterministic, citation-bearing summary of the question-relevant decisions.
 
-    Used only when ANTHROPIC_API_KEY is unset (offline mode). Ranks the
-    retrieved decisions by amount so the answer still cites real sources.
+    `decisions` arrive in relevance order from retrieval, so the summary — and
+    its [n] citations — reflect what actually matched the question.
     """
-    ranked = sorted(
-        [d for d in decisions if d.get("amount")],
-        key=lambda d: d["amount"],
-        reverse=True,
-    )[:3]
-    note = ("Scope: offline summary from the indexed IT & digital decisions "
-            "(set ANTHROPIC_API_KEY for AI-written answers).")
-    if not ranked:
-        return ("No decisions with monetary amounts were found in scope for this question. "
-                f"{note}")
-
-    headline = "Based on the indexed decisions, the highest-value items in scope are:"
-    bullets = "\n".join(
-        f"{i}. {d['organization']} — EUR {d['amount']:,.0f} [{decisions.index(d) + 1}]"
-        for i, d in enumerate(ranked, start=1)
+    n = len(decisions)
+    lead = (
+        f"Based on {n} indexed Diavgeia decision{'s' if n != 1 else ''} relevant to your "
+        f"question, the most relevant records are:"
     )
-    return f"{headline}\n{bullets}\n\n{note}"
+    lines = []
+    for i, d in enumerate(decisions[:5], start=1):
+        amount = f" — EUR {d['amount']:,.0f}" if d.get("amount") else ""
+        lines.append(f"{i}. {d['organization']}{amount} [{i}]\n   {_short(d['subject'])}")
+    return f"{lead}\n" + "\n".join(lines) + f"\n\n{SCOPE_NOTE}"
 
 
 def generate_answer(question: str, decisions: list[dict], total: int) -> str:
     if not decisions:
-        return ("I couldn't find decisions in scope that answer this question. "
-                "Scope: this prototype covers IT & digital spending decisions only.")
+        return EMPTY_ANSWER
 
     if settings.mock_mode:
-        return _mock_answer(question, decisions)
+        return _summary_answer(decisions)
 
     # Real Claude call.
     from anthropic import Anthropic

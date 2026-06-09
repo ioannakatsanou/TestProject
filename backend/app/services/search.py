@@ -98,38 +98,25 @@ def total_indexed() -> int:
 
 def search_decisions(question: str, limit: int) -> list[dict]:
     """
-    Retrieve the most relevant decisions for a question.
+    Retrieve the decisions relevant to a question, ranked by ts_rank.
 
-    Builds a bilingual OR tsquery and ranks by ts_rank. Falls back to the most
-    recent / highest-value decisions when nothing matches lexically, so the
-    demo always has context to reason over.
+    Builds a bilingual (English↔Greek) OR tsquery from the question. Returns an
+    EMPTY list when nothing matches — the caller then renders a clear empty
+    state rather than generic, unrelated results.
     """
     tsquery = build_tsquery(question)
-    rows: list[dict] = []
+    if not tsquery:
+        return []
 
-    if tsquery:
-        rows = query(
-            """
-            SELECT ada, subject, organization, decision_type, issue_date,
-                   amount, currency, document_url,
-                   ts_rank(search_vector, to_tsquery('simple', %(q)s)) AS rank
-            FROM decisions
-            WHERE search_vector @@ to_tsquery('simple', %(q)s)
-            ORDER BY rank DESC, issue_date DESC
-            LIMIT %(limit)s;
-            """,
-            {"q": tsquery, "limit": limit},
-        )
-
-    if not rows:
-        rows = query(
-            """
-            SELECT ada, subject, organization, decision_type, issue_date,
-                   amount, currency, document_url
-            FROM decisions
-            ORDER BY issue_date DESC, amount DESC NULLS LAST
-            LIMIT %(limit)s;
-            """,
-            {"limit": limit},
-        )
-    return rows
+    return query(
+        """
+        SELECT ada, subject, organization, decision_type, issue_date,
+               amount, currency, document_url,
+               ts_rank(search_vector, to_tsquery('simple', %(q)s)) AS rank
+        FROM decisions
+        WHERE search_vector @@ to_tsquery('simple', %(q)s)
+        ORDER BY rank DESC, issue_date DESC
+        LIMIT %(limit)s;
+        """,
+        {"q": tsquery, "limit": limit},
+    )

@@ -6,7 +6,8 @@ Ask a business question in plain language and get an answer drawn **only** from
 real Greek government decisions (Diavgeia), with citations you can verify.
 
 This repository is the MVP prototype: a one-page web app over a **pre-loaded
-seed dataset** of IT & digital-transformation decisions for 15 municipalities.
+dataset of real Diavgeia decisions** about Greek public-sector IT & digital
+transformation (ingested from the Diavgeia OpenData API).
 
 ```
 ask-greece-for-business/
@@ -70,7 +71,7 @@ Apply schema + load seed (cross-platform, no psql needed):
 
 ```powershell
 python -m app.scripts.init_db           # creates the decisions table
-python -m app.scripts.load_seed         # loads 20 seed decisions
+python -m app.scripts.load_seed         # loads real decisions from decisions_seed.json
 ```
 
 Run the API:
@@ -94,18 +95,18 @@ Open <http://localhost:3000> and click a suggested question.
 
 ---
 
-## Ingesting real Diavgeia data (optional)
+## Refreshing the dataset from real Diavgeia data
 
-The prototype ships with curated seed data. To pull a **real, IT/digital-focused
-sample** from the live Diavgeia OpenData API (no auth required), use the
-ingestion script. It writes a JSON file in the same shape as the seed file and
-**does not touch the database or the seed prototype**.
+`data/decisions_seed.json` holds **real decisions** pulled from the live
+Diavgeia OpenData API (no auth required). The app loads it on startup (see
+**Auto-initialization** below). To refresh it, re-run the ingestion script —
+it overwrites `decisions_seed.json` in place.
 
 From `backend/` (with the venv/deps available):
 
 ```powershell
-# Fetch ~80 IT/digital decisions -> data/decisions_real_sample.json
-python -m app.scripts.ingest_diavgeia
+# Fetch ~80 IT/digital decisions -> data/decisions_seed.json
+python -m app.scripts.ingest_diavgeia --limit 80
 
 # Options:
 python -m app.scripts.ingest_diavgeia --limit 50          # smaller sample
@@ -115,32 +116,30 @@ python -m app.scripts.ingest_diavgeia --no-subject-filter # keep full-text match
 It searches Greek IT keywords (πληροφορική, λογισμικό, ψηφιακές υπηρεσίες,
 κυβερνοασφάλεια, υπολογιστές, δίκτυο, ιστοσελίδα, cloud), normalizes each
 decision (ada, subject, organization, decision_type, issue_date, amount,
-currency, document_url, raw), and prints a summary of how many were fetched,
-deduped, kept, skipped, and saved.
+currency, document_url, raw), always sets `document_url` to
+`https://diavgeia.gov.gr/decision/view/{ADA}`, and prints a summary.
 
-Load the real sample into PostgreSQL (the loader takes an optional path):
+### Auto-initialization (no shell needed — works on Render free tier)
+
+On startup the app runs `app/bootstrap.py`, which:
+
+1. creates the schema if the `decisions` table is missing,
+2. compares the DB's loaded seed version (`app_meta.seed_version`) to
+   `SEED_VERSION` in `bootstrap.py`,
+3. (re)loads `decisions_seed.json` when they differ or the table is empty,
+4. otherwise does nothing.
+
+It is idempotent and guarded by a Postgres advisory lock. **To push a new
+dataset to production:** regenerate `decisions_seed.json`, **bump
+`SEED_VERSION`** in `backend/app/bootstrap.py`, commit, and deploy — the next
+startup reloads the data once. No shell or one-off job required.
+
+Locally you can also load it directly:
 
 ```powershell
-# Adds the real decisions ALONGSIDE the seed rows (upsert by ADA)
-python -m app.scripts.load_seed data/decisions_real_sample.json
-
-# To test on real data ONLY, clear the table first, then load:
-docker exec agfb_postgres psql -U agfb -d agfb -c "TRUNCATE decisions;"
-python -m app.scripts.load_seed data/decisions_real_sample.json
+python -m app.scripts.load_seed                          # loads decisions_seed.json
+docker exec agfb_postgres psql -U agfb -d agfb -c "TRUNCATE decisions;"  # to reset first
 ```
-
-Then test the API exactly as before (no app changes needed):
-
-```powershell
-$body = @{ question = "Which organizations are buying software or IT services?" } | ConvertTo-Json
-Invoke-RestMethod -Uri "http://localhost:8000/api/ask" -Method Post -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 5
-```
-
-> To return to the clean seed-only prototype at any time:
-> ```powershell
-> docker exec agfb_postgres psql -U agfb -d agfb -c "TRUNCATE decisions;"
-> python -m app.scripts.load_seed
-> ```
 
 ---
 
@@ -307,13 +306,13 @@ answer with source cards, exactly as in local dev.
 | Path | What |
 |---|---|
 | `backend/sql/schema.sql` | `decisions` table + full-text search index/trigger |
-| `backend/data/decisions_seed.json` | 20 realistic Diavgeia-style seed decisions |
+| `backend/data/decisions_seed.json` | Real Diavgeia IT/digital decisions (loaded on startup) |
+| `backend/app/bootstrap.py` | Startup auto-init: schema + versioned seed load (idempotent) |
 | `backend/app/scripts/init_db.py` | Apply schema (local & production) |
-| `backend/app/scripts/load_seed.py` | Load seed (or any) JSON into Postgres |
-| `backend/app/scripts/ingest_diavgeia.py` | Fetch a real IT/digital sample from the Diavgeia API |
-| `backend/data/decisions_real_sample.json` | Output of the real ingestion (generated) |
-| `backend/app/services/search.py` | Full-text retrieval |
-| `backend/app/services/claude.py` | Prompt build + Claude call (+ mock mode) |
+| `backend/app/scripts/load_seed.py` | Load `decisions_seed.json` (or any path) into Postgres |
+| `backend/app/scripts/ingest_diavgeia.py` | Fetch real IT/digital decisions from Diavgeia into the seed file |
+| `backend/app/services/search.py` | Bilingual full-text retrieval (empty when no match) |
+| `backend/app/services/claude.py` | Answer generation (Claude, or deterministic summary) |
 | `backend/app/routes/ask.py` | `POST /api/ask` |
 | `backend/Procfile` | Start command for Railway/Fly/Heroku |
 | `render.yaml` | Render blueprint (backend + Postgres) |

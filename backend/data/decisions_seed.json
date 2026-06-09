@@ -1,222 +1,4442 @@
 [
   {
-    "ada": "6ΨΛΩΞ-7ΚΛ",
-    "subject": "Προμήθεια αδειών λογισμικού Microsoft για τις διοικητικές υπηρεσίες του Δήμου",
-    "organization": "Δήμος Λαρισαίων",
-    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
-    "issue_date": "2026-03-12",
-    "amount": 84200.00,
+    "ada": "ΨΟΑ846ΝΚΠΔ-Τ3Γ",
+    "subject": "Προμήθεια λοιπού εξοπλισμού πληροφορικής (ΑΛΕ 3120389001)",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ, ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 195.5,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6ΨΛΩΞ-7ΚΛ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΟΑ846ΝΚΠΔ-Τ3Γ",
+    "raw": {
+      "protocolNumber": "16465/ 09-06-2026",
+      "subject": "Προμήθεια λοιπού εξοπλισμού πληροφορικής (ΑΛΕ 3120389001)",
+      "issueDate": 1780963200000,
+      "organizationId": "100081880",
+      "signerIds": [
+        "100098791"
+      ],
+      "unitIds": [
+        "71915"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "57604",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 195.5,
+          "currency": "EUR"
+        },
+        "amountWithKae": [],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΟΑ846ΝΚΠΔ-Τ3Γ",
+      "publishTimestamp": 1781005385741,
+      "submissionTimestamp": 1781005385741,
+      "versionId": "ded8fa7c-9367-4d16-a8b3-32301b8f8a1c",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΟΑ846ΝΚΠΔ-Τ3Γ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΟΑ846ΝΚΠΔ-Τ3Γ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "ΩΞ5ΓΩΡ-2ΝΒ",
-    "subject": "Ανάθεση προμήθειας ενεργού δικτυακού εξοπλισμού (switches, routers) και καλωδίωσης",
-    "organization": "Δήμος Βόλου",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2026-02-03",
-    "amount": 38000.00,
+    "ada": "Ρ7ΖΡ46ΝΘ7Δ-Θ9Ι",
+    "subject": "Συγκρότηση και ορισμός μελών Τριμελούς Επιτροπής Παρακολούθησης και\nΠαραλαβής, για την προμήθεια και αντικατάσταση αφαλών κλειδαριών του 1ου ορόφου\n& τμήματος 2ου ορόφου του κτιρίου όπου στεγάζεται η Εθνική Αρχή Κυβερνοασφάλειας\nεπί της οδού Χανδρή 1 και Θεσσαλονίκης στο Μοσχάτο",
+    "organization": "ΕΘΝΙΚΗ ΑΡΧΗ ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ",
+    "decision_type": "ΠΡΑΞΗ ΠΟΥ ΑΦΟΡΑ ΣΕ ΣΥΛΛΟΓΙΚΟ ΟΡΓΑΝΟ - ΕΠΙΤΡΟΠΗ - ΟΜΑΔΑ ΕΡΓΑΣΙΑΣ - ΟΜΑΔΑ ΕΡΓΟΥ - ΜΕΛΗ ΣΥΛΛΟΓΙΚΟΥ ΟΡΓΑΝΟΥ",
+    "issue_date": "2026-06-09",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΞ5ΓΩΡ-2ΝΒ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ7ΖΡ46ΝΘ7Δ-Θ9Ι",
+    "raw": {
+      "protocolNumber": "20847 ΕΞ 2026",
+      "subject": "Συγκρότηση και ορισμός μελών Τριμελούς Επιτροπής Παρακολούθησης και\nΠαραλαβής, για την προμήθεια και αντικατάσταση αφαλών κλειδαριών του 1ου ορόφου\n& τμήματος 2ου ορόφου του κτιρίου όπου στεγάζεται η Εθνική Αρχή Κυβερνοασφάλειας\nεπί της οδού Χανδρή 1 και Θεσσαλονίκης στο Μοσχάτο",
+      "issueDate": 1780963200000,
+      "organizationId": "100091264",
+      "signerIds": [
+        "100091329"
+      ],
+      "unitIds": [
+        "100102519"
+      ],
+      "decisionTypeId": "Γ.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "eidosPraxisSyllogikou": "Συγκρότηση",
+        "typeOfSullogiko": "Επιτροπή",
+        "positionSalary": {
+          "currency": null,
+          "amount": null
+        },
+        "fek": {},
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ρ7ΖΡ46ΝΘ7Δ-Θ9Ι",
+      "publishTimestamp": 1781005328804,
+      "submissionTimestamp": 1781005328804,
+      "versionId": "abe25d5f-8b23-48b7-b49c-1107ce80813f",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ7ΖΡ46ΝΘ7Δ-Θ9Ι",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ7ΖΡ46ΝΘ7Δ-Θ9Ι",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "7ΚΔ8ΟΡ-Λ4Θ",
-    "subject": "Έγκριση δαπάνης για αναβάθμιση δικτυακής υποδομής και Wi-Fi σε δημοτικά κτίρια",
-    "organization": "Δήμος Βόλου",
+    "ada": "ΡΗΨΤ46904Κ-5ΑΨ",
+    "subject": "Περί  ένταξης λογαριασμού του Γ.Ν.Θ. «Γ. ΓΕΝΝΗΜΑΤΑΣ-Ο ΑΓΙΟΣ ΔΗΜΗΤΡΙΟΣ» Οργανική μονάδα «Γεώργιος Γεννηματάς» και Οργανική μονάδα « Ο Άγιος Δημήτριος» στην ειδική διαδικτυακή εφαρμογή ΔΙΑΣ Portal.",
+    "organization": "ΓΕΝΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ «Γ. ΓΕΝΝΗΜΑΤΑΣ»",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΗΨΤ46904Κ-5ΑΨ",
+    "raw": {
+      "protocolNumber": "11η/04-06-2026 ΘΕΜΑ 2ο ΕΚΤΑΚΤΟ",
+      "subject": "Περί  ένταξης λογαριασμού του Γ.Ν.Θ. «Γ. ΓΕΝΝΗΜΑΤΑΣ-Ο ΑΓΙΟΣ ΔΗΜΗΤΡΙΟΣ» Οργανική μονάδα «Γεώργιος Γεννηματάς» και Οργανική μονάδα « Ο Άγιος Δημήτριος» στην ειδική διαδικτυακή εφαρμογή ΔΙΑΣ Portal.",
+      "issueDate": 1780963200000,
+      "organizationId": "99221872",
+      "signerIds": [
+        "100098817"
+      ],
+      "unitIds": [
+        "75045"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": "Πράξη Οργάνου Διοίκησης Ν.Π.Δ.Δ.",
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "ΡΗΨΤ46904Κ-5ΑΨ",
+      "publishTimestamp": 1781004697073,
+      "submissionTimestamp": 1781004697073,
+      "versionId": "a285a245-124a-4839-992a-9df460f9a284",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΗΨΤ46904Κ-5ΑΨ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΗΨΤ46904Κ-5ΑΨ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΝ6346ΝΘ7Δ-ΕΩΧ",
+    "subject": "Συγκρότηση και ορισμός μελών Επιτροπής Παρακολούθησης και\nΠαραλαβής, για την αντικατάσταση μηχανισμών σκίασης παραθύρων σε τρία\nγραφεία του 2ου ορόφου του κτιρίου που στεγάζεται η Εθνική Αρχή\nΚυβερνοασφάλειας επί της οδού Χανδρή 1 και Θεσσαλονίκης στο Μοσχάτο",
+    "organization": "ΕΘΝΙΚΗ ΑΡΧΗ ΚΥΒΕΡΝΟΑΣΦΑΛΕΙΑΣ",
+    "decision_type": "ΠΡΑΞΗ ΠΟΥ ΑΦΟΡΑ ΣΕ ΣΥΛΛΟΓΙΚΟ ΟΡΓΑΝΟ - ΕΠΙΤΡΟΠΗ - ΟΜΑΔΑ ΕΡΓΑΣΙΑΣ - ΟΜΑΔΑ ΕΡΓΟΥ - ΜΕΛΗ ΣΥΛΛΟΓΙΚΟΥ ΟΡΓΑΝΟΥ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΝ6346ΝΘ7Δ-ΕΩΧ",
+    "raw": {
+      "protocolNumber": "20844 ΕΞ 2026",
+      "subject": "Συγκρότηση και ορισμός μελών Επιτροπής Παρακολούθησης και\nΠαραλαβής, για την αντικατάσταση μηχανισμών σκίασης παραθύρων σε τρία\nγραφεία του 2ου ορόφου του κτιρίου που στεγάζεται η Εθνική Αρχή\nΚυβερνοασφάλειας επί της οδού Χανδρή 1 και Θεσσαλονίκης στο Μοσχάτο",
+      "issueDate": 1780963200000,
+      "organizationId": "100091264",
+      "signerIds": [
+        "100091329"
+      ],
+      "unitIds": [
+        "100102519"
+      ],
+      "decisionTypeId": "Γ.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "eidosPraxisSyllogikou": "Συγκρότηση",
+        "typeOfSullogiko": "Επιτροπή",
+        "positionSalary": {
+          "currency": null,
+          "amount": null
+        },
+        "fek": {},
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΝ6346ΝΘ7Δ-ΕΩΧ",
+      "publishTimestamp": 1781004602254,
+      "submissionTimestamp": 1781004602254,
+      "versionId": "8fc86dd5-baf7-4c37-9589-7e920735f146",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΝ6346ΝΘ7Δ-ΕΩΧ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΝ6346ΝΘ7Δ-ΕΩΧ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ρ1ΑΝΩΚΦ-9Ρ2",
+    "subject": "Απόφαση Καθιέρωση απογευματινής υπερωριακής εργασίας της Διεύθυνσης Προγραμματισμού, Οργάνωσης και\nΠληροφορικής του Δήμου Ναυπλιέων, από 09/06/2026 έως 30/06/2026",
+    "organization": "ΔΗΜΟΣ ΝΑΥΠΛΙΕΩΝ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ1ΑΝΩΚΦ-9Ρ2",
+    "raw": {
+      "protocolNumber": "15361/2026",
+      "subject": "Απόφαση Καθιέρωση απογευματινής υπερωριακής εργασίας της Διεύθυνσης Προγραμματισμού, Οργάνωσης και\nΠληροφορικής του Δήμου Ναυπλιέων, από 09/06/2026 έως 30/06/2026",
+      "issueDate": 1780963200000,
+      "organizationId": "6206",
+      "signerIds": [
+        "100022536"
+      ],
+      "unitIds": [
+        "100005978"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "44"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "Ρ1ΑΝΩΚΦ-9Ρ2",
+      "publishTimestamp": 1781003954021,
+      "submissionTimestamp": 1781003954021,
+      "versionId": "e447db3c-e3c6-4291-bf02-1b93084fe09a",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ1ΑΝΩΚΦ-9Ρ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ1ΑΝΩΚΦ-9Ρ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "6Σ3Ψ469Β4Μ-Β7Λ",
+    "subject": "ΑΝΑΚΗΡΥΞΗ ΥΠΟΨΗΦΙΟΥ ΤΜΗΜΑΤΟΣ ΠΛΗΡΟΦΟΡΙΚΗΣ ΤΟΥ ΟΙΚΟΝΟΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΑΘΗΝΩΝ,\nΓΙΑ  ΤΗ ΘΕΣΗ ΔΙΕΥΘΥΝΤΗ ΤΟΥ ΕΡΓΑΣΤΗΡΙΟΥ Ασυρμάτων Δικτύων και Πολυμεσικών Τηλεπικοινωνιών",
+    "organization": "ΟΙΚΟΝΟΜΙΚΟ ΠΑΝΕΠΙΣΤΗΜΙΟ ΑΘΗΝΩΝ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6Σ3Ψ469Β4Μ-Β7Λ",
+    "raw": {
+      "protocolNumber": "09/06/2026",
+      "subject": "ΑΝΑΚΗΡΥΞΗ ΥΠΟΨΗΦΙΟΥ ΤΜΗΜΑΤΟΣ ΠΛΗΡΟΦΟΡΙΚΗΣ ΤΟΥ ΟΙΚΟΝΟΜΙΚΟΥ ΠΑΝΕΠΙΣΤΗΜΙΟΥ ΑΘΗΝΩΝ,\nΓΙΑ  ΤΗ ΘΕΣΗ ΔΙΕΥΘΥΝΤΗ ΤΟΥ ΕΡΓΑΣΤΗΡΙΟΥ Ασυρμάτων Δικτύων και Πολυμεσικών Τηλεπικοινωνιών",
+      "issueDate": 1780963200000,
+      "organizationId": "99206861",
+      "signerIds": [
+        "100053050"
+      ],
+      "unitIds": [
+        "75381"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": "Πράξη Οργάνου Διοίκησης Ν.Π.Δ.Δ.",
+        "kanonistikiPraxiPublishMedium": "στο κατάστημα της υπηρεσίας",
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": true,
+      "ada": "6Σ3Ψ469Β4Μ-Β7Λ",
+      "publishTimestamp": 1781003862581,
+      "submissionTimestamp": 1781003862581,
+      "versionId": "085237b9-8516-4d8c-be44-7543db999ac7",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Σ3Ψ469Β4Μ-Β7Λ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/6Σ3Ψ469Β4Μ-Β7Λ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΤΗΥΟΕΘΕ-Ψ6Ε",
+    "subject": "ΜΙΣΘΩΣΗ ΕΙΔΙΚΟΥ ΑΠΟΦΡΑΚΤΙΚΟΥ ΜΗΧΑΝΗΜΑΤΟΣ ΓΙΑ ΚΑΘΑΡΙΣΜΟ ΑΝΤΛΙΟΣΤΑΣΙΩΝ ΛΥΜΑΤΩΝ ΚΑΙ ΑΠΟΧ. ΔΙΚΤΥΩΝ ΣΥΜΒΑΣΗ 848/21-03-2025",
+    "organization": "Δημοτική Επιχείρηση Ύδρευσης - Αποχέτευσης Δήμου Σητείας",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 632.4,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΤΗΥΟΕΘΕ-Ψ6Ε",
+    "raw": {
+      "protocolNumber": "1976",
+      "subject": "ΜΙΣΘΩΣΗ ΕΙΔΙΚΟΥ ΑΠΟΦΡΑΚΤΙΚΟΥ ΜΗΧΑΝΗΜΑΤΟΣ ΓΙΑ ΚΑΘΑΡΙΣΜΟ ΑΝΤΛΙΟΣΤΑΣΙΩΝ ΛΥΜΑΤΩΝ ΚΑΙ ΑΠΟΧ. ΔΙΚΤΥΩΝ ΣΥΜΒΑΣΗ 848/21-03-2025",
+      "issueDate": 1780963200000,
+      "organizationId": "51554",
+      "signerIds": [
+        "112934"
+      ],
+      "unitIds": [
+        "92424"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090235682",
+          "afmCountry": "EL",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "Δημοτική Επιχείρηση Ύδρευσης - Αποχέτευσης Δήμου Σητείας",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 632.4,
+              "currency": "EUR"
+            },
+            "kae": "62.04.00.0001",
+            "sponsorAFMName": {
+              "afm": "041855909",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "ΓΑΙΤΑΝΗΣ Δ ΚΥΡΙΑΚΟΣ",
+              "noVATOrg": null
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΤΗΥΟΕΘΕ-Ψ6Ε",
+      "publishTimestamp": 1781002880056,
+      "submissionTimestamp": 1781002880056,
+      "versionId": "dd0d01b8-2d97-439f-8c62-65974d56b5ce",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΤΗΥΟΕΘΕ-Ψ6Ε",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΤΗΥΟΕΘΕ-Ψ6Ε",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΕΘ2Κ66-8ΡΒ",
+    "subject": "ΕΓΚΡΙΝΩ\t\nΤΗ ΔΙΑΘΕΣΗ ΠΟΣΟΥ ΕΚΑΤΟΝ ΤΡΙΩΝ ΕΥΡΩ ΚΑΙ ΕΞΗΝΤΑ ΠΕΝΤΕ ΛΕΠΤΩΝ (103,65 €), ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΟΥ ΤΟΥ Φ.Π.Α., ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΕΔΕΣΜΑΤΩΝ, ΠΡΟΚΕΙΜΕΝΟΥ ΝΑ ΠΡΟΣΦΕΡΘΟΥΝ, ΣΤΟ ΠΛΑΙΣΙΟ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ EJTN ΠΟΥ ΘΑ ΕΠΙΣΚΕΦΘΟΥΝ ΤΗΝ ΕΙΣΑΓΓΕΛΙΑ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ, ΕΙΣΑΓΓΕΛΙΚΟΙ ΛΕΙΤΟΥΡΓΟΙ ΑΠΟ ΤΑ ΚΡΑΤΗ ΜΕΛΗ ΤΟΥ ΔΙΚΤΥΟΥ, ΣΤΙΣ 15/06/2026 ΚΑΙ 19/06/2026 ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΚΑΝΟΝΕΣ ΣΥΓΧΡΟΝΗΣ ΕΘΙΜΟΤΥΠΙΑΣ.",
+    "organization": "ΕΙΣΑΓΓΕΛΙΑ ΑΡΕΙΟΥ ΠΑΓΟΥ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΕΘ2Κ66-8ΡΒ",
+    "raw": {
+      "protocolNumber": "4874/9-6-2026",
+      "subject": "ΕΓΚΡΙΝΩ\t\nΤΗ ΔΙΑΘΕΣΗ ΠΟΣΟΥ ΕΚΑΤΟΝ ΤΡΙΩΝ ΕΥΡΩ ΚΑΙ ΕΞΗΝΤΑ ΠΕΝΤΕ ΛΕΠΤΩΝ (103,65 €), ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΟΥ ΤΟΥ Φ.Π.Α., ΓΙΑ ΤΗΝ ΠΡΟΜΗΘΕΙΑ ΕΔΕΣΜΑΤΩΝ, ΠΡΟΚΕΙΜΕΝΟΥ ΝΑ ΠΡΟΣΦΕΡΘΟΥΝ, ΣΤΟ ΠΛΑΙΣΙΟ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ EJTN ΠΟΥ ΘΑ ΕΠΙΣΚΕΦΘΟΥΝ ΤΗΝ ΕΙΣΑΓΓΕΛΙΑ ΤΟΥ ΑΡΕΙΟΥ ΠΑΓΟΥ, ΕΙΣΑΓΓΕΛΙΚΟΙ ΛΕΙΤΟΥΡΓΟΙ ΑΠΟ ΤΑ ΚΡΑΤΗ ΜΕΛΗ ΤΟΥ ΔΙΚΤΥΟΥ, ΣΤΙΣ 15/06/2026 ΚΑΙ 19/06/2026 ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΚΑΝΟΝΕΣ ΣΥΓΧΡΟΝΗΣ ΕΘΙΜΟΤΥΠΙΑΣ.",
+      "issueDate": 1780963200000,
+      "organizationId": "14082",
+      "signerIds": [
+        "100090029"
+      ],
+      "unitIds": [
+        "92016"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "ΡΕΘ2Κ66-8ΡΒ",
+      "publishTimestamp": 1781002413043,
+      "submissionTimestamp": 1781002413043,
+      "versionId": "eeb1bc28-8c93-4246-a033-86b8edeae21d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΕΘ2Κ66-8ΡΒ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΕΘ2Κ66-8ΡΒ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΓΣΨΗ-5ΡΛ",
+    "subject": "2η Τροποποίηση Απόφασης Ένταξης του Έργου με τίτλο «Συστήματα Ασφάλειας Δεδομένων στην ΑΑΔΕ»/ Data Security [ πρώην SUB14. Συστήματα Ασφάλειας Δεδομένων στην ΑΑΔΕ] (Κωδικός ΟΠΣ ΤΑ 5149141, Κωδικός ΠΔΕ 2023ΤΑ05100001) της Δράσης 16291 «Ψηφιακός μετασχηματισμός φορολογικών και τελωνειακών αρχών», στο Ταμείο Ανάκαμψης και Ανθεκτικότητας.",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΟΙΚΟΝΟΜΙΚΩΝ",
+    "decision_type": "ΑΛΛΗ ΠΡΑΞΗ ΑΝΑΠΤΥΞΙΑΚΟΥ ΝΟΜΟΥ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΓΣΨΗ-5ΡΛ",
+    "raw": {
+      "protocolNumber": "91164 ΕΞ 2026",
+      "subject": "2η Τροποποίηση Απόφασης Ένταξης του Έργου με τίτλο «Συστήματα Ασφάλειας Δεδομένων στην ΑΑΔΕ»/ Data Security [ πρώην SUB14. Συστήματα Ασφάλειας Δεδομένων στην ΑΑΔΕ] (Κωδικός ΟΠΣ ΤΑ 5149141, Κωδικός ΠΔΕ 2023ΤΑ05100001) της Δράσης 16291 «Ψηφιακός μετασχηματισμός φορολογικών και τελωνειακών αρχών», στο Ταμείο Ανάκαμψης και Ανθεκτικότητας.",
+      "issueDate": 1780963200000,
+      "organizationId": "15",
+      "signerIds": [
+        "100081649"
+      ],
+      "unitIds": [
+        "100063679"
+      ],
+      "decisionTypeId": "Ε.4",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΓΣΨΗ-5ΡΛ",
+      "publishTimestamp": 1781002098785,
+      "submissionTimestamp": 1781002098785,
+      "versionId": "aec45ada-d9e9-484a-8a34-7ba53a2f7c7c",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΓΣΨΗ-5ΡΛ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΓΣΨΗ-5ΡΛ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ψ1ΡΓΩΚΠ-ΠΔΖ",
+    "subject": "Συγκρότηση Συνεργείου υπερωριακής απασχόλησης Δ/νσης Προγραμματισμού, Οργάνωσης και Πληροφορικής μηνός Μάιο 2026.",
+    "organization": "ΔΗΜΟΣ ΜΕΓΑΡΕΩΝ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-04-30",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ1ΡΓΩΚΠ-ΠΔΖ",
+    "raw": {
+      "protocolNumber": "8427/30-04-2026",
+      "subject": "Συγκρότηση Συνεργείου υπερωριακής απασχόλησης Δ/νσης Προγραμματισμού, Οργάνωσης και Πληροφορικής μηνός Μάιο 2026.",
+      "issueDate": 1777507200000,
+      "organizationId": "6188",
+      "signerIds": [
+        "100009825"
+      ],
+      "unitIds": [
+        "91838"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": true,
+      "ada": "Ψ1ΡΓΩΚΠ-ΠΔΖ",
+      "publishTimestamp": 1781001987573,
+      "submissionTimestamp": 1781001987573,
+      "versionId": "95fbc171-f171-4b12-a795-48c5fd74ca32",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ1ΡΓΩΚΠ-ΠΔΖ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ψ1ΡΓΩΚΠ-ΠΔΖ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΜΞΡΩΚΧ-Ν4Δ",
+    "subject": "Προμήθεια αδρανών υλικών και ασφαλτικού υλικού για τις ανάγκες αποκατάστασης του οδικού δικτύου λόγω ζημιών που προκλήθηκαν κατά την επισκευή ζημιών ύδρευσης στις Δ.Ε. Αργαλαστής και Μηλεών.",
+    "organization": "Δήμος Νοτίου Πηλίου",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-05-26",
+    "amount": 579.71,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΜΞΡΩΚΧ-Ν4Δ",
+    "raw": {
+      "protocolNumber": "Β/611",
+      "subject": "Προμήθεια αδρανών υλικών και ασφαλτικού υλικού για τις ανάγκες αποκατάστασης του οδικού δικτύου λόγω ζημιών που προκλήθηκαν κατά την επισκευή ζημιών ύδρευσης στις Δ.Ε. Αργαλαστής και Μηλεών. ",
+      "issueDate": 1779753600000,
+      "organizationId": "6219",
+      "signerIds": [
+        "132899"
+      ],
+      "unitIds": [
+        "93050"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997898770",
+          "afmCountry": "EL",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "Δήμος Νοτίου Πηλίου",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 499.72,
+              "currency": "EUR"
+            },
+            "kae": "030.2410106007",
+            "sponsorAFMName": {
+              "afm": "105453238",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "ΜΠΡΕΛΛΑΣ  ΝΙΚΟΛΑΟΣ",
+              "noVATOrg": null
+            }
+          },
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 579.71,
+              "currency": "EUR"
+            },
+            "kae": "030.2410106009",
+            "sponsorAFMName": {
+              "afm": "105453238",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "ΜΠΡΕΛΛΑΣ  ΝΙΚΟΛΑΟΣ",
+              "noVATOrg": null
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΜΞΡΩΚΧ-Ν4Δ",
+      "publishTimestamp": 1781001812905,
+      "submissionTimestamp": 1781001812905,
+      "versionId": "5a67c469-ff06-47f9-b81a-c5e7ee84c4b2",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΜΞΡΩΚΧ-Ν4Δ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΜΞΡΩΚΧ-Ν4Δ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ρ49Λ465ΧΘΞ-ΘΡΝ",
+    "subject": "Συγκρότηση συνεργείου υπερωριακής απογευματινής εργασίας από το προσωπικό που υπηρετεί καθ’ οιονδήποτε τρόπο στη Διεύθυνση Απαλλοτριώσεων, Τοπογραφήσεων και Γεωπληροφορικής της Γενικής Διεύθυνσης Προδιαγραφών, Μητρώων και Απαλλοτριώσεων, του Υπουργείου Υποδομών και Μεταφορών, για το μήνα Ιούνιο 2026.",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΥΠΟΔΟΜΩΝ ΚΑΙ ΜΕΤΑΦΟΡΩΝ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ49Λ465ΧΘΞ-ΘΡΝ",
+    "raw": {
+      "protocolNumber": "92410",
+      "subject": "Συγκρότηση συνεργείου υπερωριακής απογευματινής εργασίας από το προσωπικό που υπηρετεί καθ’ οιονδήποτε τρόπο στη Διεύθυνση Απαλλοτριώσεων, Τοπογραφήσεων και Γεωπληροφορικής της Γενικής Διεύθυνσης Προδιαγραφών, Μητρώων και Απαλλοτριώσεων, του Υπουργείου Υποδομών και Μεταφορών, για το μήνα Ιούνιο 2026.",
+      "issueDate": 1780963200000,
+      "organizationId": "100025905",
+      "signerIds": [
+        "100041048"
+      ],
+      "unitIds": [
+        "100007478"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ρ49Λ465ΧΘΞ-ΘΡΝ",
+      "publishTimestamp": 1781001800567,
+      "submissionTimestamp": 1781001800567,
+      "versionId": "68150338-6041-423a-8d92-e863f6e05e05",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ49Λ465ΧΘΞ-ΘΡΝ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ49Λ465ΧΘΞ-ΘΡΝ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "62ΑΠ469Β7Τ-1ΟΡ",
+    "subject": "Εκλογή Διευθυντή του Εργαστηρίου «Βιώσιμης Αποτελασματικότητας, Έξυπνων Τεχνολογιών και Πληροφορικής στη Ναυτιλία και τις Μεταφορές -Laboratory of Sustainable Performance, Smart Technologies and Informatics in Maritime and Transport» «MASTILab» του Τμήματος Ναυτιλιακών Σπουδών της Σχολής Ναυτιλίας και Βιομηχανίας του Πανεπιστημίου Πειραιώς.",
+    "organization": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΕΙΡΑΙΩΣ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/62ΑΠ469Β7Τ-1ΟΡ",
+    "raw": {
+      "protocolNumber": "20260253",
+      "subject": "Εκλογή Διευθυντή του Εργαστηρίου «Βιώσιμης Αποτελασματικότητας, Έξυπνων Τεχνολογιών και Πληροφορικής στη Ναυτιλία και τις Μεταφορές -Laboratory of Sustainable Performance, Smart Technologies and Informatics in Maritime and Transport» «MASTILab» του Τμήματος Ναυτιλιακών Σπουδών της Σχολής Ναυτιλίας και Βιομηχανίας του Πανεπιστημίου Πειραιώς.",
+      "issueDate": 1780963200000,
+      "organizationId": "99206922",
+      "signerIds": [
+        "100077640"
+      ],
+      "unitIds": [
+        "72371"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "32"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": "Πράξη Οργάνου Διοίκησης Ν.Π.Δ.Δ.",
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "62ΑΠ469Β7Τ-1ΟΡ",
+      "publishTimestamp": 1781001749313,
+      "submissionTimestamp": 1781001749313,
+      "versionId": "b9b2c00a-a53a-47b7-96d5-1fea6a3669b7",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/62ΑΠ469Β7Τ-1ΟΡ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/62ΑΠ469Β7Τ-1ΟΡ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9Ο9ΒΩ0Π-ΗΩ9",
+    "subject": "Έγκριση τεχνικών προδιαγραφών  για την «ΕΤΗΣΙΑ ΣΥΝΔΡΟΜΗ ΣΕ ΔΙΑΔΙΚΤΥΑΚΕΣ ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ - dimosnet.gr & 4412.gr»",
+    "organization": "ΔΗΜΟΣ ΩΡΩΠΟΥ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9Ο9ΒΩ0Π-ΗΩ9",
+    "raw": {
+      "protocolNumber": "271",
+      "subject": "Έγκριση τεχνικών προδιαγραφών  για την «ΕΤΗΣΙΑ ΣΥΝΔΡΟΜΗ ΣΕ ΔΙΑΔΙΚΤΥΑΚΕΣ ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ - dimosnet.gr & 4412.gr»",
+      "issueDate": 1780963200000,
+      "organizationId": "6324",
+      "signerIds": [
+        "100048770"
+      ],
+      "unitIds": [
+        "100001422"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "16"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "9Ο9ΒΩ0Π-ΗΩ9",
+      "publishTimestamp": 1781001273957,
+      "submissionTimestamp": 1781001273957,
+      "versionId": "e52fa2fd-a50d-4212-abe0-f7342acd6804",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ο9ΒΩ0Π-ΗΩ9",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9Ο9ΒΩ0Π-ΗΩ9",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΜΩΖΩΚΧ-Τ4Β",
+    "subject": "Προμήθεια υλικών επισκευής του Δημοτικού δικτύου ύδρευσης  της Δ.Ε Μηλεών",
+    "organization": "Δήμος Νοτίου Πηλίου",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-05-25",
+    "amount": 2705.68,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΜΩΖΩΚΧ-Τ4Β",
+    "raw": {
+      "protocolNumber": "Β/586",
+      "subject": "Προμήθεια υλικών επισκευής του Δημοτικού δικτύου ύδρευσης  της Δ.Ε Μηλεών",
+      "issueDate": 1779667200000,
+      "organizationId": "6219",
+      "signerIds": [
+        "132899"
+      ],
+      "unitIds": [
+        "93050"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997898770",
+          "afmCountry": "EL",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "Δήμος Νοτίου Πηλίου",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 2705.68,
+              "currency": "EUR"
+            },
+            "kae": "025.2420301004",
+            "sponsorAFMName": {
+              "afm": "095244551",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "Β.Φ. ΑΓΓΕΛΑΚΟΠΟΥΛΟΣ Α.Β.Ε.Τ.Ε",
+              "noVATOrg": null
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΜΩΖΩΚΧ-Τ4Β",
+      "publishTimestamp": 1781000952450,
+      "submissionTimestamp": 1781000952450,
+      "versionId": "cf6ef940-dc06-4cf1-b5d9-714e255c9d04",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΜΩΖΩΚΧ-Τ4Β",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΜΩΖΩΚΧ-Τ4Β",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΧΒΚ46ΜΩΜΖ-2ΣΒ",
+    "subject": "Κατακύρωση προμήθειας λογισμικού για την τεχνολογική θωράκιση των υποδομών της ΟΣΕΘ A.E.",
+    "organization": "ΟΡΓΑΝΙΣΜΟΣ ΣΥΓΚΟΙΝΩΝΙΑΚΟΥ ΕΡΓΟΥ ΘΕΣΣΑΛΟΝΙΚΗΣ Α.Ε.",
+    "decision_type": "ΚΑΤΑΚΥΡΩΣΗ",
+    "issue_date": "2026-06-09",
+    "amount": 14384.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΧΒΚ46ΜΩΜΖ-2ΣΒ",
+    "raw": {
+      "protocolNumber": "4223/2026",
+      "subject": "Κατακύρωση προμήθειας λογισμικού για την τεχνολογική θωράκιση των υποδομών της ΟΣΕΘ A.E.",
+      "issueDate": 1780963200000,
+      "organizationId": "100035479",
+      "signerIds": [
+        "100102677"
+      ],
+      "unitIds": [
+        "100036621"
+      ],
+      "decisionTypeId": "Δ.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "amount": 14384.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΧΒΚ46ΜΩΜΖ-2ΣΒ",
+      "publishTimestamp": 1781000702853,
+      "submissionTimestamp": 1781000702853,
+      "versionId": "4ca2f748-5329-4c94-8c56-55fddd323794",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΧΒΚ46ΜΩΜΖ-2ΣΒ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΧΒΚ46ΜΩΜΖ-2ΣΒ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "994ΘΩΗΔ-ΘΙ0",
+    "subject": "ΑΑΥ 1249 ΚΑΛΥΨΗ ΔΑΠΑΝΗΣ ΠΡΟΕΡΧΟΜΕΝΗΣ ΑΠΟ ΔΕΣΜΕΥΣΗ ΠΟΛΥΕΤΟΥΣ ΥΠΟΧΡΕΩΣΗΣ ΓΙΑ ΤΗ ΔΑΠΑΝΗ ΜΕ ΤΙΤΛΟ: « Προμήθεια Η/Υ και εξοπλισμού πληροφορικής - ΟΜΑΔΑ Β » ( Α.Μ. 90/2025) - (ΠΡΟΗΓΟΥΜΕΝΗ ΑΑΠΥ 1486/2025 ΜΕ ΠΡΩΤ.28434)",
+    "organization": "ΔΗΜΟΣ ΧΑΛΑΝΔΡΙΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/994ΘΩΗΔ-ΘΙ0",
+    "raw": {
+      "protocolNumber": "18410/2026",
+      "subject": "ΑΑΥ 1249 ΚΑΛΥΨΗ ΔΑΠΑΝΗΣ ΠΡΟΕΡΧΟΜΕΝΗΣ ΑΠΟ ΔΕΣΜΕΥΣΗ ΠΟΛΥΕΤΟΥΣ ΥΠΟΧΡΕΩΣΗΣ ΓΙΑ ΤΗ ΔΑΠΑΝΗ ΜΕ ΤΙΤΛΟ: « Προμήθεια Η/Υ και εξοπλισμού πληροφορικής - ΟΜΑΔΑ Β » ( Α.Μ. 90/2025) - (ΠΡΟΗΓΟΥΜΕΝΗ ΑΑΠΥ 1486/2025 ΜΕ ΠΡΩΤ.28434)",
+      "issueDate": 1780963200000,
+      "organizationId": "6314",
+      "signerIds": [
+        "137455"
+      ],
+      "unitIds": [
+        "78607"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": null,
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "currency": "EUR"
+        },
+        "amountWithKae": [],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "994ΘΩΗΔ-ΘΙ0",
+      "publishTimestamp": 1781000667379,
+      "submissionTimestamp": 1781000667379,
+      "versionId": "8c487f28-0859-4b54-826e-bd9cfa9a5212",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/994ΘΩΗΔ-ΘΙ0",
+      "documentUrl": "https://diavgeia.gov.gr/doc/994ΘΩΗΔ-ΘΙ0",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΣΒΖΩ65-ΘΞ6",
+    "subject": "Έγκριση μελέτης για Προμήθεια ηλεκτρονικών υπολογιστών, πολυμηχανημάτων και λοιπού\nηλεκτρονικού εξοπλισμού και ανταλλακτικών, για την κάλυψη των αναγκών των Υπηρεσιών του Δήμου Αγρινίου που έχουν έδρα την Δημοτική Ενότητα Νεάπολης",
+    "organization": "ΔΗΜΟΣ ΑΓΡΙΝΙΟΥ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΣΒΖΩ65-ΘΞ6",
+    "raw": {
+      "protocolNumber": "22875",
+      "subject": "Έγκριση μελέτης για Προμήθεια ηλεκτρονικών υπολογιστών, πολυμηχανημάτων και λοιπού\nηλεκτρονικού εξοπλισμού και ανταλλακτικών, για την κάλυψη των αναγκών των Υπηρεσιών του Δήμου Αγρινίου που έχουν έδρα την Δημοτική Ενότητα Νεάπολης",
+      "issueDate": 1780963200000,
+      "organizationId": "6012",
+      "signerIds": [
+        "100024272"
+      ],
+      "unitIds": [
+        "81933"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "currency": "EUR"
+        },
+        "assignmentType": "Προμήθειες",
+        "cpv": [
+          "30213000-5",
+          "30232110-8",
+          "31710000-6"
+        ],
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΣΒΖΩ65-ΘΞ6",
+      "publishTimestamp": 1781000487364,
+      "submissionTimestamp": 1781000487364,
+      "versionId": "5f9ae630-a4d1-4e76-ae43-30cf9ea22b9c",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΣΒΖΩ65-ΘΞ6",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΣΒΖΩ65-ΘΞ6",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΠΛ4Ω63-Ι5Δ",
+    "subject": "Απόφαση ανάθεσης για τη δαπάνη «Υπηρεσίες συντήρησης και επισκευής Κεντρικών Η/Υ (servers), υπαρχόντων Η/Υ, δικτύου Η/Υ, περιφερειακών και λοιπών",
+    "organization": "ΔΗΜΟΣ ΑΓΙΟΥ ΔΗΜΗΤΡΙΟΥ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΠΛ4Ω63-Ι5Δ",
+    "raw": {
+      "protocolNumber": "24580",
+      "subject": "Απόφαση ανάθεσης για τη δαπάνη «Υπηρεσίες συντήρησης και επισκευής Κεντρικών Η/Υ (servers), υπαρχόντων Η/Υ, δικτύου Η/Υ, περιφερειακών και λοιπών",
+      "issueDate": 1780963200000,
+      "organizationId": "6007",
+      "signerIds": [
+        "100084467"
+      ],
+      "unitIds": [
+        "78949"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": null,
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΠΛ4Ω63-Ι5Δ",
+      "publishTimestamp": 1781000273426,
+      "submissionTimestamp": 1781000273426,
+      "versionId": "1d39fe61-5cb2-4842-8036-ef3e76a8bf9b",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΠΛ4Ω63-Ι5Δ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΠΛ4Ω63-Ι5Δ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ρ9Υ0ΩΚ4-ΓΗΗ",
+    "subject": "ΚΑΤΑΒΟΛΗ ΑΠΟΖΗΜΙΩΣΗΣ ΓΙΑ ΑΠΟΓΕΥΜΑΤΙΝΗ ΥΠΕΡΩΡΙΑΚΗ ΕΡΓΑΣΙΑ ΤΟΥ ΤΜ. ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ,ΑΝΑΠΤΥΞΗΣ, ΟΡΓΑΝΩΣΗΣ, ΔΙΑΦΑΝΕΙΑΣ,  ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΩΝ (ΤΠΕ) ΚΑΙ ΤΟΥΡΙΣΜΟΥ, ΓΙΑ ΤΟ ΧΡΟΝΙΚΟ ΔΙΑΣΤΗΜΑ ΑΠΟ 01/04/2026 ΕΩΣ  31/05/2026.",
+    "organization": "ΔΗΜΟΣ ΜΕΣΣΗΝΗΣ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ9Υ0ΩΚ4-ΓΗΗ",
+    "raw": {
+      "protocolNumber": "10983/09-06-2026",
+      "subject": "ΚΑΤΑΒΟΛΗ ΑΠΟΖΗΜΙΩΣΗΣ ΓΙΑ ΑΠΟΓΕΥΜΑΤΙΝΗ ΥΠΕΡΩΡΙΑΚΗ ΕΡΓΑΣΙΑ ΤΟΥ ΤΜ. ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΥ,ΑΝΑΠΤΥΞΗΣ, ΟΡΓΑΝΩΣΗΣ, ΔΙΑΦΑΝΕΙΑΣ,  ΠΛΗΡΟΦΟΡΙΚΗΣ ΚΑΙ ΕΠΙΚΟΙΝΩΝΙΩΝ (ΤΠΕ) ΚΑΙ ΤΟΥΡΙΣΜΟΥ, ΓΙΑ ΤΟ ΧΡΟΝΙΚΟ ΔΙΑΣΤΗΜΑ ΑΠΟ 01/04/2026 ΕΩΣ  31/05/2026.",
+      "issueDate": 1780963200000,
+      "organizationId": "6190",
+      "signerIds": [
+        "100048972"
+      ],
+      "unitIds": [
+        "92829"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "44"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "Ρ9Υ0ΩΚ4-ΓΗΗ",
+      "publishTimestamp": 1780999829848,
+      "submissionTimestamp": 1780999829848,
+      "versionId": "e352a2eb-2b2f-43a3-8535-c970b07860cb",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ9Υ0ΩΚ4-ΓΗΗ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ9Υ0ΩΚ4-ΓΗΗ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΤΒΘΟΞΝΒ-ΩΩΛ",
+    "subject": "Χρηματικό Ενταλμα Πληρωμής Α-55 για :Προμήθεια Εφαρμογών Λογισμικού ERP & Module (Σ)",
+    "organization": "ΦΟΔΣΑ ΠΕΛΟΠΟΝΝΗΣΟΥ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 6200.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΤΒΘΟΞΝΒ-ΩΩΛ",
+    "raw": {
+      "protocolNumber": "Α-55",
+      "subject": "Χρηματικό Ενταλμα Πληρωμής Α-55 για :Προμήθεια Εφαρμογών Λογισμικού ERP & Module (Σ)",
+      "issueDate": 1780963200000,
+      "organizationId": "55355",
+      "signerIds": [
+        "100044475"
+      ],
+      "unitIds": [
+        "94656"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997441443",
+          "afmType": "EL",
+          "name": "ΦΟΔΣΑ ΠΕΛΟΠΟΝΝΗΣΟΥ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "095498944",
+              "afmType": "EL",
+              "name": "ALFAWARE ΠΛΗΡΟΦΟΡΙΚΗ Α.Ε."
+            },
+            "expenseAmount": {
+              "amount": 6200.0,
+              "currency": "EUR"
+            },
+            "kae": "64-6736."
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΤΒΘΟΞΝΒ-ΩΩΛ",
+      "publishTimestamp": 1780999671804,
+      "submissionTimestamp": 1780999671804,
+      "versionId": "081261ad-c902-4e93-bf9a-78535b63029d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΤΒΘΟΞΝΒ-ΩΩΛ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΤΒΘΟΞΝΒ-ΩΩΛ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "94Σ746ΨΧΞ5-ΧΣΗ",
+    "subject": "Παροχή υπηρεσιών συντήρησης για 5 Dell PowerΕdge R730 servers - εξυπηρετητές  & 1 Dell Storage καθώς και την παροχή υπηρεσιών τεχνικής υποστήριξης λογισμικού με την προαγορά ανθρωποωρών",
+    "organization": "ΟΡΓΑΝΙΣΜΟΣ ΕΛΛ. ΓΕΩΡΓΙΚΩΝ ΑΣΦΑΛΙΣΕΩΝ (ΕΛ.Γ.Α.)",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-09",
+    "amount": 25000.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/94Σ746ΨΧΞ5-ΧΣΗ",
+    "raw": {
+      "protocolNumber": "6572",
+      "subject": "Παροχή υπηρεσιών συντήρησης για 5 Dell PowerΕdge R730 servers - εξυπηρετητές  & 1 Dell Storage καθώς και την παροχή υπηρεσιών τεχνικής υποστήριξης λογισμικού με την προαγορά ανθρωποωρών",
+      "issueDate": 1780963200000,
+      "organizationId": "99200298",
+      "signerIds": [
+        "100055291"
+      ],
+      "unitIds": [
+        "75238"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "72267000-4"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+        "estimatedAmount": {
+          "amount": 25000.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "94Σ746ΨΧΞ5-ΧΣΗ",
+      "publishTimestamp": 1780999610637,
+      "submissionTimestamp": 1780999610637,
+      "versionId": "60590a6f-2715-4e38-bbb8-55ea6c442610",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/94Σ746ΨΧΞ5-ΧΣΗ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/94Σ746ΨΧΞ5-ΧΣΗ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "92ΔΑΩ1Π-ΡΙΚ",
+    "subject": "Ψηφιακός Μετασχηματισμός Δήμου Πύδνας - Κολινδρού",
+    "organization": "ΔΗΜΟΣ ΠΥΔΝΑΣ - ΚΟΛΙΝΔΡΟΥ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-09",
+    "amount": 306129.03,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/92ΔΑΩ1Π-ΡΙΚ",
+    "raw": {
+      "protocolNumber": "7354",
+      "subject": "Ψηφιακός Μετασχηματισμός Δήμου Πύδνας - Κολινδρού",
+      "issueDate": 1780963200000,
+      "organizationId": "6256",
+      "signerIds": [
+        "100084542"
+      ],
+      "unitIds": [
+        "77979"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "48000000-8"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+        "manifestContractType": "Προμήθειες",
+        "orgBudgetCode": "Συγχρηματοδοτούμενο Έργο",
+        "estimatedAmount": {
+          "amount": 306129.03,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "92ΔΑΩ1Π-ΡΙΚ",
+      "publishTimestamp": 1780999328703,
+      "submissionTimestamp": 1780999328703,
+      "versionId": "5572349f-9a27-4d02-913d-0479e59ea50e",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/92ΔΑΩ1Π-ΡΙΚ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/92ΔΑΩ1Π-ΡΙΚ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ψ7ΠΟΩ0Ο-ΘΤΕ",
+    "subject": "Χρηματικό Ένταλμα Πληρωμής ΜΙΣ-Α00438 για:  (511)Αποδοχές Β  δεκ/νθημερου,  5 μόνιμων  υπαλλήλων , μηνός Ιουνίου 2026  / Λοιπές Υπηρεσίες / Πληροφορική",
+    "organization": "ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ (ΚΡΗΤΗΣ)",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-04",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ7ΠΟΩ0Ο-ΘΤΕ",
+    "raw": {
+      "protocolNumber": "438",
+      "subject": "Χρηματικό Ένταλμα Πληρωμής ΜΙΣ-Α00438 για:  (511)Αποδοχές Β  δεκ/νθημερου,  5 μόνιμων  υπαλλήλων , μηνός Ιουνίου 2026  / Λοιπές Υπηρεσίες / Πληροφορική",
+      "issueDate": 1780606800000,
+      "organizationId": "6325",
+      "signerIds": [
+        "100042183"
+      ],
+      "unitIds": [
+        "92157"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997579296",
+          "afmType": "EU",
+          "afmCountry": "EL",
+          "name": "ΔΗΜΟΣ ΗΡΑΚΛΕΙΟΥ (ΚΡΗΤΗΣ)"
+        },
+        "skipVatReason": "SKIP_VAT_REASON_1",
+        "sponsor": null,
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ψ7ΠΟΩ0Ο-ΘΤΕ",
+      "publishTimestamp": 1780999284663,
+      "submissionTimestamp": 1780999284663,
+      "versionId": "202623b0-dbf0-49fe-b975-9d7ba63d8c52",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ7ΠΟΩ0Ο-ΘΤΕ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ψ7ΠΟΩ0Ο-ΘΤΕ",
+      "documentChecksum": null,
+      "attachments": [
+        {
+          "id": "0f2f3e1d-cace-48f1-967c-30ff630b277e",
+          "description": "Συνοδευτικό έγγραφο",
+          "filename": "report.pdf",
+          "mimeType": "application/pdf",
+          "checksum": "eacfe2d58b92d0635a3cb0b89e8034cb21d46d7a4d3f0d89bfb306a9fd30de9b",
+          "size": 192356
+        }
+      ],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "68Ζ046ΨΧΥΙ-Ν0Σ",
+    "subject": "Προμήθεια και εγκατάσταση αδειών λογισμικού προστασίας από ιούς για τουλάχιστον δεκαοχτώ (18) μήνες στο Πρωτοδικείο Αθηνών,   ΥΔ-27655/29-5-2026.",
+    "organization": "ΤΑΜΕΙΟ ΧΡΗΜΑΤΟΔΟΤΗΣΗΣ ΔΙΚΑΣΤΙΚΩΝ ΚΤΙΡΙΩΝ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 36580.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/68Ζ046ΨΧΥΙ-Ν0Σ",
+    "raw": {
+      "protocolNumber": "11552",
+      "subject": "Προμήθεια και εγκατάσταση αδειών λογισμικού προστασίας από ιούς για τουλάχιστον δεκαοχτώ (18) μήνες στο Πρωτοδικείο Αθηνών,   ΥΔ-27655/29-5-2026.\n",
+      "issueDate": 1780999051517,
+      "organizationId": "99200561",
+      "signerIds": [
+        "100097906"
+      ],
+      "unitIds": [
+        "73272"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 36580.0,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "kae": "2410189",
+            "amountWithVAT": 36580.0,
+            "kaeCreditRemainder": 0.0,
+            "kaeBudgetRemainder": 0.0
+          }
+        ],
+        "relatedPartialADA": "",
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "68Ζ046ΨΧΥΙ-Ν0Σ",
+      "publishTimestamp": 1780999052451,
+      "submissionTimestamp": 1780999052451,
+      "versionId": "c7651967-abb3-4327-9ce9-0d8592a379c2",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/68Ζ046ΨΧΥΙ-Ν0Σ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/68Ζ046ΨΧΥΙ-Ν0Σ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ε1ΠΝ469ΗΓΒ-13Ρ",
+    "subject": "Προμήθεια λογισμικού εφαρμογών γραφείου και εύρεση δυσλειτουργίας OUTLOOK",
+    "organization": "ΕΑΚ ΧΑΝΙΩΝ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-08",
+    "amount": 178.42,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ε1ΠΝ469ΗΓΒ-13Ρ",
+    "raw": {
+      "protocolNumber": "661",
+      "subject": "Προμήθεια λογισμικού εφαρμογών γραφείου και εύρεση δυσλειτουργίας OUTLOOK",
+      "issueDate": 1780952400000,
+      "organizationId": "99221217",
+      "signerIds": [
+        "100083797"
+      ],
+      "unitIds": [
+        "77581"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "110",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 178.42,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "kae": "0001.2410189001",
+            "amountWithVAT": 178.42
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ε1ΠΝ469ΗΓΒ-13Ρ",
+      "publishTimestamp": 1781006986449,
+      "submissionTimestamp": 1781006986449,
+      "versionId": "eadde399-7530-4f5e-af7e-1af9d4fbeb9d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ε1ΠΝ469ΗΓΒ-13Ρ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ε1ΠΝ469ΗΓΒ-13Ρ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ψ5ΥΠΩΚΞ-ΒΡ1",
+    "subject": "Ηλεκτρονικοί υπολογιστές και ηλεκτρονικά συγκροτήματα και λογισμικά για τις Σχολικές μονάδες Β’ Βάθμιας Εκπαίδευσης.Δυνάμει του 6223/11-05-2026 τεκμηριωμένου αιτήματος .",
+    "organization": "Δήμος Μυλοποτάμου",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 644.8,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ5ΥΠΩΚΞ-ΒΡ1",
+    "raw": {
+      "protocolNumber": "Α/746",
+      "subject": "Ηλεκτρονικοί υπολογιστές και ηλεκτρονικά συγκροτήματα και λογισμικά για τις Σχολικές μονάδες Β’ Βάθμιας Εκπαίδευσης.Δυνάμει του 6223/11-05-2026 τεκμηριωμένου αιτήματος .",
+      "issueDate": 1780963200000,
+      "organizationId": "6201",
+      "signerIds": [
+        "100082488"
+      ],
+      "unitIds": [
+        "79238"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997820850",
+          "afmCountry": "EL",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "Δήμος Μυλοποτάμου",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 644.8,
+              "currency": "EUR"
+            },
+            "kae": "070.3120301002",
+            "sponsorAFMName": {
+              "afm": "998162010",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "ΚΟΥΓΕΝΤΑΚΗΣ-ΣΠΑΧΗΣ Ο.Ε.- ΤΕΧΝΟΚΑΛΥΨΗ",
+              "noVATOrg": null
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ψ5ΥΠΩΚΞ-ΒΡ1",
+      "publishTimestamp": 1781005349246,
+      "submissionTimestamp": 1781005349246,
+      "versionId": "d169ee9e-2ad2-473a-82c4-96a82220b3e3",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ5ΥΠΩΚΞ-ΒΡ1",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ψ5ΥΠΩΚΞ-ΒΡ1",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ρ5ΖΡΩ6Φ-93Υ",
+    "subject": "ΠΡΟΜΗΘΕΙΑ ΛΟΓΙΣΜΙΚΟΥ ΓΙΑ ΣΥΝΤΑΞΗ ΠΡΟΥΠΟΛΟΓΙΣΜΩΝ ΜΕΛΕΤΩΝ",
+    "organization": "Δήμος Αγαθονησίου",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 819.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ5ΖΡΩ6Φ-93Υ",
+    "raw": {
+      "protocolNumber": "Β/171",
+      "subject": "ΠΡΟΜΗΘΕΙΑ ΛΟΓΙΣΜΙΚΟΥ ΓΙΑ ΣΥΝΤΑΞΗ ΠΡΟΥΠΟΛΟΓΙΣΜΩΝ ΜΕΛΕΤΩΝ",
+      "issueDate": 1780963200000,
+      "organizationId": "6002",
+      "signerIds": [
+        "100056967"
+      ],
+      "unitIds": [
+        "100041830"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090098820",
+          "afmCountry": "EL",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "Δήμος Αγαθονησίου",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "cpv": null,
+            "expenseAmount": {
+              "amount": 819.0,
+              "currency": "EUR"
+            },
+            "kae": "010.3120389003",
+            "sponsorAFMName": {
+              "afm": "016086762",
+              "afmCountry": "EL",
+              "afmType": "EL",
+              "enterName": false,
+              "name": "ΚΥΡΑΝΑΚΟΣ ΝΙΚΟΛΑΟΣ",
+              "noVATOrg": null
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ρ5ΖΡΩ6Φ-93Υ",
+      "publishTimestamp": 1781005231173,
+      "submissionTimestamp": 1781005231173,
+      "versionId": "9a1c1ff9-ea27-43e2-87d0-dfef6d28fe09",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ5ΖΡΩ6Φ-93Υ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ5ΖΡΩ6Φ-93Υ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9Ψ2Δ469Β7Θ-29Φ",
+    "subject": "59833 02/06/2026 ΔΑΠΑΝΗ ΠΑΝ. ΠΑΤΡΩΝ ΓΙΑ ΤΗΝ ΑΝΑΝΕΩΣΗ ΣΥΜΒΟΛΑΙΟΥ ΥΠΟΣΤΗΡΙΞΗΣ ΛΟΓΙΣΜΙΚΟΥ ACE ERP eCM (Π-8/2026, ΠΡΩΤΑ  ΔΙΚΑΙΟΛΟΓΗΤΙΚΑ)",
+    "organization": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 3075.53,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9Ψ2Δ469Β7Θ-29Φ",
+    "raw": {
+      "protocolNumber": "ΤΠ/560 - 2026",
+      "subject": "59833 02/06/2026 ΔΑΠΑΝΗ ΠΑΝ. ΠΑΤΡΩΝ ΓΙΑ ΤΗΝ ΑΝΑΝΕΩΣΗ ΣΥΜΒΟΛΑΙΟΥ ΥΠΟΣΤΗΡΙΞΗΣ ΛΟΓΙΣΜΙΚΟΥ ACE ERP eCM (Π-8/2026, ΠΡΩΤΑ  ΔΙΚΑΙΟΛΟΓΗΤΙΚΑ) ",
+      "issueDate": 1780963200000,
+      "organizationId": "99206920",
+      "signerIds": [
+        "100037822"
+      ],
+      "unitIds": [
+        "74044"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090061075",
+          "afmType": "EL",
+          "afmCountry": "EL",
+          "name": "ΠΑΝΕΠΙΣΤΗΜΙΟ ΠΑΤΡΩΝ"
+        },
+        "skipVatReason": "",
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "094029552",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "name": "UNISYSTEMS"
+            },
+            "expenseAmount": {
+              "amount": 3075.53,
+              "currency": "EUR"
+            },
+            "cpv": "48000000-8",
+            "kae": "3140301"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9Ψ2Δ469Β7Θ-29Φ",
+      "publishTimestamp": 1781003999298,
+      "submissionTimestamp": 1781003999298,
+      "versionId": "8d7f8075-a8f6-4830-89ac-1bc2c37bd978",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ψ2Δ469Β7Θ-29Φ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9Ψ2Δ469Β7Θ-29Φ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9411ΩΗΒ-ΥΓ8",
+    "subject": "«Περί λήψης απόφασης για την ανάθεση της παροχής υπηρεσίας με τίτλο: «Συντήρηση εφαρμογών λογισμικού» με τη διαδικασία της διαπραγμάτευσης χωρίς δημοσίευση, λόγω αποκλειστικότητας σύμφωνα με το άρθρο 32 παρ.2β του Ν. 4412/16».",
+    "organization": "ΔΗΜΟΣ ΤΑΝΑΓΡΑΣ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 69167.2,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9411ΩΗΒ-ΥΓ8",
+    "raw": {
+      "protocolNumber": "9705/09-06-2026",
+      "subject": "«Περί λήψης απόφασης για την ανάθεση της παροχής υπηρεσίας με τίτλο: «Συντήρηση εφαρμογών λογισμικού» με τη διαδικασία της διαπραγμάτευσης χωρίς δημοσίευση, λόγω αποκλειστικότητας σύμφωνα με το άρθρο 32 παρ.2β του Ν. 4412/16».",
+      "issueDate": 1780963200000,
+      "organizationId": "6293",
+      "signerIds": [
+        "100002235"
+      ],
+      "unitIds": [
+        "100086265"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "amount": 69167.2,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": null,
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9411ΩΗΒ-ΥΓ8",
+      "publishTimestamp": 1781003875147,
+      "submissionTimestamp": 1781003875147,
+      "versionId": "6777237b-1d69-45eb-b8f8-55ebab91f942",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9411ΩΗΒ-ΥΓ8",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9411ΩΗΒ-ΥΓ8",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ψ0Μ47Λ7-Ι4Ρ",
+    "subject": "Δημοσίευση διακήρυξης παροχής γενικών Υπηρεσιών “Αποκατάσταση βλαβών & επεμβάσεις τοπικού χαρακτήρα σε οδικό δίκτυο αρμοδιότητας ΔΙ.ΔΙ.Μ.Υ. Περιφέρειας Αττικής για 2 έτη»",
+    "organization": "ΠΕΡΙΦΕΡΕΙΑ ΑΤΤΙΚΗΣ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ0Μ47Λ7-Ι4Ρ",
+    "raw": {
+      "protocolNumber": "883/2026",
+      "subject": "Δημοσίευση διακήρυξης παροχής γενικών Υπηρεσιών “Αποκατάσταση βλαβών & επεμβάσεις τοπικού χαρακτήρα σε οδικό δίκτυο αρμοδιότητας ΔΙ.ΔΙ.Μ.Υ. Περιφέρειας Αττικής για 2 έτη»",
+      "issueDate": 1780963200000,
+      "organizationId": "5002",
+      "signerIds": [
+        "100084262"
+      ],
+      "unitIds": [
+        "100088848"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "50230000-6"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Πρόγραμμα Δημοσίων Επενδύσεων",
+        "estimatedAmount": {
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ψ0Μ47Λ7-Ι4Ρ",
+      "publishTimestamp": 1781003245026,
+      "submissionTimestamp": 1781003245026,
+      "versionId": "58d463f9-5cbd-4cac-9502-92652884fcc1",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ψ0Μ47Λ7-Ι4Ρ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ψ0Μ47Λ7-Ι4Ρ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΕΠΝΚΩΞΡ-ΝΔΓ",
+    "subject": "Συντήρηση εφαρμογών λογισμικού Δ.Τ.Υ. ΑΠΟΦ.ΑΠ.ΑΝΑΘ. ΑΡ.ΠΡΩΤ. 10177-26/5/2026, 26AWRD019091855 , AAY433",
+    "organization": "ΔΗΜΟΣ ΠΑΙΟΝΙΑΣ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 1426.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΕΠΝΚΩΞΡ-ΝΔΓ",
+    "raw": {
+      "protocolNumber": "Εντ.530.2026",
+      "subject": "Συντήρηση εφαρμογών λογισμικού Δ.Τ.Υ. ΑΠΟΦ.ΑΠ.ΑΝΑΘ. ΑΡ.ΠΡΩΤ. 10177-26/5/2026, 26AWRD019091855 , AAY433",
+      "issueDate": 1780963200000,
+      "organizationId": "6231",
+      "signerIds": [
+        "100041971"
+      ],
+      "unitIds": [
+        "81815"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": null,
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "802903769",
+              "name": "ΠΑΠΑΓΡΗΓΟΡΙΟΥ ΚΩΝ/ΝΟΣ ΚΑΙ ΣΙΑ Ε.Ε.",
+              "afmType": "EL"
+            },
+            "expenseAmount": {
+              "amount": 1426.0,
+              "currency": "EUR"
+            },
+            "kae": "030.2420304010"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΕΠΝΚΩΞΡ-ΝΔΓ",
+      "publishTimestamp": 1781001963384,
+      "submissionTimestamp": 1781001963384,
+      "versionId": "7d733e5d-7dec-424c-a883-30ec76987401",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΕΠΝΚΩΞΡ-ΝΔΓ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΕΠΝΚΩΞΡ-ΝΔΓ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΤΑ7ΟΡΕ4-ΘΨ6",
+    "subject": "Προμήθεια Αδειών χρήσης λογισμικού σχεδίασης (AutoCad) για τις ανάγκες της Υπηρεσίας μας",
+    "organization": "ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΝΟΜΟΥ ΧΑΝΙΩΝ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-05-26",
+    "amount": 4116.8,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΤΑ7ΟΡΕ4-ΘΨ6",
+    "raw": {
+      "protocolNumber": "166",
+      "subject": "Προμήθεια Αδειών χρήσης λογισμικού σχεδίασης (AutoCad) για τις ανάγκες της Υπηρεσίας μας ",
+      "issueDate": 1779829200000,
+      "organizationId": "50050",
+      "signerIds": [
+        "100059318"
+      ],
+      "unitIds": [
+        "92478"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090016473",
+          "afmCountry": "EL",
+          "name": "ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΝΟΜΟΥ ΧΑΝΙΩΝ",
+          "afmType": "EL"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "kae": "001.3120301001",
+            "expenseAmount": {
+              "amount": 4116.8,
+              "currency": "EUR"
+            },
+            "sponsorAFMName": {
+              "afm": "015355460",
+              "name": "ΚΟΤΣΙΦΑΚΗΣ ΚΩΝ/ΝΟΣ-ΜΙΝΩΣ ΜΗΧΑΝΟΡΓΑΝΩΣΗ ΕΠΙΧΕΙΡΗΣΕΩΝ",
+              "afmType": "EL"
+            },
+            "cpv": ""
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΤΑ7ΟΡΕ4-ΘΨ6",
+      "publishTimestamp": 1781001925494,
+      "submissionTimestamp": 1781001925494,
+      "versionId": "65d5fa41-8e2d-4fad-ad3b-1709b6cd1cbb",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΤΑ7ΟΡΕ4-ΘΨ6",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΤΑ7ΟΡΕ4-ΘΨ6",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΧΞΦΩΞΘ-ΘΗΞ",
+    "subject": "Δαπάνη συντήρησης και υποστήριξης όπως και παραχώρησης δικαιωμάτων χρήσης νέων βελτιωμένων εκδόσεων λογισμικού (ομάδα 5), Σύμβαση 60801/22-11-2024 (Ισχύς 01-12--2024 λήξη 30-06-2026)",
+    "organization": "ΔΗΜΟΣ ΠΑΥΛΟΥ ΜΕΛΑ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-08",
+    "amount": 1957.89,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΧΞΦΩΞΘ-ΘΗΞ",
+    "raw": {
+      "protocolNumber": "Εντ.1579.2026",
+      "subject": "Δαπάνη συντήρησης και υποστήριξης όπως και παραχώρησης δικαιωμάτων χρήσης νέων βελτιωμένων εκδόσεων λογισμικού (ομάδα 5), Σύμβαση 60801/22-11-2024 (Ισχύς 01-12--2024 λήξη 30-06-2026)",
+      "issueDate": 1780876800000,
+      "organizationId": "6242",
+      "signerIds": [
+        "100067167"
+      ],
+      "unitIds": [
+        "80647"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": null,
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "093289026",
+              "name": "ΚΟΝΤΟΣ ΑΔΩΝΙΣ & ΣΙΑ Ε.Ε",
+              "afmType": "EL"
+            },
+            "expenseAmount": {
+              "amount": 1957.89,
+              "currency": "EUR"
+            },
+            "kae": "010.2420304010"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΧΞΦΩΞΘ-ΘΗΞ",
+      "publishTimestamp": 1781001268378,
+      "submissionTimestamp": 1781001268378,
+      "versionId": "104b81a8-4397-4da2-9833-1fb6a844bd09",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΧΞΦΩΞΘ-ΘΗΞ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΧΞΦΩΞΘ-ΘΗΞ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "6ΔΒΔΩΗ5-ΦΕΦ",
+    "subject": "Χρηματικό Ένταλμα Πληρωμής Α01060 για: ΕΤΗΣΙΑ ΥΠΟΣΤΗΡΙΞΗ (ΑΔΕΙΕΣ ΧΡΗΣΗΣ) ΕΦΑΡΜΟΓΩΝ ΛΟΓΙΣΜΙΚΟΥ (FINE/ADAPT) ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΤΩΝ ΥΠΗΡΕΣΙΩΝ ΤΟΥ ΔΗΜΟΥ ΧΑΝΙΩΝ (Απόφαση 27293/16.05.2026)",
+    "organization": "ΔΗΜΟΣ ΧΑΝΙΩΝ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-08",
+    "amount": 2305.16,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΔΒΔΩΗ5-ΦΕΦ",
+    "raw": {
+      "protocolNumber": "Α01060",
+      "subject": "Χρηματικό Ένταλμα Πληρωμής Α01060 για: ΕΤΗΣΙΑ ΥΠΟΣΤΗΡΙΞΗ (ΑΔΕΙΕΣ ΧΡΗΣΗΣ) ΕΦΑΡΜΟΓΩΝ ΛΟΓΙΣΜΙΚΟΥ (FINE/ADAPT) ΓΙΑ ΤΙΣ ΑΝΑΓΚΕΣ ΤΩΝ ΥΠΗΡΕΣΙΩΝ ΤΟΥ ΔΗΜΟΥ ΧΑΝΙΩΝ (Απόφαση 27293/16.05.2026)",
+      "issueDate": 1780952400000,
+      "organizationId": "6318",
+      "signerIds": [
+        "100023012"
+      ],
+      "unitIds": [
+        "81058"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "997678759",
+          "afmType": "EU",
+          "afmCountry": "EL",
+          "name": "ΔΗΜΟΣ ΧΑΝΙΩΝ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "095506150",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "name": "4Μ ΠΡΟΗΓΜΕΝΑ ΣΥΣΤΗΜΑΤΑ ΤΕΧΝΙΚΟΥ ΛΟΓΙΣΜΙΚΟΥ Α.Ε.",
+              "noVATOrg": ""
+            },
+            "expenseAmount": {
+              "amount": 2305.16,
+              "currency": "EUR"
+            },
+            "kae": "030.2420304013"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "6ΔΒΔΩΗ5-ΦΕΦ",
+      "publishTimestamp": 1781000247739,
+      "submissionTimestamp": 1781000247739,
+      "versionId": "f528e271-5292-48e1-b8bc-adf554d0a162",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΔΒΔΩΗ5-ΦΕΦ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/6ΔΒΔΩΗ5-ΦΕΦ",
+      "documentChecksum": null,
+      "attachments": [
+        {
+          "id": "73c037b0-4587-41ea-9a49-534be2582fd6",
+          "description": "Συνοδευτικό έγγραφο",
+          "filename": "report.pdf",
+          "mimeType": "application/pdf",
+          "checksum": "e3470e58e9e71d0c47c5ca1866f866ff58f36eb94a759a4c7facd6997d18be76",
+          "size": 71012
+        }
+      ],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΓ8ΒΟΕΘΞ-6Χ6",
+    "subject": "Απευθείας ανάθεση της υπηρεσίας με τίτλο «ΠΑΡΟΧΗ\nΥΠΗΡΕΣΙΩΝ ΕΠΙΚΑΙΡΟΠΟΙΗΣΗΣ ΤΕΧΝΙΚΩΝ ΣΤΟΙΧΕΙΩΝ\nΡΑΔΙΟΦΩΝΙΚΟΥ ΣΤΑΘΜΟΥ ΡΑΔΙΟ ΚΩΣ 98 FM KAI\nΗΛΕΚΤΡΟΝΙΚΗ ΚΑΤΑΧΩΡΙΣΗ ΣΤΟ ΨΗΦΙΑΚΟ ΜΗΤΡΩΟ».",
+    "organization": "ΔΗΜΟΤΙΚΟΣ ΡΑΔΙΟΦΩΝΙΚΟΣ ΣΤΑΘΜΟΣ ΚΩ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 545.6,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΓ8ΒΟΕΘΞ-6Χ6",
+    "raw": {
+      "protocolNumber": "344/2026",
+      "subject": "Απευθείας ανάθεση της υπηρεσίας με τίτλο «ΠΑΡΟΧΗ\nΥΠΗΡΕΣΙΩΝ ΕΠΙΚΑΙΡΟΠΟΙΗΣΗΣ ΤΕΧΝΙΚΩΝ ΣΤΟΙΧΕΙΩΝ\nΡΑΔΙΟΦΩΝΙΚΟΥ ΣΤΑΘΜΟΥ ΡΑΔΙΟ ΚΩΣ 98 FM KAI\nΗΛΕΚΤΡΟΝΙΚΗ ΚΑΤΑΧΩΡΙΣΗ ΣΤΟ ΨΗΦΙΑΚΟ ΜΗΤΡΩΟ».",
+      "issueDate": 1780963200000,
+      "organizationId": "51557",
+      "signerIds": [
+        "100102244"
+      ],
+      "unitIds": [
+        "100089130"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "16"
+      ],
+      "extraFieldValues": {
+        "person": [
+          {
+            "afm": "095762089",
+            "name": "ΑΣΠΙΣΥΣ ΜΟΝΟΠΡΟΣΩΠΗ ΕΠΕ ΕΤΑΙΡΕΙΑ ΑΝΑΠΤΥΞΗΣ ΚΑΙ ΕΜΠΟΡΙΑΣ ΗΛΕΚΤΡΟΝΙΚΩΝ ΚΑΙ ΛΟΓΙΣΜΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ",
+            "enterName": false,
+            "afmType": "EL"
+          }
+        ],
+        "awardAmount": {
+          "amount": 545.6,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": [
+          "71316000-6"
+        ],
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΓ8ΒΟΕΘΞ-6Χ6",
+      "publishTimestamp": 1781000213175,
+      "submissionTimestamp": 1781000213175,
+      "versionId": "542e9eca-3ac4-44e7-b948-1b6484adf747",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΓ8ΒΟΕΘΞ-6Χ6",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΓ8ΒΟΕΘΞ-6Χ6",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΑΖΓ469ΗΞΩ-7ΧΘ",
+    "subject": "Έγκριση δαπάνης για την προμήθεια ετήσιων συνδρομών στο λογισμικό Claude στο πλαίσιο του έργου EOSC LOT 1",
+    "organization": "ΑΘΗΝΑ ΕΡΕΥΝΗΤΙΚΟ ΚΕΝΤΡΟ ΚΑΙΝΟΤΟΜΙΑΣ ΣΤΙΣ ΤΕΧΝΟΛΟΓΙΕΣ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΤΩΝ ΕΠΙΚΟΙΝΩΝΙΩΝ ΚΑΙ ΤΗΣ ΓΝΩΣΗΣ",
     "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
-    "issue_date": "2025-11-18",
-    "amount": 23500.00,
+    "issue_date": "2026-06-09",
+    "amount": 2184.68,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/7ΚΔ8ΟΡ-Λ4Θ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΑΖΓ469ΗΞΩ-7ΧΘ",
+    "raw": {
+      "protocolNumber": "18268",
+      "subject": "Έγκριση δαπάνης για την προμήθεια ετήσιων συνδρομών στο λογισμικό Claude στο πλαίσιο του έργου EOSC LOT 1",
+      "issueDate": 1780963200000,
+      "organizationId": "99221083",
+      "signerIds": [
+        "100023317"
+      ],
+      "unitIds": [
+        "89803"
+      ],
+      "decisionTypeId": "Β.2.1",
+      "thematicCategoryIds": [
+        "64"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "999723442",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "ΑΘΗΝΑ ΕΡΕΥΝΗΤΙΚΟ ΚΕΝΤΡΟ ΚΑΙΝΟΤΟΜΙΑΣ ΣΤΙΣ ΤΕΧΝΟΛΟΓΙΕΣ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΤΩΝ ΕΠΙΚΟΙΝΩΝΙΩΝ ΚΑΙ ΤΗΣ ΓΝΩΣΗΣ"
+        },
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false
+            },
+            "expenseAmount": {
+              "amount": 2184.68,
+              "currency": "EUR"
+            },
+            "cpv": "72268000-1"
+          }
+        ],
+        "relatedAnalipsiYpoxreosis": [
+          {
+            "textRelatedADA": "Ρ1Σ3469ΗΞΩ-0Λ2"
+          }
+        ],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΑΖΓ469ΗΞΩ-7ΧΘ",
+      "publishTimestamp": 1780999561182,
+      "submissionTimestamp": 1780999561182,
+      "versionId": "170d6fe6-8346-406e-a460-3064532338b0",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΑΖΓ469ΗΞΩ-7ΧΘ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΑΖΓ469ΗΞΩ-7ΧΘ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "Ψ3ΜΗΩ9-Β6Ξ",
-    "subject": "Προμήθεια ηλεκτρονικών υπολογιστών και περιφερειακού εξοπλισμού για τις σχολικές μονάδες",
-    "organization": "Δήμος Πατρέων",
-    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
-    "issue_date": "2026-01-22",
-    "amount": 40000.00,
+    "ada": "6ΥΑ97ΛΡ-ΦΔΩ",
+    "subject": "ΕΓΚΡΙΣΗ ΟΦΕΙΛΟΜΕΝΗΣ ΔΑΠΑΝΗΣ ΕΤΟΥΣ 2025 ΠΡΟΜΗΘΕΙΑΣ ΛΟΓΙΣΜΙΚΟΥ ΠΡΟΣΤΑΣΙΑΣ ΑΠΟ ΙΟΥΣ ΚΑΙ ΚΑΚΟΒΟΥΛΟ ΛΟΓΙΣΜΙΚΟ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ Η/Υ ΤΟΥ ΔΙΚΤΥΟΥ ΤΩΝ ΠΕ.Μ.Σ. ΚΑΙ ΣΕ ΣΥΜΜΟΡΦΩΣΗ ΜΕ ΤΗΝ ΠΟΛΙΤΙΚΗ ΑΣΦΑΛΕΙΑΣ ΤΗΣ ΠΕΡΙΦΕΡΕΙΑΣ ΘΕΣΣΑΛΙΑΣ ΚΑΙ ΤΟ ΓΕΝΙΚΟ ΚΑΝΟΝΙΣΜΟ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ ΔΕΔΟΜΕΝΩΝ (GDPR), ΕΑΔ 2401/2025, ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΤΕΚΜΗΡΙΩΜΕΝΟ ΑΙΤΗΜΑ ΜΕ Α.Π. 212019/5-6-2026/9-6-2026 (ΟΡΘΗ ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΜΕ Α.Π. 99501/18-3-2026/19-3-2026) ΤΟΥ ΤΜΗΜΑΤΟΣ ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΤΩΝ ΠΕ.Μ.Σ.(ΑΠΟΦΑΣΗ 112/2026 ΠΕΡΙΦΕΡΕΙΑΚΟΥ ΣΥΜΒΟΥΛΙΟΥ ΓΙΑ ΤΗΝ 2η ΤΡΟΠΟΠΟΙΗΣΗ ΠΡΟΥΠΟΛΟΓΙΣΜΟΥ ΕΤΟΥΣ 2026, ΑΔΑ:6Δ9Ψ7ΛΡ-ΧΧΝ ΚΑΙ Η ΜΕ Α.Π. 24604/26-5-2026 ΑΠΟΦΑΣΗ ΕΠΙΚΥΡΩΣΗΣ ΤΗΣ, ΑΔΑ:ΡΟΨ4ΟΡ10-8ΨΟ)",
+    "organization": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 7303.6,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/Ψ3ΜΗΩ9-Β6Ξ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΥΑ97ΛΡ-ΦΔΩ",
+    "raw": {
+      "protocolNumber": "212569/9-6-2026",
+      "subject": "ΕΓΚΡΙΣΗ ΟΦΕΙΛΟΜΕΝΗΣ ΔΑΠΑΝΗΣ ΕΤΟΥΣ 2025 ΠΡΟΜΗΘΕΙΑΣ ΛΟΓΙΣΜΙΚΟΥ ΠΡΟΣΤΑΣΙΑΣ ΑΠΟ ΙΟΥΣ ΚΑΙ ΚΑΚΟΒΟΥΛΟ ΛΟΓΙΣΜΙΚΟ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ Η/Υ ΤΟΥ ΔΙΚΤΥΟΥ ΤΩΝ ΠΕ.Μ.Σ. ΚΑΙ ΣΕ ΣΥΜΜΟΡΦΩΣΗ ΜΕ ΤΗΝ ΠΟΛΙΤΙΚΗ ΑΣΦΑΛΕΙΑΣ ΤΗΣ ΠΕΡΙΦΕΡΕΙΑΣ ΘΕΣΣΑΛΙΑΣ ΚΑΙ ΤΟ ΓΕΝΙΚΟ ΚΑΝΟΝΙΣΜΟ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ ΔΕΔΟΜΕΝΩΝ (GDPR), ΕΑΔ 2401/2025, ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΤΕΚΜΗΡΙΩΜΕΝΟ ΑΙΤΗΜΑ ΜΕ Α.Π. 212019/5-6-2026/9-6-2026 (ΟΡΘΗ ΕΠΑΝΑΛΗΨΗ ΤΟΥ ΜΕ Α.Π. 99501/18-3-2026/19-3-2026) ΤΟΥ ΤΜΗΜΑΤΟΣ ΛΟΓΙΣΤΙΚΗΣ ΚΑΙ ΟΙΚΟΝΟΜΙΚΗΣ ΔΙΑΧΕΙΡΙΣΗΣ ΤΩΝ ΠΕ.Μ.Σ.(ΑΠΟΦΑΣΗ 112/2026 ΠΕΡΙΦΕΡΕΙΑΚΟΥ ΣΥΜΒΟΥΛΙΟΥ ΓΙΑ ΤΗΝ 2η ΤΡΟΠΟΠΟΙΗΣΗ ΠΡΟΥΠΟΛΟΓΙΣΜΟΥ ΕΤΟΥΣ 2026, ΑΔΑ:6Δ9Ψ7ΛΡ-ΧΧΝ ΚΑΙ Η ΜΕ Α.Π. 24604/26-5-2026 ΑΠΟΦΑΣΗ ΕΠΙΚΥΡΩΣΗΣ ΤΗΣ, ΑΔΑ:ΡΟΨ4ΟΡ10-8ΨΟ)",
+      "issueDate": 1780963200000,
+      "organizationId": "5007",
+      "signerIds": [
+        "100084263"
+      ],
+      "unitIds": [
+        "81559"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "1553",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 7303.6,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "sponsorAFMName": {
+              "afm": "997844846",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ"
+            },
+            "kae": "02.02.0073.3140301001",
+            "amountWithVAT": 7303.6,
+            "kaeBudgetRemainder": 4619.56
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "6ΥΑ97ΛΡ-ΦΔΩ",
+      "publishTimestamp": 1780999362761,
+      "submissionTimestamp": 1780999362761,
+      "versionId": "43344cc1-7332-4203-ae8f-1941fae53f76",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΥΑ97ΛΡ-ΦΔΩ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/6ΥΑ97ΛΡ-ΦΔΩ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "6Λ2ΦΞΚ-8ΗΨ",
-    "subject": "Ανάθεση υπηρεσιών σχεδιασμού και ανάπτυξης νέας ιστοσελίδας και πύλης εξυπηρέτησης πολιτών",
-    "organization": "Δήμος Τρικκαίων",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2026-04-08",
-    "amount": 22500.00,
+    "ada": "ΨΠ3Θ46Ψ842-800",
+    "subject": "Χρηματικό Ένταλμα Πληρωμής Β1631 για: Υπηρεσίες Conversion - Migration Ψηφιακών Αρχείων. OCR ψηφιακών αρχείων και προβολής του ψηφιακού υλικού του ΤΕΕ μέσω V-Smart και Ιguana DAM -  A47/Σ40/2024, Α31/Σ20/2025",
+    "organization": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-05-28",
+    "amount": 24800.0,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6Λ2ΦΞΚ-8ΗΨ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΠ3Θ46Ψ842-800",
+    "raw": {
+      "protocolNumber": "1631",
+      "subject": "Χρηματικό Ένταλμα Πληρωμής Β1631 για: Υπηρεσίες Conversion - Migration Ψηφιακών Αρχείων. OCR ψηφιακών αρχείων και προβολής του ψηφιακού υλικού του ΤΕΕ μέσω V-Smart και Ιguana DAM -  A47/Σ40/2024, Α31/Σ20/2025",
+      "issueDate": 1780002000000,
+      "organizationId": "99201077",
+      "signerIds": [
+        "100002634"
+      ],
+      "unitIds": [
+        "100057316"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090002260",
+          "afmType": "EU",
+          "afmCountry": "EL",
+          "name": "ΤΕΧΝΙΚΟ ΕΠΙΜΕΛΗΤΗΡΙΟ ΕΛΛΑΔΑΣ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "082303660",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "name": "Μ ΜΑΡΜΑΤΑΚΗ ΜΟΛΧΟ Γ ΒΟΥΓΙΟΥΚΛΗΣ ΟΕ",
+              "noVATOrg": ""
+            },
+            "expenseAmount": {
+              "amount": 24800.0,
+              "currency": "EUR"
+            },
+            "kae": "000.3120301001"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΠ3Θ46Ψ842-800",
+      "publishTimestamp": 1780999167674,
+      "submissionTimestamp": 1780999167674,
+      "versionId": "8843b3e9-76c7-435e-940e-9bb4c8d9bb3d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΠ3Θ46Ψ842-800",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΠ3Θ46Ψ842-800",
+      "documentChecksum": null,
+      "attachments": [
+        {
+          "id": "5a41cf02-0f7e-4690-8e62-6320fd320d82",
+          "description": "Συνοδευτικό έγγραφο",
+          "filename": "report.pdf",
+          "mimeType": "application/pdf",
+          "checksum": "b60ed7cf7d26de2572d59ff8daa094ebdee68e0ec0263f64126feea388131113",
+          "size": 82003
+        }
+      ],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "Ω8ΝΡ5Λ-3ΓΔ",
-    "subject": "Σύμβαση παροχής υπηρεσιών τεχνικής υποστήριξης και συντήρησης εξοπλισμού πληροφορικής",
-    "organization": "Δήμος Καβάλας",
+    "ada": "ΡΨΚΤ465Θ1Ε-Δ4Θ",
+    "subject": "«Προμήθεια Υπηρεσιών Ενοικίασης λογισμικού για την εκπομπή \n‘’ΩΡΑ MUNDIAL’’»",
+    "organization": "ΕΛΛΗΝΙΚΗ ΡΑΔΙΟΦΩΝΙΑ ΤΗΛΕΟΡΑΣΗ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ (Ε.Ρ.Τ. Α.Ε.)",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 29800.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΨΚΤ465Θ1Ε-Δ4Θ",
+    "raw": {
+      "protocolNumber": "11819/9.6.2026",
+      "subject": "«Προμήθεια Υπηρεσιών Ενοικίασης λογισμικού για την εκπομπή \n‘’ΩΡΑ MUNDIAL’’»",
+      "issueDate": 1780963200000,
+      "organizationId": "100012982",
+      "signerIds": [
+        "100060337"
+      ],
+      "unitIds": [
+        "100059511"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [
+          {
+            "afm": "099935353",
+            "name": "COMART Α Ε",
+            "enterName": false,
+            "afmType": "EL"
+          }
+        ],
+        "awardAmount": {
+          "amount": 29800.0,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": [
+          "72212316-7"
+        ],
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΨΚΤ465Θ1Ε-Δ4Θ",
+      "publishTimestamp": 1780998830719,
+      "submissionTimestamp": 1780998830719,
+      "versionId": "02881ace-1662-41fe-a9bc-4799e80fcfd7",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΨΚΤ465Θ1Ε-Δ4Θ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΨΚΤ465Θ1Ε-Δ4Θ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΨΕΣΩ96-ΔΦ3",
+    "subject": "Απόφαση ανάθεσης για ανανέωση συμβολαίου συνεργασίας εξειδικευμένου λογισμικού Η/Υ για το έτος 2026 της 4Μ",
+    "organization": "ΔΗΜΟΣ ΒΟΛΟΥ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 4832.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΨΕΣΩ96-ΔΦ3",
+    "raw": {
+      "protocolNumber": "45973",
+      "subject": "Απόφαση ανάθεσης για ανανέωση συμβολαίου συνεργασίας εξειδικευμένου λογισμικού Η/Υ για το έτος 2026 της 4Μ",
+      "issueDate": 1780963200000,
+      "organizationId": "6058",
+      "signerIds": [
+        "100004166"
+      ],
+      "unitIds": [
+        "78855"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [
+          {
+            "afm": "095506150",
+            "name": "4Μ ΠΡΟΗΓΜΕΝΑ ΣΥΣΤΗΜΑΤΑ ΤΕΧΝΙΚΟΥ ΛΟΓΙΣΜΙΚΟΥ ΑΕ",
+            "enterName": false,
+            "afmType": "EL"
+          }
+        ],
+        "awardAmount": {
+          "amount": 4832.0,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": null,
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΨΕΣΩ96-ΔΦ3",
+      "publishTimestamp": 1780998402658,
+      "submissionTimestamp": 1780998402658,
+      "versionId": "3b338a95-6f0e-4c64-80f5-0a6c13333275",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΨΕΣΩ96-ΔΦ3",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΨΕΣΩ96-ΔΦ3",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΤΛΧΟΕΒΕ-ΠΡΚ",
+    "subject": "ΥΠΗΡΕΣΙΕΣ ΣΥΝΤΗΡΗΣΗΣ & ΕΠΙΣΚΕΥΗΣ ΛΟΓΙΣΜΙΚΟΥ",
+    "organization": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΧΑΝΙΩΝ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 22200.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΤΛΧΟΕΒΕ-ΠΡΚ",
+    "raw": {
+      "protocolNumber": "121",
+      "subject": "ΥΠΗΡΕΣΙΕΣ ΣΥΝΤΗΡΗΣΗΣ & ΕΠΙΣΚΕΥΗΣ ΛΟΓΙΣΜΙΚΟΥ",
+      "issueDate": 1780963200000,
+      "organizationId": "50976",
+      "signerIds": [
+        "100093849"
+      ],
+      "unitIds": [
+        "93466"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "998723272",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "ΔΗΜΟΤΙΚΟ ΛΙΜΕΝΙΚΟ ΤΑΜΕΙΟ ΧΑΝΙΩΝ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "998723002",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "ΚΩΝΣΤΑΝΤΙΝΟΣ ΚΟΤΣΙΦΑΚΗΣ ΕΕ"
+            },
+            "expenseAmount": {
+              "amount": 22200.0,
+              "currency": "EUR"
+            },
+            "kae": "010.2420304"
+          }
+        ],
+        "relatedEkgrisiDapanis": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΤΛΧΟΕΒΕ-ΠΡΚ",
+      "publishTimestamp": 1780998218383,
+      "submissionTimestamp": 1780998218383,
+      "versionId": "08a9ef38-e4f3-43aa-aa70-be7dd4be4872",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΤΛΧΟΕΒΕ-ΠΡΚ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΤΛΧΟΕΒΕ-ΠΡΚ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΜΖΠ7ΛΚ-96Ο",
+    "subject": "«Λογισμικό\nδιαχείρισης και υποστήριξης της Γενικής Δ/νσης Αναπτυξιακού Προγραμματισμού Δ/νσης\nΣχεδιασμού και Περιφερειακού Προγράμματος Ανάπτυξης Περιφέρειας Κρήτη»",
+    "organization": "ΠΕΡΙΦΕΡΕΙΑ ΚΡΗΤΗΣ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 17000.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΜΖΠ7ΛΚ-96Ο",
+    "raw": {
+      "protocolNumber": "201422",
+      "subject": "«Λογισμικό\nδιαχείρισης και υποστήριξης της Γενικής Δ/νσης Αναπτυξιακού Προγραμματισμού Δ/νσης\nΣχεδιασμού και Περιφερειακού Προγράμματος Ανάπτυξης Περιφέρειας Κρήτη»",
+      "issueDate": 1780963200000,
+      "organizationId": "5010",
+      "signerIds": [
+        "111209"
+      ],
+      "unitIds": [
+        "100067082"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Πρόγραμμα Δημοσίων Επενδύσεων",
+        "entryNumber": null,
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 17000.0,
+          "currency": "EUR"
+        },
+        "amountWithKae": [],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΜΖΠ7ΛΚ-96Ο",
+      "publishTimestamp": 1780998072356,
+      "submissionTimestamp": 1780998072356,
+      "versionId": "71e9aea2-15b7-4d3c-b0b5-2e593fb717dd",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΜΖΠ7ΛΚ-96Ο",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΜΖΠ7ΛΚ-96Ο",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΠΟΧ46Ψ844-ΛΥΛ",
+    "subject": "παροχή υπηρεσιών(1ος λογαριασμός) συντήρησης,επέκτασης\nλειτουργικότητας και τεχνικής υποστήριξης του λογισμικού και των\nχρηστών,τεσσάρων portals(πύλες) της Γενικής Δ/νσης Δασών&Δασικού Περ/ντος\nτου Υ.Π.ΕΝ. (έτους 2025),στο πλαίσιο του Χ.Π του Π.Τ",
+    "organization": "ΠΡΑΣΙΝΟ ΤΑΜΕΙΟ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 12028.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΠΟΧ46Ψ844-ΛΥΛ",
+    "raw": {
+      "protocolNumber": "00556Β_2026",
+      "subject": "παροχή υπηρεσιών(1ος λογαριασμός) συντήρησης,επέκτασης\nλειτουργικότητας και τεχνικής υποστήριξης του λογισμικού και των\nχρηστών,τεσσάρων portals(πύλες) της Γενικής Δ/νσης Δασών&Δασικού Περ/ντος\nτου Υ.Π.ΕΝ. (έτους 2025),στο πλαίσιο του Χ.Π του Π.Τ",
+      "issueDate": 1780963200000,
+      "organizationId": "99201054",
+      "signerIds": [
+        "100075490"
+      ],
+      "unitIds": [
+        "86148"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "52"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "099338405",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "ΠΡΑΣΙΝΟ ΤΑΜΕΙΟ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "802775190",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "E SCHEMA Ε Ε"
+            },
+            "expenseAmount": {
+              "amount": 12028.0,
+              "currency": "EUR"
+            },
+            "kae": "2310988"
+          }
+        ],
+        "relatedEkgrisiDapanis": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΠΟΧ46Ψ844-ΛΥΛ",
+      "publishTimestamp": 1780997944619,
+      "submissionTimestamp": 1780997944619,
+      "versionId": "98f98056-4b83-432a-94f9-60c77c159e89",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΠΟΧ46Ψ844-ΛΥΛ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΠΟΧ46Ψ844-ΛΥΛ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "92ΣΒΩΗ6-5ΓΞ",
+    "subject": "Ανανέωση συνδρομής - Συμβόλαιο Συντήρησης του λογισμικού (Autocad) για την δημιουργία και επεξεργασία σχεδίων για τις ανάγκες του Δήμου Τήνου.",
+    "organization": "ΔΗΜΟΣ ΤΗΝΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 620.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/92ΣΒΩΗ6-5ΓΞ",
+    "raw": {
+      "protocolNumber": "11493",
+      "subject": "Ανανέωση συνδρομής - Συμβόλαιο Συντήρησης του λογισμικού (Autocad) για την δημιουργία και επεξεργασία σχεδίων για τις ανάγκες του Δήμου Τήνου.",
+      "issueDate": 1780963200000,
+      "organizationId": "6296",
+      "signerIds": [
+        "100084255"
+      ],
+      "unitIds": [
+        "90655"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "ΑΑΥ/324",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 620.0,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "amountWithVAT": 620.0,
+            "kae": "010.2420304003",
+            "kaeBudgetRemainder": 48201.38,
+            "kaeCreditRemainder": 45274.98
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "92ΣΒΩΗ6-5ΓΞ",
+      "publishTimestamp": 1780997809371,
+      "submissionTimestamp": 1780997809371,
+      "versionId": "340bbf80-f89b-4767-bc33-2e6f60b50d94",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/92ΣΒΩΗ6-5ΓΞ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/92ΣΒΩΗ6-5ΓΞ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "6Α78ΩΗ6-ΘΕ2",
+    "subject": "Συντήρηση – Υποστήριξη της εφαρμογής λογισμικού Advanced Timetable για την σχολική μονάδα ΕΠΑΛ Τήνου του Δήμου Τήνου από 20-06-2026 έως 19-06-2027",
+    "organization": "ΔΗΜΟΣ ΤΗΝΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 89.28,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6Α78ΩΗ6-ΘΕ2",
+    "raw": {
+      "protocolNumber": "11492",
+      "subject": "Συντήρηση – Υποστήριξη της εφαρμογής λογισμικού Advanced Timetable για την σχολική μονάδα ΕΠΑΛ Τήνου του Δήμου Τήνου από 20-06-2026 έως 19-06-2027",
+      "issueDate": 1780963200000,
+      "organizationId": "6296",
+      "signerIds": [
+        "100084255"
+      ],
+      "unitIds": [
+        "90655"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "ΑΑΥ/323",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 89.28,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "amountWithVAT": 89.28,
+            "kae": "070.2420304019",
+            "kaeBudgetRemainder": 1000.0,
+            "kaeCreditRemainder": 910.72
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "6Α78ΩΗ6-ΘΕ2",
+      "publishTimestamp": 1780997803745,
+      "submissionTimestamp": 1780997803745,
+      "versionId": "cbbfd9b0-32b7-49fa-af3a-6eb6d7eb4f1c",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6Α78ΩΗ6-ΘΕ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/6Α78ΩΗ6-ΘΕ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΦΜΨΟΡΡΞ-ΚΨΑ",
+    "subject": "ΠΡΟΜΗΘΕΙΑ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΛΟΙΠΩΝ ΣΥΝΑΦΩΝ ΕΙΔΩΝ",
+    "organization": "ΤΑΜΕΙΟ ΕΠΙΚΟΥΡΙΚΗΣ ΑΣΦΑΛΙΣΗΣ ΠΡΟΝΟΙΑΣ ΑΠΑΣΧΟΛΟΥΜΕΝΩΝ ΣΤΑ ΣΩΜΑΤΑ ΑΣΦΑΛΕΙΑΣ (ΤΕΑΠΑΣΑ)",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-09",
+    "amount": 72580.65,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΦΜΨΟΡΡΞ-ΚΨΑ",
+    "raw": {
+      "protocolNumber": "2/2026",
+      "subject": "ΠΡΟΜΗΘΕΙΑ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ ΚΑΙ ΛΟΙΠΩΝ ΣΥΝΑΦΩΝ ΕΙΔΩΝ",
+      "issueDate": 1780963200000,
+      "organizationId": "50027",
+      "signerIds": [
+        "100100042"
+      ],
+      "unitIds": [
+        "10663"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20",
+        "24",
+        "16"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "30237000-9",
+          "48000000-8",
+          "30191400-8"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+        "manifestContractType": "Προμήθειες",
+        "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+        "estimatedAmount": {
+          "amount": 72580.65,
+          "currency": "EUR"
+        },
+        "textRelatedADA": "Ψ1Ψ4ΟΡΡΞ-ΣΝΣ",
+        "relatedDecisions": [
+          {
+            "relatedDecisionsADA": "ΨΝΠΞΟΡΡΞ-ΜΗΓ"
+          },
+          {
+            "relatedDecisionsADA": "6Χ23ΟΡΡΞ-915"
+          }
+        ],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΦΜΨΟΡΡΞ-ΚΨΑ",
+      "publishTimestamp": 1780997756610,
+      "submissionTimestamp": 1780997756610,
+      "versionId": "91fa7211-6fa2-4db3-b5b9-66b18dcf4a4f",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΦΜΨΟΡΡΞ-ΚΨΑ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΦΜΨΟΡΡΞ-ΚΨΑ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΗΑΦΩΗΩ-ΙΔ2",
+    "subject": "Λογισμικό υπολογιστών",
+    "organization": "ΔΗΜΟΣ ΤΗΛΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 468.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΗΑΦΩΗΩ-ΙΔ2",
+    "raw": {
+      "protocolNumber": "794",
+      "subject": "Λογισμικό υπολογιστών",
+      "issueDate": 1780963200000,
+      "organizationId": "6295",
+      "signerIds": [
+        "114357"
+      ],
+      "unitIds": [
+        "87599"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "Α/352",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 468.0,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "amountWithVAT": 468.0,
+            "kae": "010.3140301",
+            "kaeBudgetRemainder": 15000.0,
+            "kaeCreditRemainder": 14532.0
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΗΑΦΩΗΩ-ΙΔ2",
+      "publishTimestamp": 1780997042786,
+      "submissionTimestamp": 1780997042786,
+      "versionId": "ae56fd45-d053-40ff-bc31-8e1bbce25491",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΗΑΦΩΗΩ-ΙΔ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΗΑΦΩΗΩ-ΙΔ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9Ζ9Ξ46ΜΩ0Ι-Γ65",
+    "subject": "ΣΥΝΤΗΡΗΣΗ ΠΡΟΓΡΑΜΜΑΤΟΣ ΛΟΓΙΣΜΙΚΟΥ ΔΙΑΧΕΙΡΙΣΗΣ ΠΑΙΔΙΚΩΝ ΣΤΑΘΜΩΝ",
+    "organization": "ΔΗΜΟΣ  ΝΕΑΣ  ΦΙΛΑΔΕΛΦΕΙΑΣ - ΝΕΑΣ ΧΑΛΚΗΔΟΝΑΣ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 6224.8,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9Ζ9Ξ46ΜΩ0Ι-Γ65",
+    "raw": {
+      "protocolNumber": "17035",
+      "subject": "ΣΥΝΤΗΡΗΣΗ ΠΡΟΓΡΑΜΜΑΤΟΣ ΛΟΓΙΣΜΙΚΟΥ ΔΙΑΧΕΙΡΙΣΗΣ ΠΑΙΔΙΚΩΝ ΣΤΑΘΜΩΝ",
+      "issueDate": 1780963200000,
+      "organizationId": "100035023",
+      "signerIds": [
+        "100084322"
+      ],
+      "unitIds": [
+        "100029048"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "amount": 6224.8,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": [
+          "72416000-9"
+        ],
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9Ζ9Ξ46ΜΩ0Ι-Γ65",
+      "publishTimestamp": 1780996988991,
+      "submissionTimestamp": 1780996988991,
+      "versionId": "6f80e76a-25c7-4ea6-80ea-72f8d0dd4d9e",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ζ9Ξ46ΜΩ0Ι-Γ65",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9Ζ9Ξ46ΜΩ0Ι-Γ65",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΣΩ2ΩΚΔ-Φ72",
+    "subject": "ΣΥΝΤΗΡΗΣΗ ΥΠΟΣΤΗΡΙΞΗ ΑΝΑΒΑΘΜΙΣΗ ΠΡΟΓΡΑΜΜΑΤΩΝ ΛΟΓΙΣΜΙΚΟΥ ΥΠΗΡΕΣΙΩΝ",
+    "organization": "ΔΗΜΟΣ ΝΕΜΕΑΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΣΩ2ΩΚΔ-Φ72",
+    "raw": {
+      "protocolNumber": "3426",
+      "subject": "ΣΥΝΤΗΡΗΣΗ ΥΠΟΣΤΗΡΙΞΗ ΑΝΑΒΑΘΜΙΣΗ ΠΡΟΓΡΑΜΜΑΤΩΝ ΛΟΓΙΣΜΙΚΟΥ ΥΠΗΡΕΣΙΩΝ",
+      "issueDate": 1780963200000,
+      "organizationId": "6212",
+      "signerIds": [
+        "100048959"
+      ],
+      "unitIds": [
+        "100100009"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΣΩ2ΩΚΔ-Φ72",
+      "publishTimestamp": 1780996317455,
+      "submissionTimestamp": 1780996317455,
+      "versionId": "a49573be-3786-469a-ae18-ec32a252b908",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΣΩ2ΩΚΔ-Φ72",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΣΩ2ΩΚΔ-Φ72",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΘ7Ε46ΜΔΨΟ-ΤΘ2",
+    "subject": "Ανάληψη και Δέσμευση πίστωσης 226.618,98 € από τον Ε.Φ. 1055 501 , ΑΛΕ 3140301001 για την ενεργοποίηση\nδικαιώματος προαίρεσης του έτους 2025 (ανεκτέλεστο) βάσει της με αρ.πρωτ.309693/30.12.2024 (ΑΔΑΜ:\n24SYMV016101388 2024-12-31) Σύμβασης με αντικείμενο την ανανέωση των αδειών λογισμικού Microsoft 365 του\nΥπουργείου Μετανάστευσης και Ασύλου για τρία (3) έτη",
+    "organization": "ΥΠΟΥΡΓΕΙΟ  ΜΕΤΑΝΑΣΤΕΥΣΗΣ ΚΑΙ ΑΣΥΛΟΥ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-06-09",
+    "amount": 226618.98,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΘ7Ε46ΜΔΨΟ-ΤΘ2",
+    "raw": {
+      "protocolNumber": "105469",
+      "subject": "Ανάληψη και Δέσμευση πίστωσης 226.618,98 € από τον Ε.Φ. 1055 501 , ΑΛΕ 3140301001 για την ενεργοποίηση\nδικαιώματος προαίρεσης του έτους 2025 (ανεκτέλεστο) βάσει της με αρ.πρωτ.309693/30.12.2024 (ΑΔΑΜ:\n24SYMV016101388 2024-12-31) Σύμβασης με αντικείμενο την ανανέωση των αδειών λογισμικού Microsoft 365 του\nΥπουργείου Μετανάστευσης και Ασύλου για τρία (3) έτη",
+      "issueDate": 1780963200000,
+      "organizationId": "100056663",
+      "signerIds": [
+        "100074689"
+      ],
+      "unitIds": [
+        "100065251"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "57825",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 226618.98,
+          "currency": "EUR"
+        },
+        "amountWithKae": [],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΘ7Ε46ΜΔΨΟ-ΤΘ2",
+      "publishTimestamp": 1780996313796,
+      "submissionTimestamp": 1780996313796,
+      "versionId": "df117ce3-52cd-4d80-964b-44a761d4960e",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΘ7Ε46ΜΔΨΟ-ΤΘ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΘ7Ε46ΜΔΨΟ-ΤΘ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "6ΔΨΨΟΡ05-Φ7Β",
+    "subject": "ΔΑΠΑΝΗ ΓΙΑ ΠΡΟΜΗΘΕΙΑ ΑΔΕΙΩΝ ΛΟΓΙΣΜΙΚΟΥ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ ΔΙΚΤΥΩΝ ΤΟΥ ΕΔΣΝΑ ΣΥΜΦΩΝΑ ΜΕ ΤΗΝ ΥΠ'ΑΡΙΘΜ. 13344/24 ΣΥΜΒΑΣΗ ΜΕ ΤΟΝ ΑΝΑΔΟΧΟ ON SITE I.T. CONSULTANTS Μ.ΕΠΕ",
+    "organization": "ΕΙΔΙΚΟΣ ΔΙΑΒΑΘΜΙΔΙΚΟΣ ΣΥΝΔΕΣΜΟΣ ΝΟΜΟΥ ΑΤΤΙΚΗΣ (Ε.Δ.Σ.Ν.Α.)",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-05-28",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/6ΔΨΨΟΡ05-Φ7Β",
+    "raw": {
+      "protocolNumber": "110/2026",
+      "subject": "ΔΑΠΑΝΗ ΓΙΑ ΠΡΟΜΗΘΕΙΑ ΑΔΕΙΩΝ ΛΟΓΙΣΜΙΚΟΥ ΓΙΑ ΤΗΝ ΠΡΟΣΤΑΣΙΑ ΤΩΝ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ ΔΙΚΤΥΩΝ ΤΟΥ ΕΔΣΝΑ ΣΥΜΦΩΝΑ ΜΕ ΤΗΝ ΥΠ'ΑΡΙΘΜ. 13344/24 ΣΥΜΒΑΣΗ ΜΕ ΤΟΝ ΑΝΑΔΟΧΟ ON SITE I.T. CONSULTANTS Μ.ΕΠΕ",
+      "issueDate": 1779926400000,
+      "organizationId": "50280",
+      "signerIds": [
+        "100087177"
+      ],
+      "unitIds": [
+        "89013"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Ίδια Έσοδα",
+        "entryNumber": null,
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "currency": "EUR"
+        },
+        "amountWithKae": [],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "6ΔΨΨΟΡ05-Φ7Β",
+      "publishTimestamp": 1780995495047,
+      "submissionTimestamp": 1780995495047,
+      "versionId": "4e20fb60-6270-49bd-a7a9-212706e8ac49",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/6ΔΨΨΟΡ05-Φ7Β",
+      "documentUrl": "https://diavgeia.gov.gr/doc/6ΔΨΨΟΡ05-Φ7Β",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΨΨΑ7ΛΡ-Ω6Ζ",
+    "subject": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ ΠΟΛΥΕΤΟΥΣ ΥΠΟΧΡΕΩΣΗΣ (ΕΤΟΣ 2026 ΠΟΣΟ 711,20€ ΚΑΙ ΕΤΟΣ 2027 ΠΟΣΟ 1.000,00€) ΓΙΑ ΤΗ ΣΥΝΑΨΗ ΣΥΜΒΑΣΗΣ ΣΥΝΤΗΡΗΣΗΣ ΥΦΙΣΤΑΜΕΝΟΥ ΤΕΧΝΙΚΟΥ ΛΟΓΙΣΜΙΚΟΥ ΣΥΝΤΑΞΗΣ ΠΡΟΥΠΟΛΟΓΙΣΜΩΝ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΔΗΜΟΣΙΩΝ ΕΡΓΩΝ ΧΡΟΝΙΚΗΣ ΔΙΑΡΚΕΙΑΣ ΕΩΣ 30-6-2027, ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΤΕΚΜΗΡΙΩΜΕΝΟ ΑΙΤΗΜΑ ΜΕ Α.Π. 119138/2-4-2026 ΤΗΣ Δ/ΝΣΗΣ ΤΕΧΝΙΚΩΝ ΕΡΓΩΝ ΤΩΝ ΠΕ.Μ.Σ. (ΑΠΟΦΑΣΗ 785/2026 ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΕΠΙΤΡΟΠΗΣ ΓΙΑ ΕΞΕΙΔΙΚΕΥΣΗ ΠΙΣΤΩΣΗΣ, ΑΔΑ:934Δ7ΛΡ-ΚΑ4)",
+    "organization": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ",
+    "decision_type": "ΑΝΑΛΗΨΗ ΥΠΟΧΡΕΩΣΗΣ",
+    "issue_date": "2026-05-25",
+    "amount": 1711.2,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΨΨΑ7ΛΡ-Ω6Ζ",
+    "raw": {
+      "protocolNumber": "212178/9-6-2026",
+      "subject": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ ΠΟΛΥΕΤΟΥΣ ΥΠΟΧΡΕΩΣΗΣ (ΕΤΟΣ 2026 ΠΟΣΟ 711,20€ ΚΑΙ ΕΤΟΣ 2027 ΠΟΣΟ 1.000,00€) ΓΙΑ ΤΗ ΣΥΝΑΨΗ ΣΥΜΒΑΣΗΣ ΣΥΝΤΗΡΗΣΗΣ ΥΦΙΣΤΑΜΕΝΟΥ ΤΕΧΝΙΚΟΥ ΛΟΓΙΣΜΙΚΟΥ ΣΥΝΤΑΞΗΣ ΠΡΟΥΠΟΛΟΓΙΣΜΩΝ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΔΗΜΟΣΙΩΝ ΕΡΓΩΝ ΧΡΟΝΙΚΗΣ ΔΙΑΡΚΕΙΑΣ ΕΩΣ 30-6-2027, ΣΥΜΦΩΝΑ ΜΕ ΤΟ ΤΕΚΜΗΡΙΩΜΕΝΟ ΑΙΤΗΜΑ ΜΕ Α.Π. 119138/2-4-2026 ΤΗΣ Δ/ΝΣΗΣ ΤΕΧΝΙΚΩΝ ΕΡΓΩΝ ΤΩΝ ΠΕ.Μ.Σ. (ΑΠΟΦΑΣΗ 785/2026 ΠΕΡΙΦΕΡΕΙΑΚΗΣ ΕΠΙΤΡΟΠΗΣ ΓΙΑ ΕΞΕΙΔΙΚΕΥΣΗ ΠΙΣΤΩΣΗΣ, ΑΔΑ:934Δ7ΛΡ-ΚΑ4)",
+      "issueDate": 1779667200000,
+      "organizationId": "5007",
+      "signerIds": [
+        "100084263"
+      ],
+      "unitIds": [
+        "81559"
+      ],
+      "decisionTypeId": "Β.1.3",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "financialYear": 2026,
+        "budgettype": "Τακτικός Προϋπολογισμός",
+        "entryNumber": "1458",
+        "partialead": false,
+        "recalledExpenseDecision": false,
+        "amountWithVAT": {
+          "amount": 1711.2,
+          "currency": "EUR"
+        },
+        "amountWithKae": [
+          {
+            "sponsorAFMName": {
+              "afm": "997844846",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "ΠΕΡΙΦΕΡΕΙΑ ΘΕΣΣΑΛΙΑΣ"
+            },
+            "kae": "02.02.0073.3140301001",
+            "amountWithVAT": 711.2,
+            "kaeBudgetRemainder": 11923.16
+          }
+        ],
+        "relatedPartialADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΨΨΑ7ΛΡ-Ω6Ζ",
+      "publishTimestamp": 1780995233726,
+      "submissionTimestamp": 1780995233726,
+      "versionId": "0f20a7d3-da67-4584-aae7-7855a4efe532",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΨΨΑ7ΛΡ-Ω6Ζ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΨΨΑ7ΛΡ-Ω6Ζ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΝΕ3469ΗΚΥ-Μ7Ε",
+    "subject": "Αποτελέσματα αξιολόγησης προτάσεων για την πλήρωση μίας «1» θέσης έκτακτου προσωπικού στο πλαίσιο του Horizon EUROPE, HORIZON-CL4-2023-HUMAN-01-CNECT (IA) έργου «Transforming European Industrial Ecosystems through eXtended Reality enhanced with human-centric AI and secure, 5G-enabled IoT» (INDUX-R), που είχε προκηρύξει το Ινστιτούτο Πληροφορικής\nΟ",
+    "organization": "ΙΔΡΥΜΑ ΤΕΧΝΟΛΟΓΙΑΣ ΚΑΙ ΕΡΕΥΝΑΣ (ΙΤΕ)",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-09",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΝΕ3469ΗΚΥ-Μ7Ε",
+    "raw": {
+      "protocolNumber": "223774/ 09-06-2026",
+      "subject": "Αποτελέσματα αξιολόγησης προτάσεων για την πλήρωση μίας «1» θέσης έκτακτου προσωπικού στο πλαίσιο του Horizon EUROPE, HORIZON-CL4-2023-HUMAN-01-CNECT (IA) έργου «Transforming European Industrial Ecosystems through eXtended Reality enhanced with human-centric AI and secure, 5G-enabled IoT» (INDUX-R), που είχε προκηρύξει το Ινστιτούτο Πληροφορικής\nΟ",
+      "issueDate": 1780963200000,
+      "organizationId": "99221065",
+      "signerIds": [
+        "100102904"
+      ],
+      "unitIds": [
+        "72472"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "44"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [
+          {
+            "relatedDecisionsADA": "ΨΘΟ7469ΗΚΥ-ΣΩ3"
+          }
+        ],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "ΨΝΕ3469ΗΚΥ-Μ7Ε",
+      "publishTimestamp": 1780995178558,
+      "submissionTimestamp": 1780995178558,
+      "versionId": "500b9e34-f4e7-4c18-9765-33fc1e55c001",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΝΕ3469ΗΚΥ-Μ7Ε",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΝΕ3469ΗΚΥ-Μ7Ε",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "93Ν8469064-4ΣΟ",
+    "subject": "ΧΕ-2931 ΣΕΙΡΑ Β ΝΟΣ/2026 ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΑΝΑΝΕΩΣΗ 2 ΕΤΗΣΙΩΝ ΑΔΕΙΩΝ ΧΡΗΣΗΣ ΛΟΓΙΣΜΙΚΟΥ ORACLE 12/2025 25SYMV017929916",
+    "organization": "ΑΧΕΠΑ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-05",
+    "amount": 12512.01,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/93Ν8469064-4ΣΟ",
+    "raw": {
+      "protocolNumber": "ΧΕ-2931 ΣΕΙΡΑ Β ΝΟΣ/2026",
+      "subject": "ΧΕ-2931 ΣΕΙΡΑ Β ΝΟΣ/2026 ΠΑΡΟΧΗ ΥΠΗΡΕΣΙΩΝ ΓΙΑ ΑΝΑΝΕΩΣΗ 2 ΕΤΗΣΙΩΝ ΑΔΕΙΩΝ ΧΡΗΣΗΣ ΛΟΓΙΣΜΙΚΟΥ ORACLE 12/2025 25SYMV017929916",
+      "issueDate": 1780617600000,
+      "organizationId": "99221998",
+      "signerIds": [
+        "103281"
+      ],
+      "unitIds": [
+        "73340"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090024750",
+          "afmType": "EL",
+          "afmCountry": "EL",
+          "name": "ΑΧΕΠΑ",
+          "noVATOrg": null
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "094149709",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "name": "SPACE HELLAS A.E.",
+              "noVATOrg": null
+            },
+            "expenseAmount": {
+              "amount": 12512.01,
+              "currency": "EUR"
+            },
+            "cpv": null,
+            "kae": "31203010000002"
+          }
+        ],
+        "relatedEkgrisiDapanis": null,
+        "relatedDecisions": null,
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "93Ν8469064-4ΣΟ",
+      "publishTimestamp": 1780994947264,
+      "submissionTimestamp": 1780994947264,
+      "versionId": "ffbaa9a0-1e35-4992-ac80-7048b06380df",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/93Ν8469064-4ΣΟ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/93Ν8469064-4ΣΟ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΚΣ6469066-7ΣΟ",
+    "subject": "ΘΕΜΑ: «Έγκριση:\nα) Σκοπιμότητας Ανοικτού διαγωνισμού για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ\nΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ CPV 50400000-9 για τις ανάγκες του Ακτινοδιαγνωστικού Τμήματος του Γενικού\nΝοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ»\nβ) Δαπάνης Ανοικτού διαγωνισμού 19.200,00€ πλέον Φ.Π.Α ήτοι συνολικής 23.808,00€ συμπεριλαμβανομένου\nτου Φ.Π.Α.\nγ) Διενέργειας Ανοικτού διαγωνισμού για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ\nΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ CPV 50400000-9 για τις ανάγκες του Ακτινοδιαγνωστικού Τμήματος του Γενικού\nΝοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ»\nδ)Των αριθμ. Πρωτ. 17756/29-5-2026 τεχνικών προδιαγραφών για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ\nΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ ΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ δαπάνης 19.200,00€ πλέον Φ.Π.Α ήτοι συνολικής 23.808,00€\nσυμπεριλαμβανομένου του Φ.Π.Α, CPV. 50400000-9,ΑΛΕ.24203010000001 (KAE.0887) για τις ανάγκες του\nΓενικού Νοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ».\nε)Πρόσκλησης εκδήλωσης ενδιαφέροντος και όρων αυτής.\nστ) Ορισμού κριτηρίου κατακύρωσης\nζ) Ορισμού επιτροπής αξιολόγησης»",
+    "organization": "ΓΕΝΙΚΟ ΝΟΣΟΚΟΜΕΙΟ ΛΑΡΙΣΑΣ ΚΟΥΤΛΙΜΠΑΝΕΙΟ ΚΑΙ ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-05",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΚΣ6469066-7ΣΟ",
+    "raw": {
+      "protocolNumber": "18583_05.06.2026",
+      "subject": "ΘΕΜΑ: «Έγκριση:\nα) Σκοπιμότητας Ανοικτού διαγωνισμού για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ\nΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ CPV 50400000-9 για τις ανάγκες του Ακτινοδιαγνωστικού Τμήματος του Γενικού\nΝοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ»\nβ) Δαπάνης Ανοικτού διαγωνισμού 19.200,00€ πλέον Φ.Π.Α ήτοι συνολικής 23.808,00€ συμπεριλαμβανομένου\nτου Φ.Π.Α.\nγ) Διενέργειας Ανοικτού διαγωνισμού για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ ΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ\nΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ CPV 50400000-9 για τις ανάγκες του Ακτινοδιαγνωστικού Τμήματος του Γενικού\nΝοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ»\nδ)Των αριθμ. Πρωτ. 17756/29-5-2026 τεχνικών προδιαγραφών για ‘ ΥΠΗΡΕΣΙΕΣ ΕΞΑΜΗΝΗΣ ΣΥΝΤΗΡΗΣΗΣ ΚΑΙ\nΥΠΟΣΤΗΡΙΞΗΣ ΤΩΝ ΛΟΓΙΣΜΙΚΩΝ PAΧΕRA/CMR42’ δαπάνης 19.200,00€ πλέον Φ.Π.Α ήτοι συνολικής 23.808,00€\nσυμπεριλαμβανομένου του Φ.Π.Α, CPV. 50400000-9,ΑΛΕ.24203010000001 (KAE.0887) για τις ανάγκες του\nΓενικού Νοσοκομείου Λάρισας «ΚΟΥΤΛΙΜΠΑΝΕΙΟ & ΤΡΙΑΝΤΑΦΥΛΛΕΙΟ».\nε)Πρόσκλησης εκδήλωσης ενδιαφέροντος και όρων αυτής.\nστ) Ορισμού κριτηρίου κατακύρωσης\nζ) Ορισμού επιτροπής αξιολόγησης»",
+      "issueDate": 1780617600000,
+      "organizationId": "99222002",
+      "signerIds": [
+        "100060626"
+      ],
+      "unitIds": [
+        "76203"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΚΣ6469066-7ΣΟ",
+      "publishTimestamp": 1780994788623,
+      "submissionTimestamp": 1780994788623,
+      "versionId": "89849be1-ce19-40e0-9cde-93132fc0b64d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΚΣ6469066-7ΣΟ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΚΣ6469066-7ΣΟ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΒΝΩΟΡΘΚ-Λ1Ξ",
+    "subject": "ΑΠ ΠΡ 51/26 ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗ ΑΝΑΚΑΤΑΣΚΕΥΗΣ, ΣΥΝΤΗΡΗΣΗΣ & ΥΠΟΣΤΗΡΙΞΗΣ ΛΟΓΙΣΜΙΚΟΥ ΙΣΤΟΣΕΛΙΔΑΣ ΠΠΙΕΔ",
+    "organization": "ΠΑΓΚΟΣΜΙΟ ΠΟΛΙΤΙΣΤΙΚΟ ΙΔΡΥΜΑ ΕΛΛΗΝΙΣΜΟΥ ΔΙΑΣΠΟΡΑΣ «ΑΝΔΡΕΑΣ ΠΑΠΑΝΔΡΕΟΥ» ΔΗΜΟΥ ΦΙΛΑΔΕΛΦΕΙΑΣ-ΧΑΛΚΗΔΟΝΟΣ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-06-09",
+    "amount": 6200.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΒΝΩΟΡΘΚ-Λ1Ξ",
+    "raw": {
+      "protocolNumber": "501",
+      "subject": "ΑΠ ΠΡ 51/26 ΑΠΕΥΘΕΙΑΣ ΑΝΑΘΕΣΗ ΑΝΑΚΑΤΑΣΚΕΥΗΣ, ΣΥΝΤΗΡΗΣΗΣ & ΥΠΟΣΤΗΡΙΞΗΣ ΛΟΓΙΣΜΙΚΟΥ ΙΣΤΟΣΕΛΙΔΑΣ ΠΠΙΕΔ",
+      "issueDate": 1780963200000,
+      "organizationId": "50400",
+      "signerIds": [
+        "100103274"
+      ],
+      "unitIds": [
+        "80679"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [
+          {
+            "afm": "162703746",
+            "name": "ΚΑΚΑΒΟΥΛΗΣ,,ΙΩΑΝΝΗΣ,ΤΙΜΟΛΕΩΝ",
+            "enterName": false,
+            "afmType": "EL"
+          }
+        ],
+        "awardAmount": {
+          "amount": 6200.0,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": null,
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΒΝΩΟΡΘΚ-Λ1Ξ",
+      "publishTimestamp": 1780994707698,
+      "submissionTimestamp": 1780994707698,
+      "versionId": "6c907311-f3e4-418e-bf63-7f4f7a46193a",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΒΝΩΟΡΘΚ-Λ1Ξ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΒΝΩΟΡΘΚ-Λ1Ξ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΓΛΥ46ΝΛΨΡ-Ψ70",
+    "subject": "Διακήρυξη Ανοιχτού Διαγωνισμού άνω των ορίων για την Παροχή Υπηρεσιών:«Νέες Ψηφιακές Υποδομές για την παροχή ποιοτικών υπηρεσιών προς τους επισκέπτες του Αρχαιολογικού Μουσείου Θεσσαλονίκης», ΑΡΙΘΜΟΣ ΔΙΑΚΗΡΥΞΗΣ: 01/2026, Α/Α ΕΣΗΔΗΣ: 427064 με τη Χρηματοδότηση του προγράμματος Κεντρική Μακεδονία 2021-2027, MIS 6020967",
+    "organization": "ΑΡΧΑΙΟΛΟΓΙΚΟ ΜΟΥΣΕΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-08",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΓΛΥ46ΝΛΨΡ-Ψ70",
+    "raw": {
+      "protocolNumber": "2779/08.06.2026",
+      "subject": "Διακήρυξη Ανοιχτού Διαγωνισμού άνω των ορίων για την Παροχή Υπηρεσιών:«Νέες Ψηφιακές Υποδομές για την παροχή ποιοτικών υπηρεσιών προς τους επισκέπτες του Αρχαιολογικού Μουσείου Θεσσαλονίκης», ΑΡΙΘΜΟΣ ΔΙΑΚΗΡΥΞΗΣ: 01/2026, Α/Α ΕΣΗΔΗΣ: 427064 με τη Χρηματοδότηση του προγράμματος Κεντρική Μακεδονία 2021-2027, MIS 6020967",
+      "issueDate": 1780876800000,
+      "organizationId": "100080947",
+      "signerIds": [
+        "100103729"
+      ],
+      "unitIds": [
+        "100095794"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20",
+        "16"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "72230000-6"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Συγχρηματοδοτούμενο Έργο",
+        "estimatedAmount": null,
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΓΛΥ46ΝΛΨΡ-Ψ70",
+      "publishTimestamp": 1780926762638,
+      "submissionTimestamp": 1780926762638,
+      "versionId": "1c4de90c-4430-4e78-82fc-b5a6758d8968",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΓΛΥ46ΝΛΨΡ-Ψ70",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΓΛΥ46ΝΛΨΡ-Ψ70",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΗΩ446Ν6Β4-Κ9Μ",
+    "subject": "Έγκριση Υποβολής Τεχνικού Δελτίου Έργου με τίτλο «Αναβάθμιση και Βιώσιμη Λειτουργία Ψηφιακών Υπηρεσιών του Υπουργείου Ψηφιακής Διακυβέρνησης με την Υποστήριξη της ΕΔΥΤΕ Α.Ε.».",
+    "organization": "ΕΘΝΙΚΟ ΔΙΚΤΥΟ ΥΠΟΔΟΜΩΝ ΤΕΧΝΟΛΟΓΙΑΣ ΚΑΙ ΕΡΕΥΝΑΣ ΑΕ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-05",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΗΩ446Ν6Β4-Κ9Μ",
+    "raw": {
+      "protocolNumber": "861 Θ 4",
+      "subject": "Έγκριση Υποβολής Τεχνικού Δελτίου Έργου με τίτλο «Αναβάθμιση και Βιώσιμη Λειτουργία Ψηφιακών Υπηρεσιών του Υπουργείου Ψηφιακής Διακυβέρνησης με την Υποστήριξη της ΕΔΥΤΕ Α.Ε.».",
+      "issueDate": 1780617600000,
+      "organizationId": "100075024",
+      "signerIds": [
+        "100048846"
+      ],
+      "unitIds": [
+        "92573"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": "Πράξη Οργάνου Διοίκησης Φορέων Ευρύτερου Δημοσίου Τομέα",
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "9ΗΩ446Ν6Β4-Κ9Μ",
+      "publishTimestamp": 1780904146958,
+      "submissionTimestamp": 1780904146958,
+      "versionId": "53311d4e-c064-4f81-bfc3-d8bf48f20e6c",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΗΩ446Ν6Β4-Κ9Μ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΗΩ446Ν6Β4-Κ9Μ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΒΚΖ46ΜΤΛΠ-ΚΑΚ",
+    "subject": "Έγκριση διάθεσης των διαδικτυακών υπηρεσιών «Αποδεικτικό Φορολογικής Ενημερότητας» και \"Δέσμευση/Αποδέσμευση Έκδοσης ΑΦΕ\" σε Φορείς του Δημοσίου, μέσω του Κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων & Ψηφιακής Διακυβέρνησης του Υπουργείου Ψηφιακής Διακυβέρνησης",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-05",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΒΚΖ46ΜΤΛΠ-ΚΑΚ",
+    "raw": {
+      "protocolNumber": "20440 ΕΞ 2026",
+      "subject": "Έγκριση διάθεσης των διαδικτυακών υπηρεσιών «Αποδεικτικό Φορολογικής Ενημερότητας» και \"Δέσμευση/Αποδέσμευση Έκδοσης ΑΦΕ\" σε Φορείς του Δημοσίου, μέσω του Κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων & Ψηφιακής Διακυβέρνησης του Υπουργείου Ψηφιακής Διακυβέρνησης",
+      "issueDate": 1780617600000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100047844"
+      ],
+      "unitIds": [
+        "100011024"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": null,
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΒΚΖ46ΜΤΛΠ-ΚΑΚ",
+      "publishTimestamp": 1780897167773,
+      "submissionTimestamp": 1780897167773,
+      "versionId": "d1f8bce1-3c6b-4e87-8ad1-1739acb5cd6d",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΒΚΖ46ΜΤΛΠ-ΚΑΚ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΒΚΖ46ΜΤΛΠ-ΚΑΚ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΡΗΔΟΡΤΗ-Χ2Α",
+    "subject": "ΔΙΑΚΗΡΥΞΗ ΓΙΑ ΤΗΝ ΕΥΡΕΣΓ ΕΞΕΙΔΙΚΕΥΜΕΝΟΥ ΣΥΜΒΟΥΛΟΥ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΕΦΑΡΜΟΓΩΝ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΤΟΥ ΔΗΜΟΥ ΑΘΗΝΑΙΩΝ",
+    "organization": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ ΑΝΩΝΥΜΗ ΑΝΑΠΤΥΞΙΑΚΗ ΕΤΑΙΡΕΙΑ ΜΗΧΑΝΟΓΡΑΦΗΣΗΣ & ΕΠΙΧΕΙΡΗΣΙΑΚΩΝ ΜΟΝΑΔΩΝ ΟΤΑ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-05",
+    "amount": 120000.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΡΗΔΟΡΤΗ-Χ2Α",
+    "raw": {
+      "protocolNumber": "4581",
+      "subject": "ΔΙΑΚΗΡΥΞΗ ΓΙΑ ΤΗΝ ΕΥΡΕΣΓ ΕΞΕΙΔΙΚΕΥΜΕΝΟΥ ΣΥΜΒΟΥΛΟΥ ΤΕΧΝΙΚΗΣ ΥΠΟΣΤΗΡΙΞΗΣ ΚΑΙ ΠΑΡΑΚΟΛΟΥΘΗΣΗΣ ΕΦΑΡΜΟΓΩΝ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΤΟΥ ΔΗΜΟΥ ΑΘΗΝΑΙΩΝ",
+      "issueDate": 1780617600000,
+      "organizationId": "50471",
+      "signerIds": [
+        "100086143"
+      ],
+      "unitIds": [
+        "83233"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "72224000-1"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+        "estimatedAmount": {
+          "amount": 120000.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΡΗΔΟΡΤΗ-Χ2Α",
+      "publishTimestamp": 1780659455966,
+      "submissionTimestamp": 1780659455966,
+      "versionId": "d1b36709-cf7b-4b12-b9ca-72252e53c9aa",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΡΗΔΟΡΤΗ-Χ2Α",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΡΗΔΟΡΤΗ-Χ2Α",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "Ρ1ΛΧ469Η4Σ-ΒΟ2",
+    "subject": "Απόφαση επί Πρακτικού–Εισήγησης Γνωμοδοτικής Επιτροπής του Προγράμματος ΙΙ «Χρηματοδότηση για την Ενίσχυση του Ψηφιακού Μετασχηματισμού Επιχειρήσεων του κλάδου της Βιβλιοπαραγωγής» της Δράσης 16293 «Ο Πολιτισμός ως Κινητήριος Μοχλός Ανάπτυξης», του Εθνικού Σχεδίου Ανάκαμψης και Ανθεκτικότητας, Ελλάδα 2.0, της ΚτΠ Μ.Α.Ε.",
+    "organization": "ΚΟΙΝΩΝΙΑ ΤΗΣ ΠΛΗΡΟΦΟΡΙΑΣ ΑΕ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-04",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ1ΛΧ469Η4Σ-ΒΟ2",
+    "raw": {
+      "protocolNumber": "13276/04-06-2026",
+      "subject": "Απόφαση επί Πρακτικού–Εισήγησης Γνωμοδοτικής Επιτροπής του Προγράμματος ΙΙ «Χρηματοδότηση για την Ενίσχυση του Ψηφιακού Μετασχηματισμού Επιχειρήσεων του κλάδου της Βιβλιοπαραγωγής» της Δράσης 16293 «Ο Πολιτισμός ως Κινητήριος Μοχλός Ανάπτυξης», του Εθνικού Σχεδίου Ανάκαμψης και Ανθεκτικότητας, Ελλάδα 2.0, της ΚτΠ Μ.Α.Ε. ",
+      "issueDate": 1780531200000,
+      "organizationId": "99220730",
+      "signerIds": [
+        "100048037"
+      ],
+      "unitIds": [
+        "72145"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": null,
+        "kanonistikiPraxiPublishMedium": null,
+        "fek": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": []
+      },
+      "privateData": false,
+      "ada": "Ρ1ΛΧ469Η4Σ-ΒΟ2",
+      "publishTimestamp": 1780647040695,
+      "submissionTimestamp": 1780647040695,
+      "versionId": "bd00944c-5b8c-4898-a724-b1972326fe05",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ1ΛΧ469Η4Σ-ΒΟ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ1ΛΧ469Η4Σ-ΒΟ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΙΓ2ΩΡ6-ΤΓΒ",
+    "subject": "Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Εορδαίας",
+    "organization": "ΔΗΜΟΣ ΕΟΡΔΑΙΑΣ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-05",
+    "amount": 503289.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΙΓ2ΩΡ6-ΤΓΒ",
+    "raw": {
+      "protocolNumber": "14443",
+      "subject": "Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Εορδαίας",
+      "issueDate": 1780617600000,
+      "organizationId": "6092",
+      "signerIds": [
+        "100048730"
+      ],
+      "unitIds": [
+        "78106"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "48611000-4",
+          "72212000-4",
+          "72211000-7",
+          "72262000-9",
+          "48422000-2"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+        "manifestContractType": "Προμήθειες",
+        "orgBudgetCode": "Συγχρηματοδοτούμενο Έργο",
+        "estimatedAmount": {
+          "amount": 503289.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": "ΨΩΠΛΩΡ6-Κ5Δ",
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΙΓ2ΩΡ6-ΤΓΒ",
+      "publishTimestamp": 1780641677739,
+      "submissionTimestamp": 1780641677739,
+      "versionId": "f18a78be-694a-4d89-b63b-f831e6605ae6",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΙΓ2ΩΡ6-ΤΓΒ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΙΓ2ΩΡ6-ΤΓΒ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "910Λ46ΜΤΛΠ-ΘΙ1",
+    "subject": "Έγκριση διάθεσης της διαδικτυακής υπηρεσίας «Υποβολή αίτησης από gov.gr και αποστολή σε θυρίδα» σε φορείς του δημοσίου, μέσω του Κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων και Ψηφιακής Διακυβέρνησης",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-04",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/910Λ46ΜΤΛΠ-ΘΙ1",
+    "raw": {
+      "protocolNumber": "20218 ΕΞ 2026",
+      "subject": "Έγκριση διάθεσης της διαδικτυακής υπηρεσίας «Υποβολή αίτησης από gov.gr και αποστολή σε θυρίδα» σε φορείς του δημοσίου, μέσω του Κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων και Ψηφιακής Διακυβέρνησης\r\n\r\n",
+      "issueDate": 1780531200000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100047844"
+      ],
+      "unitIds": [
+        "100011024"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": null,
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "910Λ46ΜΤΛΠ-ΘΙ1",
+      "publishTimestamp": 1780636847971,
+      "submissionTimestamp": 1780636847971,
+      "versionId": "e7ad3cc1-7e6c-425b-81a9-6559ff491c06",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/910Λ46ΜΤΛΠ-ΘΙ1",
+      "documentUrl": "https://diavgeia.gov.gr/doc/910Λ46ΜΤΛΠ-ΘΙ1",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΜΘΙ46ΜΖΜ4-Φ73",
+    "subject": "ΔΙΑΚΗΡΥΞΗ για την Ανάπτυξη 3D Ψηφιακής Βιβλιοθήκης Εμβληματικών και Αντιπροσωπευτικών Κινητών Μνημείων των Μουσείων της Ελλάδας για την Παραγωγή 3D Μοντέλων",
+    "organization": "ΟΡΓΑΝΙΣΜΟΣ ΔΙΑΧΕΙΡΙΣΗΣ ΚΑΙ ΑΝΑΠΤΥΞΗΣ ΠΟΛΙΤΙΣΤΙΚΩΝ ΠΟΡΩΝ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-05",
+    "amount": 1550000.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΜΘΙ46ΜΖΜ4-Φ73",
+    "raw": {
+      "protocolNumber": "11041",
+      "subject": "ΔΙΑΚΗΡΥΞΗ για την Ανάπτυξη 3D Ψηφιακής Βιβλιοθήκης Εμβληματικών και Αντιπροσωπευτικών Κινητών Μνημείων των Μουσείων της Ελλάδας για την Παραγωγή 3D Μοντέλων",
+      "issueDate": 1780617600000,
+      "organizationId": "100067816",
+      "signerIds": [
+        "100069307"
+      ],
+      "unitIds": [
+        "100063639"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "79999100-4",
+          "72000000-5",
+          "48000000-8"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+        "estimatedAmount": {
+          "amount": 1550000.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΜΘΙ46ΜΖΜ4-Φ73",
+      "publishTimestamp": 1780629376959,
+      "submissionTimestamp": 1780629376959,
+      "versionId": "a46d5de7-6f60-4759-82a6-19af367f1c62",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΜΘΙ46ΜΖΜ4-Φ73",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΜΘΙ46ΜΖΜ4-Φ73",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΟΑΓΩ6Μ-ΛΑ8",
+    "subject": "2ος ΛΟΓΑΡΙΑΣΜΟΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΤΟΥ ΥΠΟΕΡΓΟΥ 3 \"ΨΗΦΙΑΚΕΣ ΥΠΗΡΕΣΙΕΣ ΕΞΥΠΝΗΣ ΓΕΙΤΟΝΙΑΣ\" ΣΤΟ ΠΛΑΙΣΙΟ ΕΝΤΑΞΗΣ ΤΟΥ ΕΡΓΟΥ \"ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ-ΥΠΟΕΡΓΟ 1-ΕΛΛΗΝΙΚΕΣ ΕΞΥΠΝΕΣ ΠΟΛΕΙΣ**",
+    "organization": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-06-04",
+    "amount": 1083735.2,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΟΑΓΩ6Μ-ΛΑ8",
+    "raw": {
+      "protocolNumber": "02128/2026",
+      "subject": "2ος ΛΟΓΑΡΙΑΣΜΟΣ ΓΙΑ ΤΗΝ ΥΛΟΠΟΙΗΣΗ ΤΟΥ ΥΠΟΕΡΓΟΥ 3 \"ΨΗΦΙΑΚΕΣ ΥΠΗΡΕΣΙΕΣ ΕΞΥΠΝΗΣ ΓΕΙΤΟΝΙΑΣ\" ΣΤΟ ΠΛΑΙΣΙΟ ΕΝΤΑΞΗΣ ΤΟΥ ΕΡΓΟΥ \"ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ-ΥΠΟΕΡΓΟ 1-ΕΛΛΗΝΙΚΕΣ ΕΞΥΠΝΕΣ ΠΟΛΕΙΣ**",
+      "issueDate": 1780531200000,
+      "organizationId": "6013",
+      "signerIds": [
+        "100044705"
+      ],
+      "unitIds": [
+        "100046471"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090025537",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "ΔΗΜΟΣ ΑΘΗΝΑΙΩΝ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "802134000",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "NOVA INFORMATION AND COMMUNICATION TECHNOLOGIES ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ"
+            },
+            "expenseAmount": {
+              "amount": 1083735.2,
+              "currency": "EUR"
+            }
+          }
+        ],
+        "relatedEkgrisiDapanis": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΟΑΓΩ6Μ-ΛΑ8",
+      "publishTimestamp": 1780560480534,
+      "submissionTimestamp": 1780560480534,
+      "versionId": "d5f10b0e-ec22-4152-896e-c6b5970b28f9",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΟΑΓΩ6Μ-ΛΑ8",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΟΑΓΩ6Μ-ΛΑ8",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΓΒΦ465ΘΟΝ-ΟΞΥ",
+    "subject": "Διαχείριση συστημάτων (system administration) στις κάτωθι ήδη υφιστάμενες ψηφιακές υπηρεσίες της ΠΑΕΑΚ",
+    "organization": "ΠΑΤΡΙΑΡΧΙΚΗ ΑΝΩΤΑΤΗ ΕΚΚΛΗΣΙΑΣΤΙΚΗ ΑΚΑΔΗΜΙΑ ΚΡΗΤΗΣ",
     "decision_type": "ΣΥΜΒΑΣΗ",
-    "issue_date": "2025-09-30",
-    "amount": 18000.00,
+    "issue_date": "2026-06-04",
+    "amount": 2400.0,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/Ω8ΝΡ5Λ-3ΓΔ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΓΒΦ465ΘΟΝ-ΟΞΥ",
+    "raw": {
+      "protocolNumber": "1024",
+      "subject": "Διαχείριση συστημάτων (system administration) στις κάτωθι ήδη υφιστάμενες ψηφιακές υπηρεσίες της ΠΑΕΑΚ",
+      "issueDate": 1780531200000,
+      "organizationId": "100012560",
+      "signerIds": [
+        "100083421"
+      ],
+      "unitIds": [
+        "100063993"
+      ],
+      "decisionTypeId": "Γ.3.4",
+      "thematicCategoryIds": [
+        "20",
+        "40",
+        "24"
+      ],
+      "extraFieldValues": {
+        "contractType": "Σύμβαση Έργου",
+        "numberOfPeople": null,
+        "financedProject": false,
+        "person": [],
+        "contractAmount": {
+          "amount": 2400.0,
+          "currency": "EUR"
+        },
+        "duration": "1",
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": true,
+      "ada": "ΨΓΒΦ465ΘΟΝ-ΟΞΥ",
+      "publishTimestamp": 1780559705865,
+      "submissionTimestamp": 1780559705865,
+      "versionId": "92ae574d-3f4b-4fa5-a036-61b0ec19317b",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΓΒΦ465ΘΟΝ-ΟΞΥ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΓΒΦ465ΘΟΝ-ΟΞΥ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "ΨΚ4ΘΩ2-Ν7Β",
-    "subject": "Ανάπτυξη ιστότοπου τουριστικής προβολής του Δήμου και ψηφιακού οδηγού επισκέπτη",
-    "organization": "Δήμος Καβάλας",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2025-12-11",
-    "amount": 15000.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΚ4ΘΩ2-Ν7Β",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "63ΞΛΩΡ-9ΚΜ",
-    "subject": "Προμήθεια σταθμών εργασίας (workstations) και οθονών για τις υπηρεσίες του Δήμου",
-    "organization": "Δήμος Σερρών",
-    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
-    "issue_date": "2026-01-21",
-    "amount": 12400.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/63ΞΛΩΡ-9ΚΜ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "ΩΡ7ΓΗ5-4ΛΔ",
-    "subject": "Έγκριση δαπάνης για συνδρομή υπηρεσιών υπολογιστικού νέφους (cloud) και φιλοξενίας εφαρμογών",
-    "organization": "Δήμος Ιωαννιτών",
-    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
-    "issue_date": "2026-02-27",
-    "amount": 29700.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΡ7ΓΗ5-4ΛΔ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "6Η9ΚΛΞ-Ψ2Τ",
-    "subject": "Ανάθεση έργου ψηφιοποίησης αρχείου πολεοδομίας και υλοποίησης συστήματος διαχείρισης εγγράφων",
-    "organization": "Δήμος Ηρακλείου",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2025-10-14",
-    "amount": 95000.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6Η9ΚΛΞ-Ψ2Τ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "ΨΛ3ΩΞ8-6ΡΝ",
-    "subject": "Προμήθεια και εγκατάσταση συστήματος κυβερνοασφάλειας (firewall) και υπηρεσιών προστασίας δικτύου",
-    "organization": "Δήμος Ηρακλείου",
-    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
-    "issue_date": "2026-03-29",
-    "amount": 47500.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΛ3ΩΞ8-6ΡΝ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "Ω2ΓΔΚ7-8ΛΘ",
-    "subject": "Ανάθεση υπηρεσιών ανάπτυξης εφαρμογής για κινητά (mobile app) εξυπηρέτησης δημοτών",
-    "organization": "Δήμος Χανίων",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2026-05-06",
-    "amount": 33800.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/Ω2ΓΔΚ7-8ΛΘ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "6ΚΨΩΛ4-2ΗΒ",
-    "subject": "Έγκριση δαπάνης για προμήθεια εξυπηρετητών (servers) και εξοπλισμού data center",
-    "organization": "Δήμος Καλαμάτας",
-    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
-    "issue_date": "2025-08-19",
-    "amount": 56000.00,
-    "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6ΚΨΩΛ4-2ΗΒ",
-    "raw": {"source": "seed"}
-  },
-  {
-    "ada": "ΨΩ5ΞΗ9-Λ3Κ",
-    "subject": "Σύμβαση συντήρησης και τεχνικής υποστήριξης πληροφοριακών συστημάτων του Δήμου",
-    "organization": "Δήμος Κοζάνης",
+    "ada": "ΨΕΔΖ465ΘΟΝ-ΑΧ2",
+    "subject": "Τεχνική στήριξη και υποστήριξη (helpdesk) στις κάτωθι ήδη υφιστάμενες ψηφιακές υπηρεσίες της ΠΑΕΑΚ",
+    "organization": "ΠΑΤΡΙΑΡΧΙΚΗ ΑΝΩΤΑΤΗ ΕΚΚΛΗΣΙΑΣΤΙΚΗ ΑΚΑΔΗΜΙΑ ΚΡΗΤΗΣ",
     "decision_type": "ΣΥΜΒΑΣΗ",
-    "issue_date": "2026-04-23",
-    "amount": 21000.00,
+    "issue_date": "2026-06-04",
+    "amount": 2350.0,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΩ5ΞΗ9-Λ3Κ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΕΔΖ465ΘΟΝ-ΑΧ2",
+    "raw": {
+      "protocolNumber": "1022",
+      "subject": "Τεχνική στήριξη και υποστήριξη (helpdesk) στις κάτωθι ήδη υφιστάμενες ψηφιακές υπηρεσίες της ΠΑΕΑΚ",
+      "issueDate": 1780531200000,
+      "organizationId": "100012560",
+      "signerIds": [
+        "100083421"
+      ],
+      "unitIds": [
+        "100063993"
+      ],
+      "decisionTypeId": "Γ.3.4",
+      "thematicCategoryIds": [
+        "20",
+        "40",
+        "24"
+      ],
+      "extraFieldValues": {
+        "contractType": "Σύμβαση Έργου",
+        "numberOfPeople": null,
+        "financedProject": false,
+        "person": [],
+        "contractAmount": {
+          "amount": 2350.0,
+          "currency": "EUR"
+        },
+        "duration": "1",
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": true,
+      "ada": "ΨΕΔΖ465ΘΟΝ-ΑΧ2",
+      "publishTimestamp": 1780559598508,
+      "submissionTimestamp": 1780559598508,
+      "versionId": "1a2e4756-947d-46a9-ae18-53a9f04f99fc",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΕΔΖ465ΘΟΝ-ΑΧ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΕΔΖ465ΘΟΝ-ΑΧ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "63ΛΗΩΚ-7ΝΞ",
-    "subject": "Ανάθεση υλοποίησης γεωγραφικού πληροφοριακού συστήματος (GIS) για τη διαχείριση δημοτικών υποδομών",
-    "organization": "Δήμος Ρόδου",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2025-12-02",
-    "amount": 64000.00,
+    "ada": "ΨΛΦΩ46ΜΤΛΠ-4Ξ9",
+    "subject": "Τροποποίηση της Πράξης «ΔΡΑΣΕΙΣ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΔΗΜΟΥ ΔΥΤΙΚΗΣ ΜΑΝΗΣ» με Κωδικό ΟΠΣ 5227210 στο «ΤΠΑ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ 2021-2025»",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΑΛΛΗ ΠΡΑΞΗ ΑΝΑΠΤΥΞΙΑΚΟΥ ΝΟΜΟΥ",
+    "issue_date": "2026-06-03",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/63ΛΗΩΚ-7ΝΞ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΛΦΩ46ΜΤΛΠ-4Ξ9",
+    "raw": {
+      "protocolNumber": "ΓΔΟΔΥ/325/2026//3.6.2026",
+      "subject": "Τροποποίηση της Πράξης «ΔΡΑΣΕΙΣ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ ΔΗΜΟΥ ΔΥΤΙΚΗΣ ΜΑΝΗΣ» με Κωδικό ΟΠΣ 5227210 στο «ΤΠΑ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ 2021-2025»",
+      "issueDate": 1780444800000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100059448"
+      ],
+      "unitIds": [
+        "100057385"
+      ],
+      "decisionTypeId": "Ε.4",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΛΦΩ46ΜΤΛΠ-4Ξ9",
+      "publishTimestamp": 1780485395727,
+      "submissionTimestamp": 1780485395727,
+      "versionId": "a99ccd2d-27f1-4519-8676-7cb863cf6781",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΛΦΩ46ΜΤΛΠ-4Ξ9",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΛΦΩ46ΜΤΛΠ-4Ξ9",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "ΩΗ8ΚΛ2-5ΓΨ",
-    "subject": "Προμήθεια πολυμηχανημάτων εκτύπωσης και λογισμικού διαχείρισης εκτυπώσεων",
-    "organization": "Δήμος Αγρινίου",
-    "decision_type": "ΠΡΟΜΗΘΕΙΑ",
-    "issue_date": "2025-07-15",
-    "amount": 9800.00,
+    "ada": "ΕΨΘΚ46ΜΤΛΠ-ΙΕΔ",
+    "subject": "ΠΡΟΣΚΛΗΣΗ ΓΙΑ ΤΗΝ ΥΠΟΒΟΛΗ ΠΡΟΤΑΣΗΣ ΣΤΟ «ΤΠΑ Υπουργείου Ψηφιακής Διακυβέρνησης 2026-2030» ΜΕ ΤΙΤΛΟ «Υλοποίηση Ψηφιακού Οδηγού Επανένταξης \"Epanodos App\"»",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΑΛΛΗ ΠΡΑΞΗ ΑΝΑΠΤΥΞΙΑΚΟΥ ΝΟΜΟΥ",
+    "issue_date": "2026-06-02",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΗ8ΚΛ2-5ΓΨ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΕΨΘΚ46ΜΤΛΠ-ΙΕΔ",
+    "raw": {
+      "protocolNumber": "ΓΔΟΔΥ/323/2026//2.6.2026",
+      "subject": "ΠΡΟΣΚΛΗΣΗ ΓΙΑ ΤΗΝ ΥΠΟΒΟΛΗ ΠΡΟΤΑΣΗΣ ΣΤΟ «ΤΠΑ Υπουργείου Ψηφιακής Διακυβέρνησης 2026-2030» ΜΕ ΤΙΤΛΟ «Υλοποίηση Ψηφιακού Οδηγού Επανένταξης \"Epanodos App\"»",
+      "issueDate": 1780358400000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100059448"
+      ],
+      "unitIds": [
+        "100057385"
+      ],
+      "decisionTypeId": "Ε.4",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΕΨΘΚ46ΜΤΛΠ-ΙΕΔ",
+      "publishTimestamp": 1780404599584,
+      "submissionTimestamp": 1780404599584,
+      "versionId": "0c67ac17-ec30-4acf-b9f9-a6b26acbf544",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΕΨΘΚ46ΜΤΛΠ-ΙΕΔ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΕΨΘΚ46ΜΤΛΠ-ΙΕΔ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "6ΝΨΩΞ3-9ΛΗ",
-    "subject": "Ανάθεση υπηρεσιών ψηφιακού μετασχηματισμού και ανάπτυξης ηλεκτρονικών υπηρεσιών (e-services) προς τους πολίτες",
-    "organization": "Δήμος Ξάνθης",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2026-05-19",
-    "amount": 72000.00,
+    "ada": "95ΚΘΩΡΙ-ΚΩ7",
+    "subject": "Διακήρυξη 05/2026_«ΔΡΑΣΕΙΣ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ  ΤΟΥ ΔΗΜΟΥ ΗΓΟΥΜΕΝΙΤΣΑΣ» Υποέργο 01 της Πράξης «Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Ηγουμενίτσας» » (ΜΙS 6003015)",
+    "organization": "ΔΗΜΟΣ ΗΓΟΥΜΕΝΙΤΣΑΣ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-06-02",
+    "amount": 322683.38,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6ΝΨΩΞ3-9ΛΗ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/95ΚΘΩΡΙ-ΚΩ7",
+    "raw": {
+      "protocolNumber": "13371",
+      "subject": "Διακήρυξη 05/2026_«ΔΡΑΣΕΙΣ ΨΗΦΙΑΚΟΥ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΥ  ΤΟΥ ΔΗΜΟΥ ΗΓΟΥΜΕΝΙΤΣΑΣ» Υποέργο 01 της Πράξης «Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Ηγουμενίτσας» » (ΜΙS 6003015)",
+      "issueDate": 1780358400000,
+      "organizationId": "6105",
+      "signerIds": [
+        "100084343"
+      ],
+      "unitIds": [
+        "78130"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "48000000-8",
+          "30200000-1",
+          "32420000-3"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Συμφερότερη από οικονομικής άποψης",
+        "manifestContractType": "Προμήθειες",
+        "orgBudgetCode": null,
+        "estimatedAmount": {
+          "amount": 322683.38,
+          "currency": "EUR"
+        },
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "95ΚΘΩΡΙ-ΚΩ7",
+      "publishTimestamp": 1780395636141,
+      "submissionTimestamp": 1780395636141,
+      "versionId": "15da09d9-9369-48e6-80b6-408e44cfe1ab",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/95ΚΘΩΡΙ-ΚΩ7",
+      "documentUrl": "https://diavgeia.gov.gr/doc/95ΚΘΩΡΙ-ΚΩ7",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "ΨΞ4ΩΗ7-2ΚΔ",
-    "subject": "Έγκριση δαπάνης για προμήθεια αδειών λογισμικού antivirus και εργαλείων ασφάλειας τερματικών",
-    "organization": "Δήμος Δράμας",
-    "decision_type": "ΕΓΚΡΙΣΗ ΔΑΠΑΝΗΣ",
-    "issue_date": "2026-03-04",
-    "amount": 7300.00,
+    "ada": "ΨΨ3ΖΩΚ8-8Ω4",
+    "subject": "Έγκριση των τεχνικών προδιαγραφών με τίτλο: «Ανάθεση υπηρεσιών υποστήριξης, συντήρησης και μίσθωσης εφαρμογών λογισμικού του Δήμου Ξάνθης για τρία (3) έτη»",
+    "organization": "ΔΗΜΟΣ ΞΑΝΘΗΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-06-02",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΞ4ΩΗ7-2ΚΔ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΨ3ΖΩΚ8-8Ω4",
+    "raw": {
+      "protocolNumber": "145.2026",
+      "subject": "Έγκριση των τεχνικών προδιαγραφών με τίτλο: «Ανάθεση υπηρεσιών υποστήριξης, συντήρησης και μίσθωσης εφαρμογών λογισμικού του Δήμου Ξάνθης για τρία (3) έτη»",
+      "issueDate": 1780358400000,
+      "organizationId": "6220",
+      "signerIds": [
+        "100084455"
+      ],
+      "unitIds": [
+        "100086900"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "16"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΨ3ΖΩΚ8-8Ω4",
+      "publishTimestamp": 1780382764259,
+      "submissionTimestamp": 1780382764259,
+      "versionId": "1a819ce7-f3ef-4711-9a45-d897283cee53",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΨ3ΖΩΚ8-8Ω4",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΨ3ΖΩΚ8-8Ω4",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "6ΛΩΨΚ8-3ΗΝ",
-    "subject": "Ανάθεση προμήθειας διαδραστικών πινάκων και ψηφιακού εξοπλισμού για παιδικούς σταθμούς",
-    "organization": "Δήμος Λαρισαίων",
-    "decision_type": "ΑΝΑΘΕΣΗ",
-    "issue_date": "2025-10-28",
-    "amount": 16500.00,
+    "ada": "9Δ3Υ46ΝΚΠΔ-7ΦΙ",
+    "subject": "1η ΤΡΟΠΟΠΟΙΗΣΗ ΠΡΟΣΚΛΗΣΗΣ ΓΙΑ ΤΗΝ ΥΠΟΒΟΛΗ ΠΡΟΤΑΣΗΣ  ΣΤΟ «ΤΠΑ Υπουργείου Παιδείας, Θρησκευμάτων και Αθλητισμού 2026-2030 (Υποπρόγραμμα Α’ Τομέων Παιδείας και Θρησκευμάτων) )» ΑΞΟΝΑ ΠΡΟΤΕΡΑΙΟΤΗΤΑΣ:\t1.10 «Ενίσχυση και αναβάθμιση της Εκπαίδευσης»  ΜΕ ΤΙΤΛΟ «Εθνικό Κέντρο Υποστήριξης Σχολικού Εξοπλισμού & Ψηφιακών Υπηρεσιών Εκπαίδευσης “10131”» (A/A 9979, Π162 -1.10 11η 26, έκδοση 2.0)",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΠΑΙΔΕΙΑΣ, ΘΡΗΣΚΕΥΜΑΤΩΝ ΚΑΙ ΑΘΛΗΤΙΣΜΟΥ",
+    "decision_type": "ΛΟΙΠΕΣ ΑΤΟΜΙΚΕΣ ΔΙΟΙΚΗΤΙΚΕΣ ΠΡΑΞΕΙΣ",
+    "issue_date": "2026-06-02",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/6ΛΩΨΚ8-3ΗΝ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/9Δ3Υ46ΝΚΠΔ-7ΦΙ",
+    "raw": {
+      "protocolNumber": "70339",
+      "subject": "1η ΤΡΟΠΟΠΟΙΗΣΗ ΠΡΟΣΚΛΗΣΗΣ ΓΙΑ ΤΗΝ ΥΠΟΒΟΛΗ ΠΡΟΤΑΣΗΣ  ΣΤΟ «ΤΠΑ Υπουργείου Παιδείας, Θρησκευμάτων και Αθλητισμού 2026-2030 (Υποπρόγραμμα Α’ Τομέων Παιδείας και Θρησκευμάτων) )» ΑΞΟΝΑ ΠΡΟΤΕΡΑΙΟΤΗΤΑΣ:\t1.10 «Ενίσχυση και αναβάθμιση της Εκπαίδευσης»  ΜΕ ΤΙΤΛΟ «Εθνικό Κέντρο Υποστήριξης Σχολικού Εξοπλισμού & Ψηφιακών Υπηρεσιών Εκπαίδευσης “10131”» (A/A 9979, Π162 -1.10 11η 26, έκδοση 2.0)",
+      "issueDate": 1780358400000,
+      "organizationId": "100081880",
+      "signerIds": [
+        "100096976"
+      ],
+      "unitIds": [
+        "100038286"
+      ],
+      "decisionTypeId": "2.4.7.1",
+      "thematicCategoryIds": [
+        "24"
+      ],
+      "extraFieldValues": {
+        "kanonistikipraxitype": "Υπουργική Απόφαση",
+        "kanonistikiPraxiPublishMedium": "στην ιστοσελίδα του φορέα",
+        "fek": null,
+        "relatedDecisions": [
+          {
+            "relatedDecisionsADA": ""
+          }
+        ],
+        "documentType": "ΠΡΑΞΗ",
+        "co_competent": null
+      },
+      "privateData": false,
+      "ada": "9Δ3Υ46ΝΚΠΔ-7ΦΙ",
+      "publishTimestamp": 1780380325569,
+      "submissionTimestamp": 1780380325569,
+      "versionId": "fa2247f6-b388-49f5-8c40-b0dff74a25d5",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Δ3Υ46ΝΚΠΔ-7ΦΙ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9Δ3Υ46ΝΚΠΔ-7ΦΙ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   },
   {
-    "ada": "ΩΚ7ΓΞ4-6ΛΨ",
-    "subject": "Σύμβαση παροχής υπηρεσιών διαδικτυακής σύνδεσης υψηλής ταχύτητας για τα δημοτικά κτίρια",
-    "organization": "Δήμος Πατρέων",
-    "decision_type": "ΣΥΜΒΑΣΗ",
-    "issue_date": "2026-02-16",
-    "amount": 14200.00,
+    "ada": "Ρ50Ε46ΜΤΛΠ-6ΞΧ",
+    "subject": "Βεβαίωση Εναρμόνισης του έργου με τίτλο «Ανάπτυξη Προηγμένων Ψηφιακών Υπηρεσιών και Υποδομών προς όφελος των Επιχειρήσεων του ΒΕΑ» του Βιοτεχνικού Επιμελητηρίου Αθήνας",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΑΛΛΗ ΠΡΑΞΗ ΑΝΑΠΤΥΞΙΑΚΟΥ ΝΟΜΟΥ",
+    "issue_date": "2026-05-29",
+    "amount": null,
     "currency": "EUR",
-    "document_url": "https://diavgeia.gov.gr/decision/view/ΩΚ7ΓΞ4-6ΛΨ",
-    "raw": {"source": "seed"}
+    "document_url": "https://diavgeia.gov.gr/decision/view/Ρ50Ε46ΜΤΛΠ-6ΞΧ",
+    "raw": {
+      "protocolNumber": "19604 ΕΞ 2026",
+      "subject": "Βεβαίωση Εναρμόνισης του έργου με τίτλο «Ανάπτυξη Προηγμένων Ψηφιακών Υπηρεσιών και Υποδομών προς όφελος των Επιχειρήσεων του ΒΕΑ» του Βιοτεχνικού Επιμελητηρίου Αθήνας",
+      "issueDate": 1780012800000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100047844"
+      ],
+      "unitIds": [
+        "100060842"
+      ],
+      "decisionTypeId": "Ε.4",
+      "thematicCategoryIds": [
+        "16"
+      ],
+      "extraFieldValues": {
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "Ρ50Ε46ΜΤΛΠ-6ΞΧ",
+      "publishTimestamp": 1780055343953,
+      "submissionTimestamp": 1780055343953,
+      "versionId": "5b4d2ea7-9d05-484c-a5b8-4a3e0cfa5fad",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/Ρ50Ε46ΜΤΛΠ-6ΞΧ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/Ρ50Ε46ΜΤΛΠ-6ΞΧ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9Ω9Ξ46ΜΤΛΠ-ΨΙ2",
+    "subject": "Διάθεση Υπηρεσίας Αυθεντικοποίησης Χρηστών oAuth2.0 σε Πληροφοριακά Συστήματα τρίτων Φορέων, μέσω του κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων και Ψηφιακής Διακυβέρνησης.",
+    "organization": "ΥΠΟΥΡΓΕΙΟ ΨΗΦΙΑΚΗΣ ΔΙΑΚΥΒΕΡΝΗΣΗΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-05-22",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9Ω9Ξ46ΜΤΛΠ-ΨΙ2",
+    "raw": {
+      "protocolNumber": "18679 ΕΞ 2026",
+      "subject": "Διάθεση Υπηρεσίας Αυθεντικοποίησης Χρηστών oAuth2.0 σε Πληροφοριακά Συστήματα τρίτων Φορέων, μέσω του κέντρου Διαλειτουργικότητας της Γενικής Γραμματείας Πληροφοριακών Συστημάτων και Ψηφιακής Διακυβέρνησης.",
+      "issueDate": 1779408000000,
+      "organizationId": "100054486",
+      "signerIds": [
+        "100081404"
+      ],
+      "unitIds": [
+        "100057491"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "10004"
+      ],
+      "extraFieldValues": {
+        "fek": null,
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": [],
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9Ω9Ξ46ΜΤΛΠ-ΨΙ2",
+      "publishTimestamp": 1780049585051,
+      "submissionTimestamp": 1780049585051,
+      "versionId": "0102e128-9f14-410f-a6bc-ce6e5aa87e09",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9Ω9Ξ46ΜΤΛΠ-ΨΙ2",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9Ω9Ξ46ΜΤΛΠ-ΨΙ2",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΑ2ΧΩ1Ε-ΑΙΖ",
+    "subject": "ΑΠΟΦΑΣΗ 164/2026 ΔΗΜΟΤΙΚΗΣ ΕΠΙΤΡΟΠΗΣ ΔΗΜΟΥ ΣΑΛΑΜΙΝΑΣ ΠΟΥ ΑΦΟΡΑ:Έγκριση τεχνικών προδιαγραφών, τρόπου εκτέλεσης και κατάρτιση  των όρων διακήρυξης της προμήθειας με τίτλο: «Δράσεις ψηφιακού μετασχηματισμού του Δήμου Σαλαμίνας» προϋπολογισμού 318.814,60 € με Φ.Π.Α.",
+    "organization": "ΔΗΜΟΣ ΣΑΛΑΜΙΝΑΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-05-29",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΑ2ΧΩ1Ε-ΑΙΖ",
+    "raw": {
+      "protocolNumber": "164/2026",
+      "subject": "ΑΠΟΦΑΣΗ 164/2026 ΔΗΜΟΤΙΚΗΣ ΕΠΙΤΡΟΠΗΣ ΔΗΜΟΥ ΣΑΛΑΜΙΝΑΣ ΠΟΥ ΑΦΟΡΑ:Έγκριση τεχνικών προδιαγραφών, τρόπου εκτέλεσης και κατάρτιση  των όρων διακήρυξης της προμήθειας με τίτλο: «Δράσεις ψηφιακού μετασχηματισμού του Δήμου Σαλαμίνας» προϋπολογισμού 318.814,60 € με Φ.Π.Α.",
+      "issueDate": 1780012800000,
+      "organizationId": "6266",
+      "signerIds": [
+        "100048708"
+      ],
+      "unitIds": [
+        "82820"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΑ2ΧΩ1Ε-ΑΙΖ",
+      "publishTimestamp": 1780047368454,
+      "submissionTimestamp": 1780047368454,
+      "versionId": "bdeb623d-75be-4b64-8fa7-d2258ffeb1c4",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΑ2ΧΩ1Ε-ΑΙΖ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΑ2ΧΩ1Ε-ΑΙΖ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΡΟΧΠΩ1Ε-14Δ",
+    "subject": "Διακήρυξη Δημόσιου Ανοικτού Διεθνούς Ηλεκτρονικού Διαγωνισμού Προμήθειας με ανοικτή διαδικασία μέσω ΕΣΗΔΗΣ\t\t\t\nτου Υποέργου 2 «Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Σαλαμίνας» της Πράξης «Ψηφιακός Μετασχηματισμός Δήμου Σαλαμίνας»",
+    "organization": "ΔΗΜΟΣ ΣΑΛΑΜΙΝΑΣ",
+    "decision_type": "ΚΑΝΟΝΙΣΤΙΚΗ ΠΡΑΞΗ",
+    "issue_date": "2026-05-29",
+    "amount": null,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΡΟΧΠΩ1Ε-14Δ",
+    "raw": {
+      "protocolNumber": "11203/2026",
+      "subject": "Διακήρυξη Δημόσιου Ανοικτού Διεθνούς Ηλεκτρονικού Διαγωνισμού Προμήθειας με ανοικτή διαδικασία μέσω ΕΣΗΔΗΣ\t\t\t\nτου Υποέργου 2 «Δράσεις Ψηφιακού Μετασχηματισμού του Δήμου Σαλαμίνας» της Πράξης «Ψηφιακός Μετασχηματισμός Δήμου Σαλαμίνας»",
+      "issueDate": 1780012800000,
+      "organizationId": "6266",
+      "signerIds": [
+        "100048708"
+      ],
+      "unitIds": [
+        "82820"
+      ],
+      "decisionTypeId": "Α.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "fek": {},
+        "kanonistikipraxiaa": null,
+        "kanonistikipraxitype": null,
+        "co_competent": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΡΟΧΠΩ1Ε-14Δ",
+      "publishTimestamp": 1780047031945,
+      "submissionTimestamp": 1780047031945,
+      "versionId": "fe2f3c0e-0406-486f-abc7-080bd8ac9ab5",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΡΟΧΠΩ1Ε-14Δ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΡΟΧΠΩ1Ε-14Δ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "9ΘΣ046ΨΧ9Λ-ΣΔΓ",
+    "subject": "Παροχή υπηρεσιών πρόσβασης της Νομικής Υπηρεσίας στη Νομική βιβλιογραφία μέσω της ψηφιακής υπηρεσίας βάσης νομικών δεδομένων της εταιρείας ΕΚΔΟΣΕΙΣ ΣΑΚΚΟΥΛΑ ΑΕ",
+    "organization": "ΓΑΙΑ ΟΣΕ ΑΕ",
+    "decision_type": "ΑΝΑΘΕΣΗ ΕΡΓΩΝ / ΠΡΟΜΗΘΕΙΩΝ / ΥΠΗΡΕΣΙΩΝ / ΜΕΛΕΤΩΝ",
+    "issue_date": "2026-05-28",
+    "amount": 2200.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/9ΘΣ046ΨΧ9Λ-ΣΔΓ",
+    "raw": {
+      "protocolNumber": "97522",
+      "subject": "Παροχή υπηρεσιών πρόσβασης της Νομικής Υπηρεσίας στη Νομική βιβλιογραφία μέσω της ψηφιακής υπηρεσίας βάσης νομικών δεδομένων της εταιρείας ΕΚΔΟΣΕΙΣ ΣΑΚΚΟΥΛΑ ΑΕ",
+      "issueDate": 1779926400000,
+      "organizationId": "99200111",
+      "signerIds": [
+        "100091391"
+      ],
+      "unitIds": [
+        "72852"
+      ],
+      "decisionTypeId": "Δ.1",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "person": [],
+        "awardAmount": {
+          "amount": 2200.0,
+          "currency": "EUR"
+        },
+        "assignmentType": "Υπηρεσίες",
+        "cpv": [
+          "79100000-5"
+        ],
+        "textRelatedADA": null,
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "9ΘΣ046ΨΧ9Λ-ΣΔΓ",
+      "publishTimestamp": 1780045075086,
+      "submissionTimestamp": 1780045075086,
+      "versionId": "c924ba40-65aa-4724-b1c8-739e8ba8c4ff",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/9ΘΣ046ΨΧ9Λ-ΣΔΓ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/9ΘΣ046ΨΧ9Λ-ΣΔΓ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "94ΑΘ4690ΒΓ-ΕΤΙ",
+    "subject": "Ανάπτυξη νέου διαδικτυακού τόπου και συστήματος Οnline Ραντεβού του Γεν. Νοσοκομείου Καβάλας",
+    "organization": "ΝΟΜ.ΓΕΝ. ΝΟΣΟΚΟΜΕΙΟ ΚΑΒΑΛΑΣ",
+    "decision_type": "ΠΕΡΙΛΗΨΗ ΔΙΑΚΗΡΥΞΗΣ / ΔΙΑΚΗΡΥΞΗ (ΑΠΟ 1.10.2025)",
+    "issue_date": "2026-05-28",
+    "amount": 7000.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/94ΑΘ4690ΒΓ-ΕΤΙ",
+    "raw": {
+      "protocolNumber": "15318",
+      "subject": "Ανάπτυξη νέου διαδικτυακού τόπου και συστήματος Οnline Ραντεβού του Γεν. Νοσοκομείου Καβάλας",
+      "issueDate": 1779926400000,
+      "organizationId": "99221911",
+      "signerIds": [
+        "100061917"
+      ],
+      "unitIds": [
+        "77780"
+      ],
+      "decisionTypeId": "Δ.2.1",
+      "thematicCategoryIds": [
+        "10007"
+      ],
+      "extraFieldValues": {
+        "cpv": [
+          "72420000-0"
+        ],
+        "contestProgressType": "Ανοικτός",
+        "manifestSelectionCriterion": "Χαμηλότερη Τιμή",
+        "manifestContractType": "Υπηρεσίες",
+        "orgBudgetCode": "Τακτικός Προϋπολογισμός",
+        "estimatedAmount": {
+          "amount": 7000.0,
+          "currency": "EUR"
+        },
+        "textRelatedADA": "Ψ2ΡΗ4690ΒΓ-Α1Ο",
+        "relatedDecisions": [],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "94ΑΘ4690ΒΓ-ΕΤΙ",
+      "publishTimestamp": 1780043334673,
+      "submissionTimestamp": 1780043334673,
+      "versionId": "6bd89ac3-7562-4e6b-93a4-d7b09b3f515f",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/94ΑΘ4690ΒΓ-ΕΤΙ",
+      "documentUrl": "https://diavgeia.gov.gr/doc/94ΑΘ4690ΒΓ-ΕΤΙ",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
+  },
+  {
+    "ada": "ΨΡ7ΞΟΡ8Δ-ΥΜ9",
+    "subject": "ΨΗΦΙΑΚΕΣ ΥΠΗΡΕΣΙΕΣ ΕΞΥΠΗΡΕΤΗΣΗΣ ΚΑΤΑΝΑΛΩΤΩΝ & ΔΙΑΧΕΙΡΙΣΗΣ ΥΠΟΔΟΜΩΝ",
+    "organization": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ ΛΑΡΙΣΑΣ",
+    "decision_type": "ΟΡΙΣΤΙΚΟΠΟΙΗΣΗ ΠΛΗΡΩΜΗΣ",
+    "issue_date": "2026-05-29",
+    "amount": 11732.0,
+    "currency": "EUR",
+    "document_url": "https://diavgeia.gov.gr/decision/view/ΨΡ7ΞΟΡ8Δ-ΥΜ9",
+    "raw": {
+      "protocolNumber": "711/2026",
+      "subject": "ΨΗΦΙΑΚΕΣ ΥΠΗΡΕΣΙΕΣ ΕΞΥΠΗΡΕΤΗΣΗΣ ΚΑΤΑΝΑΛΩΤΩΝ & ΔΙΑΧΕΙΡΙΣΗΣ ΥΠΟΔΟΜΩΝ",
+      "issueDate": 1780012800000,
+      "organizationId": "50820",
+      "signerIds": [
+        "100037237"
+      ],
+      "unitIds": [
+        "83153"
+      ],
+      "decisionTypeId": "Β.2.2",
+      "thematicCategoryIds": [
+        "20"
+      ],
+      "extraFieldValues": {
+        "org": {
+          "afm": "090262997",
+          "afmType": "EL",
+          "enterName": false,
+          "name": "ΔΗΜΟΤΙΚΗ ΕΠΙΧΕΙΡΗΣΗ ΥΔΡΕΥΣΗΣ ΑΠΟΧΕΤΕΥΣΗΣ ΛΑΡΙΣΑΣ"
+        },
+        "skipVatReason": null,
+        "sponsor": [
+          {
+            "sponsorAFMName": {
+              "afm": "998929145",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "EVOLUTION PROJECTS Α.Ε."
+            },
+            "expenseAmount": {
+              "amount": 11732.0,
+              "currency": "EUR"
+            },
+            "cpv": "72262000-9",
+            "kae": "62090013"
+          },
+          {
+            "sponsorAFMName": {
+              "afm": "998929145",
+              "afmType": "EL",
+              "afmCountry": "EL",
+              "enterName": false,
+              "name": "EVOLUTION PROJECTS Α.Ε."
+            },
+            "expenseAmount": {
+              "amount": 2815.68,
+              "currency": "EUR"
+            },
+            "kae": "54230000"
+          }
+        ],
+        "relatedEkgrisiDapanis": [
+          {
+            "textRelatedADA": "ΨΣΥΩΟΡ8Δ-Η5Ε"
+          }
+        ],
+        "relatedDecisions": [
+          {
+            "relatedDecisionsADA": "9Ι6ΑΟΡ8Δ-22Μ"
+          }
+        ],
+        "documentType": "ΠΡΑΞΗ"
+      },
+      "privateData": false,
+      "ada": "ΨΡ7ΞΟΡ8Δ-ΥΜ9",
+      "publishTimestamp": 1780029841049,
+      "submissionTimestamp": 1780029841049,
+      "versionId": "d69580c5-cdfe-4fda-a9f3-6c9535baba24",
+      "status": "PUBLISHED",
+      "url": "https://diavgeia.gov.gr/luminapi/api/decisions/ΨΡ7ΞΟΡ8Δ-ΥΜ9",
+      "documentUrl": "https://diavgeia.gov.gr/doc/ΨΡ7ΞΟΡ8Δ-ΥΜ9",
+      "documentChecksum": null,
+      "attachments": [],
+      "warnings": null,
+      "correctedVersionId": null
+    }
   }
 ]
