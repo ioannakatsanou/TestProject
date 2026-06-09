@@ -1,5 +1,5 @@
 """Pydantic request/response models — the API contract for POST /api/ask."""
-from datetime import date
+from datetime import date, datetime
 from pydantic import BaseModel, Field
 
 
@@ -20,7 +20,27 @@ class Source(BaseModel):
 
 
 class AskResponse(BaseModel):
+    id: int                     # persisted query id; route is /ask/{id}
     answer: str
     sources: list[Source]
     total_indexed: int
     matched_count: int
+
+
+class QueryListItem(BaseModel):
+    """A row in the history list."""
+    id: int
+    question: str
+    matched_count: int
+    created_at: datetime
+
+
+class QueryDetail(BaseModel):
+    """A full saved query, used to render /ask/{id}."""
+    id: int
+    question: str
+    answer: str
+    sources: list[Source]
+    total_indexed: int
+    matched_count: int
+    created_at: datetime

@@ -1,7 +1,9 @@
-"""POST /api/ask — the core workflow: retrieve -> prompt Claude -> answer."""
+"""POST /api/ask — retrieve -> prompt Claude -> answer -> persist for history."""
 from fastapi import APIRouter, HTTPException
+from psycopg.types.json import Json
 
 from app.config import settings
+from app.db import query
 from app.models import AskRequest, AskResponse, Source
 from app.services import search, claude
 
@@ -32,7 +34,28 @@ def ask(req: AskRequest) -> AskResponse:
         for i, d in enumerate(decisions, start=1)
     ]
 
+    # Persist the query so it gets its own route (/ask/{id}) and shows in history.
+    try:
+        rows = query(
+            """
+            INSERT INTO queries (question, answer, sources, total_indexed, matched_count)
+            VALUES (%(question)s, %(answer)s, %(sources)s, %(total)s, %(matched)s)
+            RETURNING id;
+            """,
+            {
+                "question": req.question,
+                "answer": answer,
+                "sources": Json([s.model_dump(mode="json") for s in sources]),
+                "total": total,
+                "matched": len(sources),
+            },
+        )
+        query_id = rows[0]["id"]
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Failed to save query: {exc}")
+
     return AskResponse(
+        id=query_id,
         answer=answer,
         sources=sources,
         total_indexed=total,

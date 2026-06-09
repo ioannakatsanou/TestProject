@@ -42,3 +42,20 @@ $$ LANGUAGE plpgsql;
 CREATE TRIGGER trg_decisions_search_vector
 BEFORE INSERT OR UPDATE ON decisions
 FOR EACH ROW EXECUTE FUNCTION decisions_search_vector_update();
+
+-- ── Saved question/answer history ─────────────────────────────────────────
+-- Each /api/ask call is persisted so it can have its own route (/ask/:id),
+-- a browsable history, and back/forward navigation. The `sources` snapshot
+-- stores exactly what was shown, so revisiting a query is reproducible.
+-- (CREATE IF NOT EXISTS so re-running this file never wipes saved history.)
+CREATE TABLE IF NOT EXISTS queries (
+    id            BIGSERIAL PRIMARY KEY,
+    question      TEXT NOT NULL,
+    answer        TEXT NOT NULL,
+    sources       JSONB NOT NULL DEFAULT '[]'::jsonb,
+    total_indexed INTEGER NOT NULL DEFAULT 0,
+    matched_count INTEGER NOT NULL DEFAULT 0,
+    created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_queries_created ON queries (created_at DESC);

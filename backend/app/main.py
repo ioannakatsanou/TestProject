@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.config import settings
 from app.db import pool
-from app.routes import ask
+from app.routes import ask, queries
 
 
 @asynccontextmanager
@@ -27,6 +27,7 @@ app.add_middleware(
 )
 
 app.include_router(ask.router, prefix="/api")
+app.include_router(queries.router, prefix="/api")
 
 
 @app.get("/api/health")
