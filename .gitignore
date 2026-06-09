@@ -1,22 +1,35 @@
-# Python
+# ── Secrets / environment ────────────────────────────────────────────────
+.env
+.env.*
+# ...but keep the example templates tracked
+!.env.example
+!.env.local.example
+
+# ── Python ───────────────────────────────────────────────────────────────
 __pycache__/
 *.pyc
 .venv/
 venv/
-.env
+.python-version
 
-# Node / Next.js
+# ── Node / Next.js ───────────────────────────────────────────────────────
 node_modules/
 .next/
 out/
-.env.local
+build/
+dist/
 npm-debug.log*
+yarn-error.log*
+*.tsbuildinfo
 
-# OS / editor
+# ── Database (local Docker volume) ─────────────────────────────────────────
+pgdata/
+
+# ── OS / editor ─────────────────────────────────────────────────────────-
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Postgres data (if mounted locally)
-pgdata/
+# ── Local tool settings ────────────────────────────────────────────────────
+.claude/settings.local.json

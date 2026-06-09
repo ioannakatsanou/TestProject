@@ -10,148 +10,264 @@ seed dataset** of IT & digital-transformation decisions for 15 municipalities.
 
 ```
 ask-greece-for-business/
-├── frontend/   Next.js 15 + TypeScript + Tailwind  (→ Vercel)
-└── backend/    FastAPI + PostgreSQL + Claude API    (→ Render)
+├── frontend/      Next.js 15 + TypeScript + Tailwind   (→ Vercel)
+├── backend/       FastAPI + PostgreSQL + Claude API     (→ Render / Railway / Fly)
+├── render.yaml    One-click Render blueprint (backend + Postgres)
+└── docker-compose.yml   Local PostgreSQL
 ```
 
-> **Build stage:** the app runs end-to-end on **seed data**. Real Diavgeia
-> ingestion is added in a later step. If no Claude API key is configured, the
-> backend answers in **mock mode** (a deterministic answer built from the seed
-> data) so the whole prototype works offline.
+> **Mock mode:** if no `ANTHROPIC_API_KEY` is set, the backend builds a
+> deterministic, citation-bearing answer from the data — so the whole prototype
+> works end-to-end **without** a Claude key, locally and in production.
+
+---
+
+## Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Local setup](#local-setup)
+3. [Push to GitHub](#push-to-github)
+4. [Deploy the backend](#deploy-the-backend)
+5. [Set up the production database](#set-up-the-production-database)
+6. [Deploy the frontend (Vercel)](#deploy-the-frontend-vercel)
+7. [Connect the two (CORS)](#connect-the-two-cors)
+8. [Verify production](#verify-production)
+9. [Project layout & notes](#project-layout--notes)
 
 ---
 
 ## Prerequisites
 
-- **Node.js** 18.18+ (for Next.js 15)
-- **Python** 3.11+
-- **PostgreSQL** 14+ — either local, or via Docker (`docker compose up -d`)
+- **Node.js** ≥ 18.18 (tested on 24)
+- **Python** ≥ 3.11 (3.12 recommended for deployment wheel compatibility)
+- **Docker** (for local PostgreSQL) or any PostgreSQL 14+
+- A **GitHub** account, plus **Render** (or Railway/Fly) and **Vercel** accounts
 
 ---
 
-## 1. Start PostgreSQL
+## Local setup
 
-Using Docker (recommended):
+### 1. Start PostgreSQL (Docker)
 
-```bash
+```powershell
 docker compose up -d
+docker exec agfb_postgres pg_isready -U agfb   # "accepting connections"
 ```
 
-This starts Postgres on `localhost:5432` with user/password/db all `agfb`.
-(Or use any existing Postgres and update `DATABASE_URL` accordingly.)
+### 2. Backend
 
----
-
-## 2. Backend (FastAPI)
-
-```bash
+```powershell
 cd backend
 python -m venv .venv
-# Windows PowerShell:
-.venv\Scripts\Activate.ps1
-# macOS/Linux:
-# source .venv/bin/activate
-
+.\.venv\Scripts\Activate.ps1            # macOS/Linux: source .venv/bin/activate
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-cp .env.example .env        # (Windows: copy .env.example .env)
+Copy-Item .env.example .env             # macOS/Linux: cp .env.example .env
 ```
 
-Create the schema and load the seed data:
+Apply schema + load seed (cross-platform, no psql needed):
 
-```bash
-# Create tables (psql against the running DB)
-psql "postgresql://agfb:agfb@localhost:5432/agfb" -f sql/schema.sql
-
-# Load the seed decisions
-python -m app.scripts.load_seed
+```powershell
+python -m app.scripts.init_db           # creates the decisions table
+python -m app.scripts.load_seed         # loads 20 seed decisions
 ```
 
 Run the API:
 
-```bash
+```powershell
 uvicorn app.main:app --reload --port 8000
 ```
 
-- Health check: <http://localhost:8000/api/health>
-- Interactive docs: <http://localhost:8000/docs>
+Check: <http://localhost:8000/api/health> → `{"status":"ok","mock_mode":true}`
 
-### Enabling real Claude answers (optional)
+### 3. Frontend
 
-Edit `backend/.env` and set:
-
-```
-ANTHROPIC_API_KEY=sk-ant-...
-CLAUDE_MODEL=claude-haiku-4-5
-```
-
-Leave `ANTHROPIC_API_KEY` empty to stay in mock mode.
-
----
-
-## 3. Frontend (Next.js)
-
-```bash
+```powershell
 cd frontend
 npm install
-cp .env.local.example .env.local   # (Windows: copy .env.local.example .env.local)
+Copy-Item .env.local.example .env.local   # macOS/Linux: cp ...
 npm run dev
 ```
 
-Open <http://localhost:3000>.
-
-The frontend reads the backend URL from `NEXT_PUBLIC_API_BASE_URL`
-(defaults to `http://localhost:8000`).
+Open <http://localhost:3000> and click a suggested question.
 
 ---
 
-## 4. Try it
+## Push to GitHub
 
-Click a suggested question or type your own, e.g.:
+From the project root. (`.gitignore` already excludes `.env*`, `.venv`,
+`node_modules`, build outputs, and the local DB volume — secrets won't be
+committed.)
 
-- *Which municipalities spent the most on IT this year?*
-- *Show me decisions about website or digital-platform development.*
-- *Who is buying computer hardware right now?*
+```powershell
+cd "C:\Users\ikatsanou\Desktop\Personal\ALBA\TestProject"
+git init                       # skip if already a repo
+git add .
+git commit -m "MVP seed-data prototype: Next.js + FastAPI + Postgres"
+git branch -M main
 
-Each answer cites numbered **source decisions** on the right; click a `[n]`
-marker in the answer to jump to its source, and **↗ View source** to open the
-original Diavgeia decision.
+# Create an empty repo on github.com first, then:
+git remote add origin https://github.com/<your-username>/ask-greece-for-business.git
+git push -u origin main
+```
+
+> Sanity check before pushing — this should print nothing:
+> ```powershell
+> git status --ignored --short | Select-String "\.env$|\.venv|node_modules"
+> ```
 
 ---
 
-## How it works (request flow)
+## Deploy the backend
 
-```
-Frontend (POST /api/ask { question })
-        │
-        ▼
-FastAPI  ── search.py ──►  PostgreSQL full-text search (top-N decisions)
-        │
-        ▼
-        ── claude.py ──►  Claude API  (answer ONLY from retrieved decisions, cite [n])
-        │                 (or deterministic mock answer if no API key)
-        ▼
-{ answer, sources[], total_indexed, matched_count }  ──►  rendered UI
+The backend runs on any platform that can run a Python web service. Render is
+the simplest because the repo ships a `render.yaml` blueprint.
+
+### Option A — Render (recommended, one-click)
+
+1. Push to GitHub (above).
+2. Render → **New → Blueprint** → select your repo. Render reads `render.yaml`
+   and provisions:
+   - a **PostgreSQL** database (`ask-greece-db`)
+   - a **web service** (`ask-greece-backend`) with `DATABASE_URL` auto-wired
+3. On the web service, set environment variables:
+   - `ALLOWED_ORIGINS` — leave blank for now (set after Vercel, step 7)
+   - `ANTHROPIC_API_KEY` — leave blank to keep **mock mode**
+4. Deploy. The service start command is already
+   `uvicorn app.main:app --host 0.0.0.0 --port $PORT`.
+5. Note the backend URL, e.g. `https://ask-greece-backend.onrender.com`.
+
+> Manual (non-blueprint) Render setup: New → Web Service → Root Directory
+> `backend`, Build `pip install -r requirements.txt`, Start
+> `uvicorn app.main:app --host 0.0.0.0 --port $PORT`, add a Render Postgres and
+> set `DATABASE_URL` to its **Internal** connection string.
+
+### Option B — Railway
+
+1. New Project → Deploy from GitHub repo → set **Root Directory** to `backend`.
+   Railway uses the `Procfile` for the start command automatically.
+2. Add the **PostgreSQL** plugin; Railway injects `DATABASE_URL`.
+3. Set `ALLOWED_ORIGINS` (after Vercel) and optionally `ANTHROPIC_API_KEY`.
+
+### Option C — Fly.io
+
+```powershell
+cd backend
+fly launch --no-deploy        # generates fly.toml; set internal_port = 8080 and PORT
+fly postgres create           # then: fly postgres attach <db>  (sets DATABASE_URL)
+fly secrets set ALLOWED_ORIGINS=https://<your-app>.vercel.app
+fly deploy
 ```
 
-## Project layout
+> **Python version:** the blueprint pins `PYTHON_VERSION=3.12.7`. On
+> Railway/Fly, use a Python 3.12 base for the best prebuilt-wheel compatibility.
+
+---
+
+## Set up the production database
+
+After the backend is deployed and `DATABASE_URL` is wired, create the schema and
+load the seed **once**, from the platform's shell:
+
+**Render:** open the service → **Shell** tab:
+
+```bash
+python -m app.scripts.init_db
+python -m app.scripts.load_seed
+```
+
+**Railway:**
+
+```powershell
+railway run python -m app.scripts.init_db
+railway run python -m app.scripts.load_seed
+```
+
+**Fly:**
+
+```powershell
+fly ssh console -C "python -m app.scripts.init_db"
+fly ssh console -C "python -m app.scripts.load_seed"
+```
+
+> Managed Postgres usually requires SSL. libpq negotiates this automatically; if
+> you hit an SSL error, append `?sslmode=require` to `DATABASE_URL`.
+
+Verify: `GET https://<backend-url>/api/health` → `{"status":"ok","mock_mode":true}`
+
+---
+
+## Deploy the frontend (Vercel)
+
+1. Vercel → **Add New → Project** → import your GitHub repo.
+2. Set **Root Directory** to `frontend` (framework auto-detects as Next.js).
+3. Add an environment variable:
+   - `NEXT_PUBLIC_API_BASE_URL` = your backend URL
+     (e.g. `https://ask-greece-backend.onrender.com`, **no trailing slash**)
+4. Deploy. Note the frontend URL, e.g.
+   `https://ask-greece-for-business.vercel.app`.
+
+---
+
+## Connect the two (CORS)
+
+Now tell the backend to accept requests from the Vercel domain:
+
+1. On the backend host, set:
+   - `ALLOWED_ORIGINS=https://ask-greece-for-business.vercel.app`
+     (comma-separate multiple, no trailing slash)
+2. Redeploy / restart the backend so it picks up the new value.
+
+---
+
+## Verify production
+
+```powershell
+# Backend health
+Invoke-RestMethod https://<backend-url>/api/health
+
+# Ask endpoint
+$body = @{ question = "Which municipalities spent the most on IT this year?" } | ConvertTo-Json
+Invoke-RestMethod -Uri "https://<backend-url>/api/ask" -Method Post -ContentType "application/json" -Body $body | ConvertTo-Json -Depth 5
+```
+
+Then open the Vercel URL and click a suggested question — you should get a cited
+answer with source cards, exactly as in local dev.
+
+---
+
+## Project layout & notes
 
 | Path | What |
 |---|---|
 | `backend/sql/schema.sql` | `decisions` table + full-text search index/trigger |
-| `backend/data/decisions_seed.json` | Realistic Diavgeia-style seed decisions |
-| `backend/app/scripts/load_seed.py` | Loads seed JSON into Postgres |
+| `backend/data/decisions_seed.json` | 20 realistic Diavgeia-style seed decisions |
+| `backend/app/scripts/init_db.py` | Apply schema (local & production) |
+| `backend/app/scripts/load_seed.py` | Load seed JSON into Postgres |
 | `backend/app/services/search.py` | Full-text retrieval |
-| `backend/app/services/claude.py` | Prompt building + Claude call (+ mock mode) |
+| `backend/app/services/claude.py` | Prompt build + Claude call (+ mock mode) |
 | `backend/app/routes/ask.py` | `POST /api/ask` |
+| `backend/Procfile` | Start command for Railway/Fly/Heroku |
+| `render.yaml` | Render blueprint (backend + Postgres) |
 | `frontend/src/app/page.tsx` | One-page UI + state machine |
-| `frontend/src/components/` | UI components (answer, sources, search, etc.) |
+| `frontend/src/components/` | UI components |
 
-## Notes & known limitations (MVP)
+**Environment variables**
+
+| Service | Variable | Purpose |
+|---|---|---|
+| Backend | `DATABASE_URL` | Postgres connection string |
+| Backend | `ALLOWED_ORIGINS` | Comma-separated allowed frontend origins (CORS) |
+| Backend | `ANTHROPIC_API_KEY` | Empty → mock mode; set → real Claude answers |
+| Backend | `CLAUDE_MODEL` | Claude model id (default `claude-haiku-4-5`) |
+| Backend | `MAX_CONTEXT_DECISIONS` | Decisions fed to Claude per question |
+| Frontend | `NEXT_PUBLIC_API_BASE_URL` | Backend base URL |
+
+**Known limitations (MVP)**
 
 - Suggested questions are in English while seed subjects are in Greek; lexical
   full-text matching may miss cross-language terms, so retrieval falls back to
-  the most recent/highest-value decisions to always provide context. With the
-  small seed corpus this still yields strong, citable demo answers. Real
-  retrieval quality improves once richer ingestion/keywords are added.
-- Real Diavgeia ingestion (`ingest_diavgeia.py`) is a later step; for now data
-  is the curated seed file.
+  the most recent/highest-value decisions to always provide context.
+- Real Diavgeia ingestion is a later step; data is currently the curated seed file.
+- Render free Postgres/services sleep when idle and may expire — fine for a demo,
+  not for long-term use.
