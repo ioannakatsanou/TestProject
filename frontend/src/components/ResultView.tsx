@@ -31,11 +31,11 @@ function fmtAmount(n: number, currency: string): string {
 
 export default function ResultView({
   question,
-  answer,
-  sources,
-  ranking,
-  insights,
-  noAmountCount,
+  answer = "",
+  sources = [],
+  ranking = null,
+  insights = [],
+  noAmountCount = 0,
   matchedCount,
   totalIndexed,
 }: Props) {
