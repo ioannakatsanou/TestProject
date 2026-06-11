@@ -12,7 +12,8 @@ class Settings(BaseSettings):
     # Local dev default; in production set ALLOWED_ORIGINS to your GitHub Pages
     # origin, e.g. https://<your-username>.github.io
     allowed_origins: str = "http://localhost:3000"
-    max_context_decisions: int = 12
+    # Hard cap on decisions retrieved/processed per query (top-N by relevance).
+    max_context_decisions: int = 20
 
     @property
     def mock_mode(self) -> bool:

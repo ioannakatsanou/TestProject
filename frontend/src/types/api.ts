@@ -31,6 +31,8 @@ export interface AskResponse {
   ranking: RankItem[] | null;
   insights: string[];
   no_amount_count: number;
+  empty?: boolean;
+  message?: string | null;
   total_indexed: number;
   matched_count: number;
 }
@@ -50,6 +52,8 @@ export interface QueryDetail {
   ranking: RankItem[] | null;
   insights: string[];
   no_amount_count: number;
+  empty?: boolean;
+  message?: string | null;
   total_indexed: number;
   matched_count: number;
   created_at: string;

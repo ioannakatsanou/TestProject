@@ -118,14 +118,19 @@ def total_indexed() -> int:
     return rows[0]["c"] if rows else 0
 
 
+# Hard ceiling: never retrieve/process more than this many decisions per query.
+MAX_RESULTS = 20
+
+
 def search_decisions(question: str, limit: int) -> list[dict]:
-    """Return decisions relevant to the question, ranked. EMPTY when nothing
-    meaningful matches — the caller renders a clear empty state (never unrelated
-    results)."""
+    """Return up to MAX_RESULTS decisions relevant to the question, ranked by
+    relevance. EMPTY when nothing meaningful matches — the caller renders a
+    clear empty state (never unrelated results)."""
     tsquery = build_tsquery(question)
     if not tsquery:
         return []
 
+    limit = min(limit, MAX_RESULTS)  # enforce the hard cap regardless of caller
     return query(
         """
         SELECT ada, subject, organization, decision_type, issue_date,

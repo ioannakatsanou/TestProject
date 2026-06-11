@@ -2,7 +2,7 @@
 from fastapi import APIRouter, HTTPException
 
 from app.db import query
-from app.models import QueryListItem, QueryDetail, RankItem, Source
+from app.models import EMPTY_MESSAGE, QueryListItem, QueryDetail, RankItem, Source
 from app.services import intelligence
 
 router = APIRouter()
@@ -44,14 +44,17 @@ def get_query(query_id: int) -> QueryDetail:
     # Recompute the intelligence layer from the stored sources (deterministic).
     analysis = intelligence.analyze(row["question"], items)
 
+    is_empty = len(items) == 0
     return QueryDetail(
         id=row["id"],
         question=row["question"],
         answer=row["answer"],
         sources=[Source(**it) for it in items],
-        ranking=[RankItem(**r) for r in analysis["ranking"]] if analysis["ranking"] else None,
+        ranking=[RankItem(**r) for r in analysis["ranking"]] if analysis["ranking"] else [],
         insights=analysis["insights"],
         no_amount_count=analysis["no_amount_count"],
+        empty=is_empty,
+        message=EMPTY_MESSAGE if is_empty else None,
         total_indexed=row["total_indexed"],
         matched_count=row["matched_count"],
         created_at=row["created_at"],

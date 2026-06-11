@@ -2,6 +2,8 @@
 from datetime import date, datetime
 from pydantic import BaseModel, Field
 
+EMPTY_MESSAGE = "No relevant indexed Diavgeia decisions were found for this query."
+
 
 class AskRequest(BaseModel):
     question: str = Field(..., min_length=3, max_length=500)
@@ -34,6 +36,8 @@ class AskResponse(BaseModel):
     ranking: list[RankItem] | None = None   # present only for ranking-type questions
     insights: list[str] = []
     no_amount_count: int = 0
+    empty: bool = False
+    message: str | None = None
     total_indexed: int
     matched_count: int
 
@@ -55,6 +59,8 @@ class QueryDetail(BaseModel):
     ranking: list[RankItem] | None = None
     insights: list[str] = []
     no_amount_count: int = 0
+    empty: bool = False
+    message: str | None = None
     total_indexed: int
     matched_count: int
     created_at: datetime
