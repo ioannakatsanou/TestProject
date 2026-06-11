@@ -3,6 +3,8 @@
 Unhandled errors propagate to the app-level exception handler, which returns a
 clean {error, message} response — the request never hangs unresolved.
 """
+import time
+
 from fastapi import APIRouter
 from psycopg.types.json import Json
 
@@ -16,8 +18,10 @@ router = APIRouter()
 
 @router.post("/ask", response_model=AskResponse)
 def ask(req: AskRequest) -> AskResponse:
+    t0 = time.perf_counter()
     total = search.total_indexed()
     decisions = search.search_decisions(req.question, settings.max_context_decisions)
+    t_retrieval = time.perf_counter()
 
     sources = [
         Source(
@@ -37,7 +41,10 @@ def ask(req: AskRequest) -> AskResponse:
 
     items = [s.model_dump(mode="json") for s in sources]
     analysis = intelligence.analyze(req.question, items)
+    t_aggregation = time.perf_counter()
+
     answer = claude.generate_summary(req.question, items, analysis["ranking"])
+    t_answer = time.perf_counter()
 
     rows = query(
         """
@@ -54,6 +61,16 @@ def ask(req: AskRequest) -> AskResponse:
         },
     )
     query_id = rows[0]["id"]
+    t_end = time.perf_counter()
+
+    ms = lambda a, b: f"{(b - a) * 1000:.0f}ms"  # noqa: E731
+    print(
+        f"[perf] indexed={total} retrieved={len(sources)} "
+        f"retrieval={ms(t0, t_retrieval)} aggregation={ms(t_retrieval, t_aggregation)} "
+        f"answer={ms(t_aggregation, t_answer)} persist={ms(t_answer, t_end)} "
+        f"total={ms(t0, t_end)}",
+        flush=True,
+    )
 
     return AskResponse(
         id=query_id,

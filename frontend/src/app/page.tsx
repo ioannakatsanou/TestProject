@@ -1,7 +1,8 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useAsk } from "@/lib/useAsk";
+import { warmUp } from "@/lib/api";
 
 import AppShell from "@/components/AppShell";
 import Hero from "@/components/Hero";
@@ -13,6 +14,11 @@ import LoadingSkeleton from "@/components/LoadingSkeleton";
 export default function Home() {
   const [question, setQuestion] = useState("");
   const { ask, loading, error } = useAsk();
+
+  // Pre-warm the (possibly sleeping) free-tier backend while the user reads.
+  useEffect(() => {
+    warmUp();
+  }, []);
 
   return (
     <AppShell>

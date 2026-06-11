@@ -10,7 +10,15 @@ export class TimeoutError extends Error {
   }
 }
 
-const CLIENT_TIMEOUT_MS = 15_000;
+// Generous enough to tolerate a Render free-tier cold start (~50s on first
+// request after idle) while still bounding the wait so the UI can never hang.
+const CLIENT_TIMEOUT_MS = 60_000;
+
+export function warmUp(): void {
+  // Fire-and-forget: start waking a sleeping free-tier backend while the user
+  // reads the page, so the first real query isn't blocked on a cold start.
+  fetch(`${API_BASE_URL}/api/health`, { cache: "no-store" }).catch(() => {});
+}
 
 async function fetchJson<T>(url: string, init: RequestInit = {}): Promise<T> {
   const controller = new AbortController();
