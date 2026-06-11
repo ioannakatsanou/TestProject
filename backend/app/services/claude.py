@@ -53,7 +53,7 @@ def generate_summary(question: str, items: list[dict], ranking: list[dict] | Non
         f"DECISIONS (use only these; cite by number):\n{_format_context(items)}\n\n"
         f"Write the Key Findings now."
     )
-    client = Anthropic(api_key=settings.anthropic_api_key)
+    client = Anthropic(api_key=settings.anthropic_api_key, timeout=8.0, max_retries=1)
     message = client.messages.create(
         model=settings.claude_model,
         max_tokens=700,

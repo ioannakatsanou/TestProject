@@ -4,9 +4,9 @@ import { Suspense, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
-import { getQuery } from "@/lib/api";
+import { getQuery, TimeoutError } from "@/lib/api";
 import { useAsk } from "@/lib/useAsk";
-import { SUGGESTED_QUESTIONS } from "@/lib/constants";
+import { EMPTY_SUGGESTIONS } from "@/lib/constants";
 import type { QueryDetail } from "@/types/api";
 
 import AppShell from "@/components/AppShell";
@@ -24,7 +24,7 @@ function EmptyResult({ onPick }: { onPick: (q: string) => void }) {
       </p>
       <p className="mt-3 text-sm text-slate-500">Try one of these instead:</p>
       <div className="mt-2 flex flex-wrap gap-2">
-        {SUGGESTED_QUESTIONS.map((q) => (
+        {EMPTY_SUGGESTIONS.map((q) => (
           <button
             key={q}
             onClick={() => onPick(q)}
@@ -45,6 +45,7 @@ function AskInner() {
 
   const [detail, setDetail] = useState<QueryDetail | null>(null);
   const [status, setStatus] = useState<Status>("loading");
+  const [errorMsg, setErrorMsg] = useState("Couldn't load this query.");
   const [question, setQuestion] = useState("");
 
   const { ask, loading: asking, error: askError } = useAsk();
@@ -65,7 +66,16 @@ function AskInner() {
       })
       .catch((e) => {
         if (!active) return;
-        setStatus(e.message === "not-found" ? "notfound" : "error");
+        if (e.message === "not-found") {
+          setStatus("notfound");
+        } else {
+          setErrorMsg(
+            e instanceof TimeoutError
+              ? "The search took too long. Please try again."
+              : "Couldn't load this query.",
+          );
+          setStatus("error");
+        }
       });
     return () => {
       active = false;
@@ -117,7 +127,7 @@ function AskInner() {
           </div>
         ) : (
           <div className="rounded-xl border border-red-200 bg-red-50 p-8 text-center">
-            <p className="text-red-700">Couldn&apos;t load this query.</p>
+            <p className="text-red-700">{errorMsg}</p>
             <Link href="/" className="mt-3 inline-block font-semibold text-brand hover:underline">
               ← Back to start
             </Link>

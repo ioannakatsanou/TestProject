@@ -14,6 +14,13 @@ export const SUGGESTED_QUESTIONS: string[] = [
 export const SCOPE_TEXT =
   "Greek public-sector IT & digital-transformation decisions";
 
+// Shown on the empty-result state.
+export const EMPTY_SUGGESTIONS: string[] = [
+  "Which municipalities invested in digital transformation?",
+  "Who is buying computer hardware?",
+  "Show cybersecurity-related public-sector decisions.",
+];
+
 export const SCOPE_SOURCE = "Source: Diavgeia (diavgeia.gov.gr)";
 
 export const DATA_COVERAGE =

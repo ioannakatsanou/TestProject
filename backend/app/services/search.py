@@ -1,94 +1,116 @@
-"""Retrieval over the decisions table using PostgreSQL full-text search.
+"""Precise, organization-aware retrieval over the decisions table (Postgres FTS).
 
-The corpus subjects are in Greek, but users (and the suggested questions) often
-ask in English. To bridge that gap we:
-  1. normalize the question (lowercase, strip accents),
-  2. expand English tokens to their Greek stems via a small bilingual map,
-  3. build an OR tsquery of prefix terms so any term match contributes to rank.
-This is deterministic and needs no extra API calls.
+Goal: precision over recall. The corpus subjects/organizations are Greek; users
+ask in English, Greek, or a mix. We classify each query token into:
+
+  • topical  — IT/digital concepts (it, software, cyber, ...) → Greek IT stems
+  • specific — a Greek proper-noun-ish token (an organization name, e.g.
+               "γλυφαδας", "αθηναιων", "αττικης")
+  • ignored  — generic filler ("budget", "δήμος", "procurement"), stopwords,
+               and any English non-topical token (so gibberish never matches)
+
+We then build a tsquery:
+  • topical AND specific   → e.g. "(πληροφορικ:*) & (γλυφαδας:*)"  (org-scoped)
+  • topical only           → general IT question
+  • specific only          → an org named on its own
+  • neither                → no query at all → empty result
+
+This means "it budget for Δήμος Γλυφάδας" returns ONLY Glyfada IT decisions, or
+nothing — never unrelated municipalities. "Nuclear submarine purchases on Mars"
+and "asdfghjkl ..." produce no query → empty.
 """
 import re
 import unicodedata
 
 from app.db import query
 
-# English/Greek term -> Greek stems to also search for. Keys are normalized
-# (lowercased, accent-stripped). Stems are deliberately short to match
-# inflected forms (e.g. "δικτυ" matches δίκτυο/δικτύου/δικτυακ-).
-SYNONYMS: dict[str, list[str]] = {
-    "it": ["πληροφορικ"],
-    "software": ["λογισμικ"],
-    "hardware": ["υπολογιστ", "εξοπλισμ"],
-    "computer": ["υπολογιστ"],
-    "computers": ["υπολογιστ"],
-    "digital": ["ψηφιακ"],
-    "digitization": ["ψηφιοποιησ", "ψηφιακ"],
-    "cybersecurity": ["κυβερνοασφαλ", "ασφαλει"],
-    "security": ["ασφαλει", "κυβερνοασφαλ"],
-    "network": ["δικτυ"],
-    "networking": ["δικτυ"],
+_GREEK = re.compile(r"[α-ω]")
+
+# English topical word -> Greek stem(s). Keys/values are accent-stripped, lowercased.
+_EN_TOPIC: dict[str, list[str]] = {
+    "it": ["πληροφορικ"], "ict": ["πληροφορικ"], "informatics": ["πληροφορικ"],
+    "software": ["λογισμικ"], "license": ["αδει"], "licence": ["αδει"],
+    "licenses": ["αδει"], "licences": ["αδει"], "licensing": ["αδει"],
+    "hardware": ["υπολογιστ", "εξοπλισμ"], "computer": ["υπολογιστ"],
+    "computers": ["υπολογιστ"], "pc": ["υπολογιστ"],
+    "digital": ["ψηφιακ"], "digitization": ["ψηφιακ"], "digitisation": ["ψηφιακ"],
+    "cyber": ["κυβερνοασφαλ"], "cybersecurity": ["κυβερνοασφαλ"], "security": ["κυβερνοασφαλ"],
     "cloud": ["cloud", "νεφ"],
-    "website": ["ιστοσελιδ", "ιστοτοπ"],
-    "web": ["ιστοσελιδ", "ιστοτοπ"],
-    "site": ["ιστοσελιδ"],
-    "platform": ["πλατφορμ"],
-    "portal": ["πυλη"],
-    "app": ["εφαρμογ"],
-    "application": ["εφαρμογ"],
-    "server": ["εξυπηρετητ", "server"],
-    "servers": ["εξυπηρετητ", "server"],
-    "license": ["αδει", "λογισμικ"],
-    "licenses": ["αδει", "λογισμικ"],
-    "licensing": ["αδει"],
+    "network": ["δικτυ"], "networking": ["δικτυ"], "wifi": ["δικτυ"],
+    "website": ["ιστοσελιδ", "ιστοτοπ"], "web": ["ιστοσελιδ"], "site": ["ιστοσελιδ"],
+    "platform": ["πλατφορμ"], "portal": ["πυλη"],
+    "server": ["εξυπηρετητ"], "servers": ["εξυπηρετητ"],
+    "app": ["εφαρμογ"], "application": ["εφαρμογ"], "mobile": ["εφαρμογ"],
     "data": ["δεδομεν"],
-    "service": ["υπηρεσι"],
-    "services": ["υπηρεσι"],
-    "support": ["υποστηριξ"],
-    "maintenance": ["συντηρησ", "υποστηριξ"],
-    "procurement": ["προμηθει"],
-    "purchase": ["προμηθει", "αγορα"],
-    "buy": ["προμηθει", "αγορα"],
-    "buying": ["προμηθει", "αγορα"],
-    "municipality": ["δημο"],
-    "municipalities": ["δημο"],
-    "ministry": ["υπουργει"],
-    "hospital": ["νοσοκομει"],
-    "hospitals": ["νοσοκομει"],
 }
 
-# Low-signal words to drop from queries (English + a few Greek).
-STOPWORDS = {
-    "the", "and", "for", "are", "was", "were", "with", "this", "that", "from",
-    "what", "which", "who", "whom", "show", "me", "list", "give", "tell",
-    "most", "much", "many", "how", "are", "did", "does", "is", "in", "on",
-    "of", "to", "a", "an", "over", "last", "this", "year", "right", "now",
-    "or", "you", "your", "their", "its", "about", "they",
-    "και", "για", "την", "τον", "της", "του", "στο", "στη", "με", "σε",
+# Greek IT stems (when a topical word is typed in Greek).
+_GR_TOPIC_STEMS = [
+    "πληροφορικ", "λογισμικ", "ψηφιακ", "ψηφιοποι", "κυβερνοασφαλ", "υπολογιστ",
+    "δικτυ", "ιστοσελιδ", "ιστοτοπ", "εξοπλισμ", "νεφ", "πλατφορμ", "εφαρμογ",
+    "εξυπηρετητ", "πυλη", "δεδομεν", "αδει",
+]
+
+# Generic / stopword tokens that must NOT, on their own, qualify a match.
+_IGNORE = {
+    # English filler / stopwords / generic
+    "the", "and", "for", "with", "from", "into", "about", "are", "was", "were",
+    "this", "that", "these", "those", "which", "who", "what", "where", "when",
+    "show", "list", "find", "give", "tell", "get", "see", "all", "any", "our",
+    "most", "top", "highest", "largest", "biggest", "more", "than", "over", "year",
+    "years", "right", "now", "currently", "recent", "public", "sector", "government",
+    "greek", "greece", "related", "decision", "decisions", "project", "projects",
+    "budget", "budgets", "spending", "spent", "spend", "cost", "costs", "money",
+    "total", "procurement", "purchase", "purchases", "buy", "buying", "bought",
+    "service", "services", "tender", "tenders", "contract", "contracts", "amount",
+    "municipality", "municipalities", "ministry", "ministries", "region", "regional",
+    "regions", "hospital", "hospitals", "organization", "organizations", "body",
+    "bodies", "invested", "investing", "investment",
+    # Greek generic
+    "δημος", "δημου", "δημο", "δημων", "δημοι", "δημοτικ", "περιφερεια", "περιφερειας",
+    "περιφερει", "υπουργειο", "υπουργειου", "νοσοκομειο", "νοσοκομειου", "νοσοκομει",
+    "προμηθεια", "προμηθειας", "προμηθει", "δαπανη", "δαπανης", "αποφαση", "αποφασης",
+    "εγκριση", "συμβαση", "υπηρεσια", "υπηρεσιες", "για", "και", "του", "της", "τον",
+    "την", "στο", "στη", "με", "σε", "ποσο", "ευρω",
 }
 
 
 def _norm(text: str) -> str:
     text = (text or "").lower()
     return "".join(c for c in unicodedata.normalize("NFD", text)
-                    if unicodedata.category(c) != "Mn")
+                   if unicodedata.category(c) != "Mn")
+
+
+def _classify(question: str) -> tuple[list[str], list[str]]:
+    topical: list[str] = []
+    specific: list[str] = []
+    for tok in re.findall(r"[a-zα-ω0-9]+", _norm(question)):
+        if len(tok) < 2 or tok in _IGNORE:
+            continue
+        if tok in _EN_TOPIC:
+            for stem in _EN_TOPIC[tok]:
+                if stem not in topical:
+                    topical.append(stem)
+            continue
+        if _GREEK.search(tok):
+            stem = next((s for s in _GR_TOPIC_STEMS if tok.startswith(s) or s in tok), None)
+            if stem:
+                if stem not in topical:
+                    topical.append(stem)
+            elif len(tok) >= 4 and tok not in specific:
+                specific.append(tok)         # Greek proper noun (organization)
+        # English non-topical, non-generic tokens are ignored (filler/gibberish)
+    return topical, specific
 
 
 def build_tsquery(question: str) -> str | None:
-    """Turn a natural-language question into an OR prefix tsquery string."""
-    norm = _norm(question)
-    tokens = [t for t in re.findall(r"[a-zα-ω0-9]+", norm)
-              if len(t) >= 2 and t not in STOPWORDS]
-
-    terms: set[str] = set()
-    for tok in tokens:
-        terms.add(tok)                      # keep the original token (matches loanwords/brands)
-        for greek in SYNONYMS.get(tok, []):  # add Greek equivalents
-            terms.add(greek)
-
-    if not terms:
-        return None
-    # Prefix-match each term, OR them together.
-    return " | ".join(f"{t}:*" for t in sorted(terms))
+    topical, specific = _classify(question)
+    groups = []
+    if topical:
+        groups.append("(" + " | ".join(f"{t}:*" for t in topical) + ")")
+    if specific:
+        groups.append("(" + " | ".join(f"{t}:*" for t in specific) + ")")
+    return " & ".join(groups) if groups else None
 
 
 def total_indexed() -> int:
@@ -97,13 +119,9 @@ def total_indexed() -> int:
 
 
 def search_decisions(question: str, limit: int) -> list[dict]:
-    """
-    Retrieve the decisions relevant to a question, ranked by ts_rank.
-
-    Builds a bilingual (English↔Greek) OR tsquery from the question. Returns an
-    EMPTY list when nothing matches — the caller then renders a clear empty
-    state rather than generic, unrelated results.
-    """
+    """Return decisions relevant to the question, ranked. EMPTY when nothing
+    meaningful matches — the caller renders a clear empty state (never unrelated
+    results)."""
     tsquery = build_tsquery(question)
     if not tsquery:
         return []
